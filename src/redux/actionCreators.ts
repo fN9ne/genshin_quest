@@ -1,5 +1,9 @@
-import { testSlice } from "./reducers/testSlice";
+import progressBarSlice from "./reducers/progressBarSlice";
+import progressSlice from "./reducers/progressSlice";
+import questsSlice from "./reducers/questsSlice";
 
 export default {
-	...testSlice.actions,
+	...progressSlice.actions,
+	...progressBarSlice.actions,
+	...questsSlice.actions,
 };

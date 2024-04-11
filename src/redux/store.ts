@@ -1,13 +1,20 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import { testSlice } from "./reducers/testSlice";
+import progressSlice from "./reducers/progressSlice";
+import progressBarSlice from "./reducers/progressBarSlice";
+import { questAPI } from "../services/questAPI";
+import questsSlice from "./reducers/questsSlice";
 
 const rootReducer = combineReducers({
-	test: testSlice.reducer,
+	progress: progressSlice.reducer,
+	progressBar: progressBarSlice.reducer,
+	quests: questsSlice.reducer,
+	[questAPI.reducerPath]: questAPI.reducer,
 });
 
 export const setupStore = () => {
 	return configureStore({
 		reducer: rootReducer,
+		middleware: (getDefaultMiddlewar) => getDefaultMiddlewar().concat(questAPI.middleware),
 	});
 };
 
