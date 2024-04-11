@@ -14,6 +14,7 @@ export interface QuestsState {
 		chenyu: IQuest[];
 	};
 	isNeedUpdate: boolean;
+	isFetching: boolean;
 }
 
 const initialState: QuestsState = {
@@ -29,6 +30,7 @@ const initialState: QuestsState = {
 		chenyu: [],
 	},
 	isNeedUpdate: false,
+	isFetching: true,
 };
 
 const questsSlice = createSlice({
@@ -50,6 +52,9 @@ const questsSlice = createSlice({
 		},
 		checkQuestsUpdated(state) {
 			state.isNeedUpdate = false;
+		},
+		updateQuestsFetching(state, action: PayloadAction<boolean>) {
+			state.isFetching = action.payload;
 		},
 	},
 });

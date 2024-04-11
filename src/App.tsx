@@ -11,7 +11,7 @@ const App: FC = () => {
 	const { data } = questAPI.useFetchAllQuery();
 	const [updateQuests] = questAPI.useUpdateMutation();
 
-	const { setActiveRegions, setQuests } = useActions();
+	const { setActiveRegions, setQuests, updateQuestsFetching } = useActions();
 
 	const quests = useAppSelector((state) => state.quests);
 
@@ -29,6 +29,7 @@ const App: FC = () => {
 	useEffect(() => {
 		if (data) {
 			setQuests(data.record);
+			updateQuestsFetching(false);
 		}
 	}, [data]);
 
