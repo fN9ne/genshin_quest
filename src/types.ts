@@ -6,15 +6,15 @@ export interface IJSONBinResponse {
 		private: boolean;
 	};
 	record: {
-		mondstadt: IQuest[];
-		liyue: IQuest[];
-		dragonspine: IQuest[];
-		chasm: IQuest[];
-		inazuma: IQuest[];
-		enkanomiya: IQuest[];
-		sumeru: IQuest[];
-		fontaine: IQuest[];
-		chenyu: IQuest[];
+		mondstadt: ISubRegion[];
+		liyue: ISubRegion[];
+		dragonspine: ISubRegion[];
+		chasm: ISubRegion[];
+		inazuma: ISubRegion[];
+		enkanomiya: ISubRegion[];
+		sumeru: ISubRegion[];
+		fontaine: ISubRegion[];
+		chenyu: ISubRegion[];
 	};
 }
 
@@ -23,4 +23,21 @@ export interface IQuest {
 	quest: string;
 	source: string;
 	link: string;
+}
+
+export interface ISubRegion {
+	name: string;
+	content: IQuest[];
+}
+
+export interface IQuestsData {
+	mondstadt: ISubRegion[];
+	liyue: ISubRegion[];
+	dragonspine: ISubRegion[];
+	chasm: ISubRegion[];
+	inazuma: ISubRegion[];
+	enkanomiya: ISubRegion[];
+	sumeru: ISubRegion[];
+	fontaine: ISubRegion[];
+	chenyu: ISubRegion[];
 }

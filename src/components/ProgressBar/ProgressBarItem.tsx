@@ -2,7 +2,7 @@ import { FC } from "react";
 
 export interface ProgressBarItemProps {
 	icon: string;
-	progress: number;
+	progress: string;
 	name: string;
 	background: string;
 	isActive: boolean;
@@ -49,9 +49,9 @@ const colors: { progress: number; color: `#${string}` }[] = [
 ];
 
 const ProgressBarItem: FC<ProgressBarItemProps> = ({ icon, progress, name, background, isActive, onClick }) => {
-	const currentColor = (progress: number): string => {
+	const currentColor = (progress: string): string => {
 		const closestColor = colors.reduce((prev, curr) => {
-			return Math.abs(curr.progress - progress) < Math.abs(prev.progress - progress) ? curr : prev;
+			return Math.abs(curr.progress - Number(progress)) < Math.abs(prev.progress - Number(progress)) ? curr : prev;
 		});
 
 		return closestColor.color;
@@ -66,9 +66,10 @@ const ProgressBarItem: FC<ProgressBarItemProps> = ({ icon, progress, name, backg
 					<div className="progress-bar-item__progress">
 						<div className="progress-bar-item__progress-text">
 							<img src="/location.png" alt="progress icon" />
-							<span>
-								Прогресс выполнения: <b style={{ color: currentColor(progress) }}>{progress}%</b>
-							</span>
+							<div>
+								<span>Прогресс выполнения:</span>
+								<b style={{ color: currentColor(progress) }}>{progress}%</b>
+							</div>
 						</div>
 						<div className="progress-bar-item__progress-line">
 							<div style={{ width: progress + "%", backgroundColor: currentColor(progress) }}></div>

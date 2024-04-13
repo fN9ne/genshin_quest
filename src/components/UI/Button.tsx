@@ -17,7 +17,7 @@ const Button: FC<ButtonProps> = ({ type, onClick, children }) => {
 
 	return (
 		<button className={buttonClasses} onClick={onClick}>
-			{children}
+			<div className="button__wrapper">{children}</div>
 		</button>
 	);
 };
