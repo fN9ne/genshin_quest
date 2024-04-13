@@ -31,7 +31,7 @@ const ProgressBar: FC = () => {
 	const regionIsActive = useAppSelector((state) => state.progressBar);
 
 	const getProgress = (array: number[], region: keyof Quests): string => {
-		return ((array.length / quests[region].flatMap((subregion) => subregion.content).length) * 100).toFixed(2);
+		return ((array.length / quests[region].flatMap((subregion) => subregion.content).length) * 100).toFixed(1);
 	};
 
 	const { setIsActiveRegion } = useActions();

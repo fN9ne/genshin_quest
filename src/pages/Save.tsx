@@ -5,6 +5,10 @@ import { useAppSelector } from "../hooks/useAppSelector";
 import { IQuestsData } from "../types";
 import { useActions } from "../hooks/useActions";
 import { ProgressState } from "../redux/reducers/progressSlice";
+import questsData from "../quests.json";
+import { updateProgress } from "../App";
+
+const quests: IQuestsData = questsData;
 
 const Save: FC = () => {
 	const [error, setError] = useState<string | null>(null);
@@ -98,8 +102,19 @@ const Save: FC = () => {
 
 					if (validateData(jsonData)) {
 						const questsData = jsonData as ProgressState;
-						setProgress(questsData);
-						localStorage.setItem("progress", JSON.stringify(questsData));
+
+						const databaseQuestsCount = calculateQuests(quests);
+
+						if (databaseQuestsCount > calculateQuests(questsData)) {
+							const newProgress = updateProgress(questsData, quests);
+
+							setProgress(newProgress);
+							localStorage.setItem("progress", JSON.stringify(newProgress));
+						} else {
+							setProgress(questsData);
+							localStorage.setItem("progress", JSON.stringify(questsData));
+						}
+
 						setSuccess(`Успешно загружено ${calculateQuests(questsData)} ${questWord(calculateQuests(questsData))}.`);
 					}
 				} catch (error: any) {

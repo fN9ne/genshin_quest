@@ -11,6 +11,7 @@ export interface QuestItemProps {
 	quest: string;
 	source: string;
 	link: string;
+	isReputation: boolean;
 }
 
 const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
@@ -19,6 +20,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 	quest,
 	source,
 	subregion,
+	isReputation,
 	link,
 }) => {
 	const { setRegionProgress } = useActions();
@@ -26,6 +28,15 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 	const { isInCompleteFirst } = useAppSelector((state) => state.global);
 
 	const input = useRef<null | HTMLInputElement>(null);
+
+	const regionInterpreter = (region: string): string => {
+		/* #UPDATEABLE */
+		if (["mondstadt", "dragonspine"].includes(region)) return "mondstadt";
+		if (["liyue", "chasm", "chenyu"].includes(region)) return "liyue";
+		if (["inazuma", "enkanomiya"].includes(region)) return "inazuma";
+
+		return region;
+	};
 
 	const handleToggleProgress = (event: React.MouseEvent<HTMLLabelElement>) => {
 		event.preventDefault();
@@ -53,7 +64,14 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 		<div className="quest-item" id={`quest-${id}`}>
 			<div className="quest-item__wrapper">
 				<div className="quest-item__content">
-					<div className="quest-item__name">{quest}</div>
+					<div className="quest-item__name">
+						<span>{quest}</span>
+						{isReputation && (
+							<div className="quest-item__reputation">
+								<img src={`/regions/reputation/${regionInterpreter(region)}.webp`} alt="reputation exp icon" />
+							</div>
+						)}
+					</div>
 					<div className="quest-item__source">{source.slice(0, 1).toUpperCase() + source.slice(1, -1)}</div>
 					{link && (
 						<a href={link} target="_blank" className="quest-item__link">

@@ -1,28 +1,9 @@
-export interface IJSONBinResponse {
-	metadata: {
-		createdAt: Date;
-		id: string;
-		name: string;
-		private: boolean;
-	};
-	record: {
-		mondstadt: ISubRegion[];
-		liyue: ISubRegion[];
-		dragonspine: ISubRegion[];
-		chasm: ISubRegion[];
-		inazuma: ISubRegion[];
-		enkanomiya: ISubRegion[];
-		sumeru: ISubRegion[];
-		fontaine: ISubRegion[];
-		chenyu: ISubRegion[];
-	};
-}
-
 export interface IQuest {
 	id: number;
 	quest: string;
 	source: string;
 	link: string;
+	isReputation: boolean;
 }
 
 export interface ISubRegion {

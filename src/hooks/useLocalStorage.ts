@@ -12,7 +12,7 @@ const useLocalStorage = (keyName: string, action: (data: any) => any) => {
 				console.error("Error parsing data from localStorage: ", error);
 			}
 		}
-	}, [keyName, action]);
+	}, [keyName, action.name]);
 };
 
 export default useLocalStorage;

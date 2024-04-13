@@ -9,7 +9,7 @@ const Header: FC = () => {
 	const [isBurgerMenuActive, setIsBurgerMenuActive] = useState<boolean>(false);
 
 	const { isHideCompleted, isInCompleteFirst } = useAppSelector((state) => state.global);
-	const { toggleIsHideCompleted, toggleIsInCompleteFirst } = useActions();
+	const { toggleIsHideCompleted, toggleIsInCompleteFirst, setModal } = useActions();
 
 	const routes: NavbarItem[] = [
 		{
@@ -19,6 +19,13 @@ const Header: FC = () => {
 		{
 			path: "/save",
 			text: "Управление данными",
+		},
+		{
+			text: "Обновления",
+			onClick: () => {
+				setIsBurgerMenuActive(false);
+				setModal({ state: "isPatchNoteActive", value: true });
+			},
 		},
 	];
 

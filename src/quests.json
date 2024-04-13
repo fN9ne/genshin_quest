@@ -7,163 +7,190 @@
 					"id": 1,
 					"quest": "Хорошая возможность?",
 					"source": "Поговорить с Сайрусом после заверешения задания «Дракон и буря».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12336-horoshaya-vozmozhnost-v-genshin-impact-kak-pobedit-mitachurla.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12336-horoshaya-vozmozhnost-v-genshin-impact-kak-pobedit-mitachurla.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "После бури...",
 					"source": "Поговорите с Вагнером после завершения задания «Песнь о драконьей свободе».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12339-posle-buri-v-genshin-impact-gde-nayti-mestorozhdeniya-kristalnoy-rudy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12339-posle-buri-v-genshin-impact-gde-nayti-mestorozhdeniya-kristalnoy-rudy.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Печать кладбища мечей",
 					"source": "Поговорите с доктором Ливингстон в Ущелье Дадаупа.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10392-pechat-kladbischa-mechey-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10392-pechat-kladbischa-mechey-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Гильдия искателей приключений всегда в действии",
 					"source": "Поговорите с Катериной, секретаршей гильдии искателей приключений, в Мондштадте.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Генеральная уборка на винокурне",
 					"source": "Поговорите с Аделиндой, старшей горничной, возле винокурни «Рассвет» после завершения квеста «Песнь о драконьей свободе».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12348-generalnaya-uborka-na-vinokurne-v-genshin-impact-kak-ubrat-pyatna.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12348-generalnaya-uborka-na-vinokurne-v-genshin-impact-kak-ubrat-pyatna.html",
+					"isReputation": true
 				},
 				{
 					"id": 6,
 					"quest": "Собирательница печатей Анемо",
 					"source": "Поговорите с Марджори после достижения 9 ранга приключения.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Равноценный обмен",
 					"source": "Поговорите с Виктором в Мондштадтском соборе.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10295-prohozhdenie-kvesta-ravnocennyy-obmen-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10295-prohozhdenie-kvesta-ravnocennyy-obmen-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 8,
 					"quest": "Каждый день новые приключения",
 					"source": "Поговорите с Катериной, секретаршей гильдии искателей приключений, в Мондштадте.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 9,
 					"quest": "Унесенные цветы Флоры",
 					"source": "Побеседуйте с Флорой в столице региона.",
-					"link": "https://landofgames.ru/articles/guides/9987-unesennye-cvety-flory-v-genshin-impact-gde-nayti-semena-oduvanchika.html"
+					"link": "https://landofgames.ru/articles/guides/9987-unesennye-cvety-flory-v-genshin-impact-gde-nayti-semena-oduvanchika.html",
+					"isReputation": true
 				},
 				{
 					"id": 10,
 					"quest": "Последствия катастрофы",
 					"source": "Побеседуйте с Хаффманом в столице региона после завершения задания «Песнь о драконьей свободе».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12338-posledstviya-katastrofy-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12338-posledstviya-katastrofy-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Страдания после бури",
 					"source": "Достигнув 30-го ранга приключений, побеседуйте с Арамисом, стоящим перед собором столицы.",
-					"link": "https://landofgames.ru/articles/guides/9833-gde-nayti-plakaty-i-doski-obyavleniy-v-genshin-impact-stradaniya-posle-buri.html"
+					"link": "https://landofgames.ru/articles/guides/9833-gde-nayti-plakaty-i-doski-obyavleniy-v-genshin-impact-stradaniya-posle-buri.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "Анемо Архонт и Мондштадт",
 					"source": "Поговорите с Грейс возле площади статуи бога Анемо. Должен быть завершен квест «История Венти».",
-					"link": "https://landofgames.ru/articles/guides/10110-kak-nachat-kvest-anemo-arhont-i-mondshtadt-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/guides/10110-kak-nachat-kvest-anemo-arhont-i-mondshtadt-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 13,
 					"quest": "Новые горизонты приключений",
 					"source": "Поговорите с Катериной в Мондштадте.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 14,
 					"quest": "Не упусти!",
 					"source": "Поговорите с Сайрусом в Мондштадте.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12334-ne-upusti-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12334-ne-upusti-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 15,
 					"quest": "Вопросы и ответы",
 					"source": "Поговорите с Свэном, рыцарем Фавониуса, у входа в Мондштадт.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12344-voprosy-i-otvety-v-genshin-impact-kak-pravilno-otvetit-svenu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12344-voprosy-i-otvety-v-genshin-impact-kak-pravilno-otvetit-svenu.html",
+					"isReputation": true
 				},
 				{
 					"id": 16,
 					"quest": "Аромат на ветру",
 					"source": "Поговорите с Сарой в Мондштадте.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 17,
 					"quest": "Шахтерское ремесло",
 					"source": "Поговорите с кузнецом Вагнером в Мондштадте.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 18,
 					"quest": "Одиночное приключение",
 					"source": "Поговорить с Джеком.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12327-odinochnoe-priklyuchenie-v-genshin-impact-gde-nayti-veschi-dzheka.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12327-odinochnoe-priklyuchenie-v-genshin-impact-gde-nayti-veschi-dzheka.html",
+					"isReputation": false
 				},
 				{
 					"id": 19,
 					"quest": "Искусство кулинарии",
 					"source": "Поговорите с персонажем, который готовит возле моста, ведущего в Мондштадт.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 20,
 					"quest": "Держи вора!",
 					"source": "Поговорите с Сайрусом в Мондштадте.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12335-derzhi-vora-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12335-derzhi-vora-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 21,
 					"quest": "Время и ветер",
 					"source": "Доберитесь до секретного острова и осмотрите солнечные часы.",
-					"link": "https://landofgames.ru/articles/guides/9799-sekretnyy-ostrov-v-genshin-impact-kak-proyti-kvest-vremya-i-veter.html"
+					"link": "https://landofgames.ru/articles/guides/9799-sekretnyy-ostrov-v-genshin-impact-kak-proyti-kvest-vremya-i-veter.html",
+					"isReputation": true
 				},
 				{
 					"id": 22,
 					"quest": "Время никого не ждет",
 					"source": "Побеседуйте с Сайрусом в столице региона после выполнения задания «Песнь о драконьей свободы».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12328-vremya-nikogo-ne-zhdet-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12328-vremya-nikogo-ne-zhdet-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 23,
 					"quest": "Добро пожаловать в гильдию искателей приключений",
 					"source": "Пообщайтесь с Катериной в столице региона.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 24,
 					"quest": "Проблема с ветром",
 					"source": "Пообщайтесь с Эльзером в винокурне «Рассвет».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12337-problema-s-vetrom-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12337-problema-s-vetrom-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 25,
 					"quest": "Хранитель ветви: Дайнслейф",
 					"source": "Поговорите с секретарем гильдии искателей приключений Катериной в городе Мондштадт.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10465-prohozhdenie-kvesta-hranitel-vetvi-daynsleyf-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10465-prohozhdenie-kvesta-hranitel-vetvi-daynsleyf-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 26,
 					"quest": "Взрывной рост популяции",
 					"source": "Стартует автоматически после открытия системы «Чайник безмятежности». Нужно потом просто поговорить с Катериной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11718-vzryvnoy-rost-populyacii-v-genshin-impact-kak-poluchit-udochku-i-nazhivku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11718-vzryvnoy-rost-populyacii-v-genshin-impact-kak-poluchit-udochku-i-nazhivku.html",
+					"isReputation": false
 				},
 				{
 					"id": 27,
 					"quest": "Приходите сыграть в Священный призыв семерых",
 					"source": "Стартует автоматически после получения 32-го ранга приключений и выполнения задания Архонтов «Песнь о драконьей свободе».",
-					"link": "https://landofgames.ru/articles/walkthroughs/22231-prihodite-sygrat-v-svjaschennyj-prizyv-semeryh-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22231-prihodite-sygrat-v-svjaschennyj-prizyv-semeryh-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				}
 			]
 		}
@@ -176,253 +203,309 @@
 					"id": 1,
 					"quest": "Что будут делать искатели приключений?",
 					"source": "Пообщайтесь с мисс Лань после прохождения задания Архонтов «Прощайте, древний лорд».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12439-chto-budut-delat-iskateli-priklyucheniy-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12439-chto-budut-delat-iskateli-priklyucheniy-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Маленькая игра",
 					"source": "Поговорите с Малышом Цзяном рядом с Горами Тяньхэн.",
-					"link": "https://landofgames.ru/articles/guides/9995-gde-nayti-malysha-czyana-v-genshin-impact-malenkaya-igra.html"
+					"link": "https://landofgames.ru/articles/guides/9995-gde-nayti-malysha-czyana-v-genshin-impact-malenkaya-igra.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Подношение Адептам",
 					"source": "Автоматически стартует после попадания на центральное озеро Горы Аоцзан.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10144-prohozhdenie-kvesta-podnoshenie-adeptam-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10144-prohozhdenie-kvesta-podnoshenie-adeptam-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Одинокий корабль в Гуюнь",
 					"source": "Спланируйте или доплывите до лодки, чтобы запустить кат-сцену.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22711-odinokij-korabl-v-gujun-v-genshin-impact-kak-nachat-i-pomoch-komande-alkora.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22711-odinokij-korabl-v-gujun-v-genshin-impact-kak-nachat-i-pomoch-komande-alkora.html",
+					"isReputation": true
 				},
 				{
 					"id": 5,
 					"quest": "И сокровище достаётся...",
 					"source": "Осмотрите один из предметов возле лагеря на Перевале Линдзю.",
-					"link": "https://landofgames.ru/articles/guides/9840-gde-nayti-bezymyannye-sokrovischa-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/guides/9840-gde-nayti-bezymyannye-sokrovischa-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 6,
 					"quest": "Спокойный день в порту Ли Юэ",
 					"source": "Найдите Нервного Аня в гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12430-spokoynyy-den-v-portu-li-yue-v-genshin-impact-kak-prigotovit-nefritovye-meshochki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12430-spokoynyy-den-v-portu-li-yue-v-genshin-impact-kak-prigotovit-nefritovye-meshochki.html",
+					"isReputation": true
 				},
 				{
 					"id": 7,
 					"quest": "Крупная сделка",
 					"source": "Поговорите с Ландом в Постоялом дворе «Ван Шу».",
-					"link": "https://landofgames.ru/articles/guides/9850-gde-nayti-nakladnye-i-polunochnyy-nefrit-v-genshin-impact-krupnaya-sdelka.html"
+					"link": "https://landofgames.ru/articles/guides/9850-gde-nayti-nakladnye-i-polunochnyy-nefrit-v-genshin-impact-krupnaya-sdelka.html",
+					"isReputation": true
 				},
 				{
 					"id": 8,
 					"quest": "Проблемы в Черногорье",
 					"source": "Поговорите с менеджером Куаном в Лиша.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12428-problemy-v-chernogore-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12428-problemy-v-chernogore-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 9,
 					"quest": "Книга в лесу",
 					"source": "Поговорите с Маленькой Девяткой на Склоне Вуван.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12265-kniga-v-lesu-v-genshin-impact-kto-takaya-devyatochka-i-kuda-ona-propala.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12265-kniga-v-lesu-v-genshin-impact-kto-takaya-devyatochka-i-kuda-ona-propala.html",
+					"isReputation": true
 				},
 				{
 					"id": 10,
 					"quest": "Пейзаж Лухуа",
 					"source": "Побеседуйте с Вермеером, стоящим рядом с руинами, расположенными к югу от Озера Лухуа.",
-					"link": "https://landofgames.ru/articles/guides/9831-gde-nayti-kist-i-kraski-vermeera-v-genshin-impact-peyzazh-luhua.html"
+					"link": "https://landofgames.ru/articles/guides/9831-gde-nayti-kist-i-kraski-vermeera-v-genshin-impact-peyzazh-luhua.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Девять мировых колонн",
 					"source": "Прочтите каменную табличку посреди Склона Зимородка.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10391-kak-otkryt-devyat-mirovyh-kolonn-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10391-kak-otkryt-devyat-mirovyh-kolonn-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "Незабываемый вкус",
 					"source": "Побеседуйте с мистером Чжу неподалеку от Озера Лухуа.",
-					"link": "https://landofgames.ru/articles/guides/9874-mirovye-kvesty-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/guides/9874-mirovye-kvesty-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 13,
 					"quest": "Один в поле не воин",
 					"source": "Пообщайтесь с Цяо Си на мостике возле Тростниковых островов.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12429-odin-v-pole-ne-voin-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12429-odin-v-pole-ne-voin-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 14,
 					"quest": "Срочная работа",
 					"source": "Пообщайтесь с клерком Чжао в помещении напротив Северного Банка после достижения 29-го ранга приключений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12438-srochnaya-rabota-v-genshin-impact-chto-skazat-nervnomu-anyu-i-czyan-chzhou.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12438-srochnaya-rabota-v-genshin-impact-chto-skazat-nervnomu-anyu-i-czyan-chzhou.html",
+					"isReputation": true
 				},
 				{
 					"id": 15,
 					"quest": "Это мои сокровища!",
 					"source": "Взаимодействуйте с потертым письмом, охраняемым охотником за руинами, в Долине Гуйли.",
-					"link": "https://landofgames.ru/articles/walkthroughs/9952-prohozhdenie-kvesta-eto-moi-sokrovischa-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/9952-prohozhdenie-kvesta-eto-moi-sokrovischa-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 16,
 					"quest": "Секрет Чи",
 					"source": "Поговорите с человеком в капюшоне у входа в руины, к югу от Холма Ву Ван.",
-					"link": "https://landofgames.ru/articles/walkthroughs/9851-prohozhdenie-kvesta-sekret-chi-v-genshin-impact-vse-fragmenty.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/9851-prohozhdenie-kvesta-sekret-chi-v-genshin-impact-vse-fragmenty.html",
+					"isReputation": true
 				},
 				{
 					"id": 17,
 					"quest": "Океанская жемчужина",
 					"source": "Спланируйте или доплывите до корабля возле гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11817-okeanskaya-zhemchuzhina-v-genshin-impact-kak-popast-na-bisernyy-parom.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11817-okeanskaya-zhemchuzhina-v-genshin-impact-kak-popast-na-bisernyy-parom.html",
+					"isReputation": true
 				},
 				{
 					"id": 18,
 					"quest": "Одинокое дерево",
 					"source": "Поговорите с призраком Юань Лян в Деревне Минь Юнь.",
-					"link": "https://landofgames.ru/articles/guides/9893-gde-nayti-nastavlenie-v-genshin-impact-odinokoe-derevo.html"
+					"link": "https://landofgames.ru/articles/guides/9893-gde-nayti-nastavlenie-v-genshin-impact-odinokoe-derevo.html",
+					"isReputation": true
 				},
 				{
 					"id": 19,
 					"quest": "Непостоянство сокровищ",
 					"source": "Поговорите с Сорайей за пределами Ассамблеи Гуи Ли в Долине Гуйли.",
-					"link": "https://landofgames.ru/articles/guides/9887-nepostoyanstvo-sokrovisch-v-genshin-impact-gde-nayti-stely-plity-i-plastiny.html"
+					"link": "https://landofgames.ru/articles/guides/9887-nepostoyanstvo-sokrovisch-v-genshin-impact-gde-nayti-stely-plity-i-plastiny.html",
+					"isReputation": true
 				},
 				{
 					"id": 20,
 					"quest": "Следы в долине Тяньцю",
 					"source": "Осмотрите древнюю надпись в руинах Долины Тяньцю.",
-					"link": "https://landofgames.ru/articles/guides/9869-sledy-v-doline-tyancyu-v-genshin-impact-kak-reshit-golovolomki.html"
+					"link": "https://landofgames.ru/articles/guides/9869-sledy-v-doline-tyancyu-v-genshin-impact-kak-reshit-golovolomki.html",
+					"isReputation": true
 				},
 				{
 					"id": 21,
 					"quest": "Желание Якса",
 					"source": "Осмотрите древнюю надпись в руинах Заоблачного предела.",
-					"link": "https://landofgames.ru/articles/guides/9881-zhelanie-yaksa-v-genshin-impact-kak-aktivirovat-kamennuyu-stelu.html"
+					"link": "https://landofgames.ru/articles/guides/9881-zhelanie-yaksa-v-genshin-impact-kak-aktivirovat-kamennuyu-stelu.html",
+					"isReputation": true
 				},
 				{
 					"id": 22,
 					"quest": "Воля камня",
 					"source": "Побеседуйте с Цзяи в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12421-volya-kamnya-v-genshin-impact-kak-nachat-kvest-i-nayti-malyshku-lyu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12421-volya-kamnya-v-genshin-impact-kak-nachat-kvest-i-nayti-malyshku-lyu.html",
+					"isReputation": true
 				},
 				{
 					"id": 23,
 					"quest": "Временные меры",
 					"source": "Побеседуйте с Чжэнь Цяном в Постоялом дворе «Ваншу».",
-					"link": ""
+					"link": "",
+					"isReputation": true
 				},
 				{
 					"id": 24,
 					"quest": "Загадка Южных небесных врат",
 					"source": "Поговорите со стражником Цзя И в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10142-prohozhdenie-kvesta-zagadka-yuzhnyh-nebesnyh-vrat-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10142-prohozhdenie-kvesta-zagadka-yuzhnyh-nebesnyh-vrat-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 25,
 					"quest": "Необходимые формальности",
 					"source": "Поговорите с Ивановичем в доках Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10143-prohozhdenie-kvesta-neobhodimye-formalnosti-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10143-prohozhdenie-kvesta-neobhodimye-formalnosti-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 26,
 					"quest": "Улыбочку",
 					"source": "Поговорите с парнем по имени Сюй в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/guides/10282-gde-nayti-fotokameru-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/guides/10282-gde-nayti-fotokameru-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 27,
 					"quest": "Бесконечное исследование",
 					"source": "Поговорите с исследовательницей по имени Алрани в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10905-beskonechnoe-issledovanie-v-genshin-impact-gde-nayti-slaymov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10905-beskonechnoe-issledovanie-v-genshin-impact-gde-nayti-slaymov.html",
+					"isReputation": true
 				},
 				{
 					"id": 28,
 					"quest": "Множество дел гильдии искателей приключений",
 					"source": "Поговорите с мисс Лань в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10906-mnozhestvo-del-gildii-iskateley-priklyucheniy-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10906-mnozhestvo-del-gildii-iskateley-priklyucheniy-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 29,
 					"quest": "Чан Чан и ее спутник",
 					"source": "Поговорите с девочкой по имени Чан Чан в Гавани Ли Юэ в период между 06:00 и 19:00.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10907-chan-chan-i-ee-sputnik-v-genshin-impact-gde-nayti-myaso-pticy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10907-chan-chan-i-ee-sputnik-v-genshin-impact-gde-nayti-myaso-pticy.html",
+					"isReputation": true
 				},
 				{
 					"id": 30,
 					"quest": "Дарю мой стих этому городу",
 					"source": "Поговорите с поэтом Цин Чжоу в Постоялом дворе «Ваншу».",
-					"link": "https://landofgames.ru/articles/walkthroughs/10908-daryu-moy-stih-etomu-gorodu-v-genshin-impact-podpis-cin-chzhou.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10908-daryu-moy-stih-etomu-gorodu-v-genshin-impact-podpis-cin-chzhou.html",
+					"isReputation": true
 				},
 				{
 					"id": 31,
 					"quest": "Нефритовая рыбалка",
 					"source": "Поговорите со стражником по имени Большой Кунь в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10347-nefritovaya-rybalka-v-genshin-impact-kak-otkryt-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10347-nefritovaya-rybalka-v-genshin-impact-kak-otkryt-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 32,
 					"quest": "Возвращение Нефритового дворца?",
 					"source": "Поговорите со стражником по имени Большой Кунь в Гавани Ли Юэ после выполнения предыдущего задания.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10348-vozvraschenie-nefritovogo-dvorca-v-genshin-impact-kak-otkryt.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10348-vozvraschenie-nefritovogo-dvorca-v-genshin-impact-kak-otkryt.html",
+					"isReputation": true
 				},
 				{
 					"id": 33,
 					"quest": "Письмо ценою в десять тысяч золотых",
 					"source": "Поговорите с хозяйкой книжного магазина «Ваньвэнь» по имени Цзи Фан, которую можно найти в западной части Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10418-prohozhdenie-kvesta-pismo-cenoyu-v-desyat-tysyach-zolotyh-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10418-prohozhdenie-kvesta-pismo-cenoyu-v-desyat-tysyach-zolotyh-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 34,
 					"quest": "Сокровища долины Тяньцю",
 					"source": "Поговорите с главой гильдии искателей приключений мисс Лань в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/guides/10460-sokrovischa-doliny-tyancyu-v-genshin-impact-parametricheskiy-preobrazovatel.html"
+					"link": "https://landofgames.ru/articles/guides/10460-sokrovischa-doliny-tyancyu-v-genshin-impact-parametricheskiy-preobrazovatel.html",
+					"isReputation": true
 				},
 				{
 					"id": 35,
 					"quest": "Чайник – полная чаша",
 					"source": "Стартует автоматически после получения 35-го ранга приключений и прохождения задания архонтов «Приближение новой звезды». Затем нужно поговорить с мадам Пин в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10968-chaynik-polnaya-chasha-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10968-chaynik-polnaya-chasha-v-genshin-impact-prohozhdenie.html",
+					"isReputation": false
 				},
 				{
 					"id": 36,
 					"quest": "Блюдо за пределами человеческих познаний",
 					"source": "Поговорите с Улыбающимся Янь Сяо в Постоялом дворе «Ваншу».",
-					"link": "https://landofgames.ru/articles/walkthroughs/11263-blyudo-za-predelami-chelovecheskih-poznaniy-v-genshin-impact-kurinyy-tofu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11263-blyudo-za-predelami-chelovecheskih-poznaniy-v-genshin-impact-kurinyy-tofu.html",
+					"isReputation": false
 				},
 				{
 					"id": 37,
 					"quest": "Дела загробные: След бронзового воробья",
 					"source": "Поговорите с шеф-поваром Мао в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12534-dela-zagrobnye-sled-bronzovogo-vorobya-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12534-dela-zagrobnye-sled-bronzovogo-vorobya-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 38,
 					"quest": "Дела загробные: Все хорошо",
 					"source": "На следующий день после предыдущего квеста снова поговорите с Ваном.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12535-dela-zagrobnye-vse-horosho-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12535-dela-zagrobnye-vse-horosho-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 39,
 					"quest": "Дела загробные: Возвращение в горы",
 					"source": "На следующий день после предыдущего квеста снова поговорите с Ваном.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12536-dela-zagrobnye-vozvraschenie-v-gory-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12536-dela-zagrobnye-vozvraschenie-v-gory-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 40,
 					"quest": "Ода Гарсии",
 					"source": "Поговорите с Гарсией в Постоялом дворе «Ваншу».",
-					"link": "https://landofgames.ru/articles/walkthroughs/13460-oda-garsii-v-genshin-impact-kak-nachat-i-prigotovit-ovoschnoj-sup.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13460-oda-garsii-v-genshin-impact-kak-nachat-i-prigotovit-ovoschnoj-sup.html",
+					"isReputation": false
 				},
 				{
 					"id": 41,
 					"quest": "На сцене и за кулисами",
 					"source": "Поговорите с Лю Су в чайном домике.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13461-na-scene-i-za-kulisami-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13461-na-scene-i-za-kulisami-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 42,
 					"quest": "На сцене и за кулисами",
 					"source": "Поговорите с Чжун Ли и Тянем в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13472-hod-vremen-pod-senju-veera-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13472-hod-vremen-pod-senju-veera-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
+				},
+				{
+					"id": 43,
+					"quest": "Идеальный снимок",
+					"source": "Поговорить с Цзи Туном в Гавани Ли Юэ.",
+					"link": "https://landofgames.ru/articles/walkthroughs/10521-idealnyy-snimok-v-genshin-impact-kak-poluchit-specialnuyu-fotokameru.html",
+					"isReputation": true
+				},
+				{
+					"id": 44,
+					"quest": "Даже горы дрожат",
+					"source": "Вам нужно выйти из гавани Ли Юэ по юго-западной дороге, найти следователя Гильдии искателей приключений Чжи Пина и поговорить с ним.",
+					"link": "https://mygrind.ru/guides/%D0%B4%D0%B0%D0%B6%D0%B5-%D0%B3%D0%BE%D1%80%D1%8B-%D0%B4%D1%80%D0%BE%D0%B6%D0%B0%D1%82-%D0%B2-%D0%B3%D0%B8/",
+					"isReputation": true
 				}
 			]
 		}
@@ -435,37 +518,43 @@
 					"id": 1,
 					"quest": "В горах",
 					"source": "Поговорите с Юй Ся в лагере возле входа в Драконий хребет.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10246-prohozhdenie-kvesta-v-gorah-v-genshin-impact-zamerzshie-fragmenty.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10246-prohozhdenie-kvesta-v-gorah-v-genshin-impact-zamerzshie-fragmenty.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Погребенное королевство",
 					"source": "Найдите хотя бы одну часть Древнего дневника исследователя в Драконьем хребте, а потом отнесите ее Стивенсону в лагере искателей приключений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10264-pogrebennoe-korolevstvo-v-genshin-impact-gde-nayti-dnevniki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10264-pogrebennoe-korolevstvo-v-genshin-impact-gde-nayti-dnevniki.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Заблудший в снегах",
 					"source": "Поговорите с маленьким мальчиком Джоэлем, которого можно найти в лагере искателей приключений, расположенном возле входа в Драконий хребет.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10275-zabludshiy-v-snegah-v-genshin-impact-gde-nayti-otca-dzhoelya.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10275-zabludshiy-v-snegah-v-genshin-impact-gde-nayti-otca-dzhoelya.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Исследование снежной горы",
 					"source": "Поговорите с исследовательницей по имени Эстер, которая находится в северо-западном углу Драконьего хребта, недалеко от точки телепортации.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10277-issledovanie-snezhnoy-gory-v-genshin-impact-gde-nayti-mayachki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10277-issledovanie-snezhnoy-gory-v-genshin-impact-gde-nayti-mayachki.html",
+					"isReputation": true
 				},
 				{
 					"id": 5,
 					"quest": "Повторное исследование снежной горы",
 					"source": "Поговорите с исследовательницей по имени Эстер, которая находится в северо-западном углу Драконьего хребта, недалеко от точки телепортации. Перед этим пройдите предыдущий квест.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10283-prohozhdenie-kvesta-povtornoe-issledovanie-snezhnoy-gory-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10283-prohozhdenie-kvesta-povtornoe-issledovanie-snezhnoy-gory-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 6,
 					"quest": "Ах, свежее мясо!",
 					"source": "Поговорите с Харрисом в лагере искателей приключений, расположенном за пределами Драконьего хребта.",
-					"link": "https://landofgames.ru/articles/walkthroughs/10284-gde-nayti-celnomorozhenoe-myaso-v-genshin-impact-korol-snezhnyh-kabanov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/10284-gde-nayti-celnomorozhenoe-myaso-v-genshin-impact-korol-snezhnyh-kabanov.html",
+					"isReputation": true
 				}
 			]
 		}
@@ -478,157 +567,183 @@
 					"id": 1,
 					"quest": "Исследования Разлома",
 					"source": "Поговорите с мисс Лань.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13047-issledovanija-razloma-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13047-issledovanija-razloma-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Тайна скалистых затворов Цисин",
 					"source": "Поговорите с Му Нином на поверхности Разлома.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13027-tajna-skalistyh-zatvorov-cisin-v-genshin-impact-kak-nachat-i-otkryt-razlom.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13027-tajna-skalistyh-zatvorov-cisin-v-genshin-impact-kak-nachat-i-otkryt-razlom.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Начало исследования глубин",
 					"source": "Взаимодействуйте с подъемником на входе в Разлом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13041-nachalo-issledovanija-glubin-v-genshin-impact-gde-najti-podskazki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13041-nachalo-issledovanija-glubin-v-genshin-impact-gde-najti-podskazki.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Первая встреча с миазмами",
 					"source": "Поговорите с искательницей приключениц Чжи Цюн.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13042-pervaja-vstrecha-s-miazmami-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13042-pervaja-vstrecha-s-miazmami-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Заводим друзей и одолеваем бандитов",
 					"source": "Поговорите с искательницей приключениц Чжи Цюн.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13043-zavodim-druzej-i-odolevaem-banditov-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13043-zavodim-druzej-i-odolevaem-banditov-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Парящий фрагмент небесного камня",
 					"source": "Поговорите с Цзинь У.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13044-parjaschij-fragment-nebesnogo-kamnja-v-genshin-impact-gde-najti-kljuchi-i-mehanizmy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13044-parjaschij-fragment-nebesnogo-kamnja-v-genshin-impact-gde-najti-kljuchi-i-mehanizmy.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Угроза во тьме",
 					"source": "Спрыгните в дыру.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13048-ugroza-vo-tme-v-genshin-impact-kak-pozvonit-v-kolokola.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13048-ugroza-vo-tme-v-genshin-impact-kak-pozvonit-v-kolokola.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Откуда здесь камень душ?",
 					"source": "Поговорите с Чжи Цюн.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13049-otkuda-zdes-kamen-dush-v-genshin-impact-gde-najti-mehanizmy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13049-otkuda-zdes-kamen-dush-v-genshin-impact-gde-najti-mehanizmy.html",
+					"isReputation": true
 				},
 				{
 					"id": 9,
 					"quest": "Записи о путешествии вглубь Разлома",
 					"source": "поговорите с мисс Лань возле гильдии искателей приключений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13050-zapisi-o-puteshestvii-vglub-razloma-v-genshin-impact-kak-otkryt-kartu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13050-zapisi-o-puteshestvii-vglub-razloma-v-genshin-impact-kak-otkryt-kartu.html",
+					"isReputation": false
 				},
 				{
 					"id": 10,
 					"quest": "Украдено владельцем",
 					"source": "поговорите с бардом по имени Талиесин.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13053-ukradeno-vladelcem-v-genshin-impact-kak-najti-kolco-taliesina.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13053-ukradeno-vladelcem-v-genshin-impact-kak-najti-kolco-taliesina.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Проникновение в стан врага",
 					"source": "отыщите группу похитителей сокровищ и вступите с ними в бой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13052-proniknovenie-v-stan-vraga-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13052-proniknovenie-v-stan-vraga-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "Прошлое героя с вершины",
 					"source": "соврите цветы цинсинь рядом с Тан Учоу.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13054-proshloe-geroja-s-vershiny-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13054-proshloe-geroja-s-vershiny-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 13,
 					"quest": "Тысячелетние скалы",
 					"source": "поговорите с шахтером по имени Ван.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13056-tysjacheletnie-skaly-v-genshin-impact-gde-najti-podnoshenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13056-tysjacheletnie-skaly-v-genshin-impact-gde-najti-podnoshenija.html",
+					"isReputation": true
 				},
 				{
 					"id": 14,
 					"quest": "Речи ищущего камни",
 					"source": "поговорите с Му Нином.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13068-rechi-ischuschego-kamni-v-genshin-impact-gde-najti-starocvety.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13068-rechi-ischuschego-kamni-v-genshin-impact-gde-najti-starocvety.html",
+					"isReputation": true
 				},
 				{
 					"id": 15,
 					"quest": "Погасший гриб просит о помощи",
 					"source": "поговорите с гигантским грибом Замараном.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13059-pogasshij-grib-prosit-o-pomoschi-v-genshin-impact-kuda-idti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13059-pogasshij-grib-prosit-o-pomoschi-v-genshin-impact-kuda-idti.html",
+					"isReputation": false
 				},
 				{
 					"id": 16,
 					"quest": "Пропавший в глубинах отряд",
 					"source": "поговорите с бойцом Фатуи Антоном.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13073-propavshij-v-glubinah-otrjad-v-genshin-impact-kak-nachat-i-najti-podskazki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13073-propavshij-v-glubinah-otrjad-v-genshin-impact-kak-nachat-i-najti-podskazki.html",
+					"isReputation": false
 				},
 				{
 					"id": 17,
 					"quest": "Отблески храбрости",
 					"source": "поговорите с Чжи Цюн в лагере георазведки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13069-otbleski-hrabrosti-v-genshin-impact-gde-ustanovit-izmeritelnye-majachki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13069-otbleski-hrabrosti-v-genshin-impact-gde-ustanovit-izmeritelnye-majachki.html",
+					"isReputation": false
 				},
 				{
 					"id": 18,
 					"quest": "Отблески храбрости: Возвращение к закату",
 					"source": "поговорите с Цзинь У в лагере георазведки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13070-otbleski-hrabrosti-vozvraschenie-k-zakatu-v-genshin-impact-kak-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13070-otbleski-hrabrosti-vozvraschenie-k-zakatu-v-genshin-impact-kak-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 19,
 					"quest": "Отблески храбрости: Воспоминания о свете",
 					"source": "поговорите с Цзинь У в лагере георазведки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13071-otbleski-hrabrosti-vospominanija-o-svete-v-genshin-impact-kak-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13071-otbleski-hrabrosti-vospominanija-o-svete-v-genshin-impact-kak-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 20,
 					"quest": "Пропавшая на чужбине",
 					"source": "сразитесь с Электро магом цицинов возле телепорта.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13061-propavshaja-na-chuzhbine-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13061-propavshaja-na-chuzhbine-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 21,
 					"quest": "Пропавшая на чужбине: По следам",
 					"source": "поговорите с Катариной через один реальный день после прохождения ее предыдущего квеста..",
-					"link": "https://landofgames.ru/articles/walkthroughs/13062-propavshaja-na-chuzhbine-po-sledam-v-genshin-impact-gde-najti-podskazku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13062-propavshaja-na-chuzhbine-po-sledam-v-genshin-impact-gde-najti-podskazku.html",
+					"isReputation": false
 				},
 				{
 					"id": 22,
 					"quest": "Микологичское исследование Разлома",
 					"source": "поговорите с ученым Хедивом в лагере георазведки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13064-mikologicheskoe-issledovanie-razloma-v-genshin-impact-gde-najti-svetjaschiesja-griby.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13064-mikologicheskoe-issledovanie-razloma-v-genshin-impact-gde-najti-svetjaschiesja-griby.html",
+					"isReputation": false
 				},
 				{
 					"id": 23,
 					"quest": "Гидрологическое исследование Разлома",
 					"source": "выловите странный предмет в месте для рыбалки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13065-gidrologicheskoe-issledovanie-razloma-v-genshin-impact-strannyj-predmet.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13065-gidrologicheskoe-issledovanie-razloma-v-genshin-impact-strannyj-predmet.html",
+					"isReputation": false
 				},
 				{
 					"id": 24,
 					"quest": "Палеонтологическое исследование Разлома",
 					"source": "сделайте фото одной окаменелости и поговорите с ученым Хедивом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13066-paleontologicheskoe-issledovanie-razloma-v-genshin-impact-gde-najti-okamenelosti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13066-paleontologicheskoe-issledovanie-razloma-v-genshin-impact-gde-najti-okamenelosti.html",
+					"isReputation": false
 				},
 				{
 					"id": 25,
 					"quest": "Дары Разлома",
 					"source": "поговорите с Му Нином или шахтером Ци Дином.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13063-dary-razloma-v-genshin-impact-kak-nachat-i-najti-propavshuju-kuklu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13063-dary-razloma-v-genshin-impact-kak-nachat-i-najti-propavshuju-kuklu.html",
+					"isReputation": false
 				},
 				{
 					"id": 26,
 					"quest": "Пропавший шахтер",
 					"source": "доберитесь до секретной локации и изучите рабочие инструменты на столе.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13060-propavshij-shahter-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/13060-propavshij-shahter-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				}
 			]
 		}
@@ -641,217 +756,260 @@
 					"id": 1,
 					"quest": "Катерина в Инадзуме",
 					"source": "Поговорите с Катериной в гильдии искателей приключений в столице Инадзумы.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11475-neizmennyy-bog-i-vechnaya-utopiya-v-genshin-impact-kak-popast-v-inadzumu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11475-neizmennyy-bog-i-vechnaya-utopiya-v-genshin-impact-kak-popast-v-inadzumu.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Письмо Тисато",
 					"source": "Квест должен начаться автоматически, как только вы выберетесь с Рито. Вам нужно будет доставить письмо возлюбленному Тисато – Кудзе Камадзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11660-pismo-tisato-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11660-pismo-tisato-v-genshin-impact-prohozhdenie.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Очищение священной сакуры",
 					"source": "Это своеобразная квестовая цепочка, состоящая из нескольких этапов. Чтобы взяться за ее выполнение необходимо поговорить со жрицей, стоящей возле статуи Небесной кицунэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11503-ochischenie-svyaschennoy-sakury-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11503-ochischenie-svyaschennoy-sakury-v-genshin-impact-prohozhdenie.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Странный случай в деревне Конда",
 					"source": "Необходимо поговорить со жрицей, стоящей возле статуи Небесной кицунэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11476-strannyy-sluchay-v-derevne-konda-v-genshin-impact-reshenie-golovolomki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11476-strannyy-sluchay-v-derevne-konda-v-genshin-impact-reshenie-golovolomki.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Жертвоприношение",
 					"source": "Он стартует сразу же после завершения указанной выше миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11477-zhertvoprinoshenie-v-genshin-impact-gde-nayti-zagadochnye-teni-i-statui-kicune.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11477-zhertvoprinoshenie-v-genshin-impact-gde-nayti-zagadochnye-teni-i-statui-kicune.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Хаяси из Тануки в лесу",
 					"source": "Отправляйтесь в место, показанное на скриншотах, чтобы услышать странный шум.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11484-hayasi-iz-tanuki-v-lesu-v-genshin-impact-reshenie-golovolomki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11484-hayasi-iz-tanuki-v-lesu-v-genshin-impact-reshenie-golovolomki.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Очищение от скверны",
 					"source": "Он стартует сразу же после завершения указанной выше миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11490-ochischenie-ot-skverny-v-genshin-impact-kak-snyat-barery.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11490-ochischenie-ot-skverny-v-genshin-impact-kak-snyat-barery.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Очищение Его",
 					"source": "Он стартует сразу же после завершения указанной выше миссии. Вам нужно будет снова спуститься в колодец в деревушке.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11494-ochischenie-ego-v-genshin-impact-zaraznye-opuholi-i-kolco-hakusin.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11494-ochischenie-ego-v-genshin-impact-zaraznye-opuholi-i-kolco-hakusin.html",
+					"isReputation": true
 				},
 				{
 					"id": 9,
 					"quest": "Сокровище фермера",
 					"source": "Необходимо найти ключ от клетки и освободить мужчину, сидящего взаперти на возвышенности (смотрите скриншоты).",
-					"link": "https://landofgames.ru/articles/walkthroughs/11489-sokrovische-fermera-v-genshin-impact-kamennye-tablichki-i-amenoma-kageuti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11489-sokrovische-fermera-v-genshin-impact-kamennye-tablichki-i-amenoma-kageuti.html",
+					"isReputation": true
 				},
 				{
 					"id": 10,
 					"quest": "Седьмой самурай",
 					"source": "Отыщите Ксавье на островке, расположенном к востоку от крепости и поговорите с ним.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11543-sedmoy-samuray-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11543-sedmoy-samuray-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Приглашение от издательского дома Яэ",
 					"source": "Отыщите Аратани на юге столицы и поговорите с ней.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11548-priglashenie-ot-izdatelskogo-doma-yae-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11548-priglashenie-ot-izdatelskogo-doma-yae-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "О, Архонт! Правильно ли я поступил?",
 					"source": "Поговорите с мальчиком по имени Сета после выполнения поручений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11553-o-arhont-pravilno-li-ya-postupil-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11553-o-arhont-pravilno-li-ya-postupil-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 13,
 					"quest": "Всеядные гурманы!",
 					"source": "Поговорите с группой людей на отмели.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11569-vseyadnye-gurmany-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11569-vseyadnye-gurmany-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 14,
 					"quest": "Всеядные гурманы: о святилищах и сакурах",
 					"source": "Отправляйтесь в Великий храм Наруками.",
-					"link": ""
+					"link": "",
+					"isReputation": false
 				},
 				{
 					"id": 15,
 					"quest": "Всеядные гурманы: прибрежные отшельники",
 					"source": "Поговорите с группой людей на отмели.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11570-o-svyatilischah-i-sakurah-i-pribrezhnye-otshelniki-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11570-o-svyatilischah-i-sakurah-i-pribrezhnye-otshelniki-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 16,
 					"quest": "Всеядные гурманы: глубинные ныряльщики",
 					"source": "Поговорите с гурманами в пещере.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11576-vseyadnye-gurmany-glubinnye-nyryalschiki-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11576-vseyadnye-gurmany-glubinnye-nyryalschiki-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 17,
 					"quest": "Всеядные гурманы: кулинарное приключение",
 					"source": "Поговорите с гурманами возле ресторана.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11577-vseyadnye-gurmany-kulinarnoe-priklyuchenie-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11577-vseyadnye-gurmany-kulinarnoe-priklyuchenie-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 18,
 					"quest": "Всеядные гурманы: о важности правильного питания",
 					"source": "Поговорите с Парваной возле гильдии искателей приключений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11579-vseyadnye-gurmany-o-vazhnosti-pravilnogo-pitaniya-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11579-vseyadnye-gurmany-o-vazhnosti-pravilnogo-pitaniya-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 19,
 					"quest": "Дозор Хироми",
 					"source": "Поговорите с Хироми на островке возле столицы.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11595-dozor-v-hiromi-v-genshin-impact-gde-nayti-zapiski-v-butylkah.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11595-dozor-v-hiromi-v-genshin-impact-gde-nayti-zapiski-v-butylkah.html",
+					"isReputation": true
 				},
 				{
 					"id": 20,
 					"quest": "Игра тэмари",
 					"source": "Поговорите с малышом Кудзираем неподалеку от столицы.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11620-igra-temari-v-genshin-impact-gde-nayti-malysha-kudziraya-i-myachiki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11620-igra-temari-v-genshin-impact-gde-nayti-malysha-kudziraya-i-myachiki.html",
+					"isReputation": false
 				},
 				{
 					"id": 21,
 					"quest": "Чужестранец, ответь, пожалуйста",
 					"source": "Поговорите со стариком Миядзимой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11627-chuzhestranec-otvet-pozhaluysta-v-genshin-impact-otvety-na-voprosy-miyadzimy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11627-chuzhestranec-otvet-pozhaluysta-v-genshin-impact-otvety-na-voprosy-miyadzimy.html",
+					"isReputation": false
 				},
 				{
 					"id": 22,
 					"quest": "Международные путевые заметки",
 					"source": "Поговорите с девочкой по имени Мидори неподалеку от столицы.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11648-mezhdunarodnye-putevye-zametki-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11648-mezhdunarodnye-putevye-zametki-v-genshin-impact-prohozhdenie.html",
+					"isReputation": true
 				},
 				{
 					"id": 23,
 					"quest": "Дом, что лежит за океаном",
 					"source": "Поговорите с девушкой по имени Ацуко на причале в Гавани Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11662-dom-chto-lezhit-za-okeanom-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11662-dom-chto-lezhit-za-okeanom-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 24,
 					"quest": "Борьба за искупление",
 					"source": "Поговорите со стражником Асакурой в столице.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11663-borba-za-iskuplenie-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11663-borba-za-iskuplenie-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 25,
 					"quest": "Путь Рито",
 					"source": "Найдите один из тайных проходов на острове.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11691-put-rito-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11691-put-rito-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 26,
 					"quest": "Пицца из далеких краев",
 					"source": "Поговорите с владелицей ресторана Анной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11692-picca-iz-dalekih-kraev-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11692-picca-iz-dalekih-kraev-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 27,
 					"quest": "На чужой стороне",
 					"source": "Поговорите с исследовательницей Алрани на острове.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11693-na-chuzhoy-storone-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11693-na-chuzhoy-storone-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 28,
 					"quest": "Методы сочинения историй",
 					"source": "Поговорите с писателем Дзюнкити.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11998-metody-sochineniya-istoriy-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11998-metody-sochineniya-istoriy-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 29,
 					"quest": "Щелк!",
 					"source": "Поговорите со Сьюзен.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12297-schelk-v-genshin-impact-gde-nayti-syuzen.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12297-schelk-v-genshin-impact-gde-nayti-syuzen.html",
+					"isReputation": false
 				},
 				{
 					"id": 30,
 					"quest": "Особая гадальная бирка",
 					"source": "Найдите Потрепанные записки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12526-osobaya-gadalnaya-birka-v-genshin-impact-kak-nachat-i-gde-nayti-vragov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12526-osobaya-gadalnaya-birka-v-genshin-impact-kak-nachat-i-gde-nayti-vragov.html",
+					"isReputation": false
 				},
 				{
 					"id": 31,
 					"quest": "Задание Сюмацубан",
 					"source": "доберитесь до центра города, чтобы получить таинственную записку.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12527-zadanie-syumacuban-v-genshin-impact-kak-nachat-i-gde-nayti-shpionov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12527-zadanie-syumacuban-v-genshin-impact-kak-nachat-i-gde-nayti-shpionov.html",
+					"isReputation": false
 				},
 				{
 					"id": 32,
 					"quest": "Тайна замены",
 					"source": "поговорите с Гэндо и передайте ей бамбуковую бирку.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12538-tayna-zameny-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12538-tayna-zameny-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 33,
 					"quest": "Пристанище одуванчиков",
 					"source": "отправляйтесь в убежище, чтобы поговорить с Момое.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12539-pristanische-oduvanchikov-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12539-pristanische-oduvanchikov-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 34,
 					"quest": "Шумные чужеземцы!",
 					"source": "отправляйтесь в имение Камисато, чтобы поговорить с Фурутой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21523-shumnye-chuzhezemcy-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21523-shumnye-chuzhezemcy-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 35,
 					"quest": "Мусенин",
 					"source": "отправляйтесь в имение Камисато и остров Рито, чтобы убедить актеров вернуться к съемкам.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21524-musenin-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21524-musenin-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 36,
 					"quest": "Журнал кинематографиста",
 					"source": "отправляйтесь в имение Камисато, чтобы поговорить с Фурутой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21516-zhurnal-kinematografista-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21516-zhurnal-kinematografista-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
+				},
+				{
+					"id": 37,
+					"quest": "Искусство садоводства",
+					"source": "Стартует автоматически после достижения 3 уровня репутации Инадзумы",
+					"link": "https://wotpack.ru/iskusstvo-sadovodstva-v-genshin-impact-kak-poluchit-sunduk-semjan/",
+					"isReputation": true
 				}
 			]
 		},
@@ -862,67 +1020,78 @@
 					"id": 1,
 					"quest": "Сказания из Татары",
 					"source": "Поговорите со стражником по имени Тораносукэ, стоящим возле точки телепортации.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11500-skazaniya-iz-tatary-v-genshin-impact-gde-nayti-pushki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11500-skazaniya-iz-tatary-v-genshin-impact-gde-nayti-pushki.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Сказания из Татары. Приоритетное расследование",
 					"source": "Стартует автоматически сразу же после завершения указанного выше квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11501-prioritetnoe-rassledovanie-v-genshin-impact-gde-ustanovit-mayachki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11501-prioritetnoe-rassledovanie-v-genshin-impact-gde-ustanovit-mayachki.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Сказания из Татары. Устройство очищения",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11528-skazaniya-iz-tatary-ustroystvo-ochischeniya-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11528-skazaniya-iz-tatary-ustroystvo-ochischeniya-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Сказания из Татары. Сбор информации",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11529-skazaniya-iz-tatary-sbor-informacii-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11529-skazaniya-iz-tatary-sbor-informacii-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Сказания из Татары. Первоочередность процесса",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11531-skazaniya-iz-tatary-pervoocherednost-processa-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11531-skazaniya-iz-tatary-pervoocherednost-processa-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Сказания из Татары. Функциональное тестирование",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11532-skazaniya-iz-tatary-funkcionalnoe-testirovanie-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11532-skazaniya-iz-tatary-funkcionalnoe-testirovanie-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Сказания из Татары. Заключительные приготовления",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11533-skazaniya-iz-tatary-zaklyuchitelnye-prigotovleniya-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11533-skazaniya-iz-tatary-zaklyuchitelnye-prigotovleniya-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Сказания из Татары. Финальный акт",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11534-skazaniya-iz-tatarasuny-finalnyy-akt-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11534-skazaniya-iz-tatarasuny-finalnyy-akt-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 9,
 					"quest": "Лечение для сакуры",
 					"source": "Поговорите с жрицей по имени Миюки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11539-lechenie-dlya-sakury-v-genshin-impact-gde-nayti-gromovye-sakury.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11539-lechenie-dlya-sakury-v-genshin-impact-gde-nayti-gromovye-sakury.html",
+					"isReputation": true
 				},
 				{
 					"id": 10,
 					"quest": "Судьба бойца",
 					"source": "Поговорите с самураем на обломках корабля.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11555-sudba-boyca-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11555-sudba-boyca-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Мечты о фехтовании",
 					"source": "Поговорите с Безымянным самураем к югу от Татарасуны.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11596-mechty-o-fehtovanii-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11596-mechty-o-fehtovanii-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -933,43 +1102,50 @@
 					"id": 1,
 					"quest": "Наследие Оробаси часть 1",
 					"source": "Поговорите с персонажем по имени Кадзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11511-nasledie-orobasi-chast-1-v-genshin-impact-reshenie-golovolomki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11511-nasledie-orobasi-chast-1-v-genshin-impact-reshenie-golovolomki.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Наследие Оробаси часть 2",
 					"source": "Продолжайте выполнять просьбы Кадзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11512-nasledie-orobasi-chast-2-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11512-nasledie-orobasi-chast-2-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Наследие Оробаси часть 3",
 					"source": "Продолжайте выполнять просьбы Кадзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11513-nasledie-orobasi-chast-3-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11513-nasledie-orobasi-chast-3-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Наследие Оробаси часть 4 и 5",
 					"source": "Поговорите с Кадзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11514-nasledie-orobasi-chast-4-i-5-v-genshin-impact-krest-kope-kitain.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11514-nasledie-orobasi-chast-4-i-5-v-genshin-impact-krest-kope-kitain.html",
+					"isReputation": true
 				},
 				{
 					"id": 5,
 					"quest": "Лечение на острове",
 					"source": "Поговорите с травником по имени Ясумото.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11526-lechenie-na-ostrove-v-genshin-impact-dnevniki-travnika-i-odisseya-vracha.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11526-lechenie-na-ostrove-v-genshin-impact-dnevniki-travnika-i-odisseya-vracha.html",
+					"isReputation": true
 				},
 				{
 					"id": 6,
 					"quest": "Зловещая инструкция",
 					"source": "Молитесь перед святилищем и говорите с Васидзу в течение 4 реальных дней.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11544-zloveschaya-instrukciya-v-genshin-impact-vasidzu-i-dostizhenie-pustaya-dusha.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11544-zloveschaya-instrukciya-v-genshin-impact-vasidzu-i-dostizhenie-pustaya-dusha.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Взгляд на три тысячи миль вдаль",
 					"source": "Поговорите с мальчиком по имени Тедзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11621-vzglyad-na-tri-tysyachi-mil-vdal-v-genshin-impact-sekretnoe-dostizhenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11621-vzglyad-na-tri-tysyachi-mil-vdal-v-genshin-impact-sekretnoe-dostizhenie.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -980,31 +1156,36 @@
 					"id": 1,
 					"quest": "Охотники за грозами Сэйрая",
 					"source": "Поговорите с Катериной в гильдии искателей приключений Инадзумы.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11719-ohotniki-za-grozami-seyraya-v-genshin-impact-reshenie-golovolomok.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11719-ohotniki-za-grozami-seyraya-v-genshin-impact-reshenie-golovolomok.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Древнее сокровище Сэйрая",
 					"source": "Помогите девушке отбиться от монстров неподалеку от деревни.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11723-drevnee-sokrovische-seyraya-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11723-drevnee-sokrovische-seyraya-v-genshin-impact-prohozhdenie.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Память Сэйрая",
 					"source": "Отыщите «Изображение острова Сэйрай» возле святилища.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11727-pamyat-seyraya-v-genshin-impact-gde-nayti-mesta-dlya-foto.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11727-pamyat-seyraya-v-genshin-impact-gde-nayti-mesta-dlya-foto.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Кошка Нэко",
 					"source": "Поговорите с кошкой по имени Нэко в храме. Она может выдать вам 9 миссий, причем следующий квест можно получить только на следующий календарный день.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Следы Наруками",
 					"source": "Поговорите с кошкой по имени Нэко в храме.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11927-sledy-narukami-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11927-sledy-narukami-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1013,39 +1194,80 @@
 			"content": [
 				{
 					"id": 1,
-					"quest": "Лунная бездна",
-					"source": "Поговорите со жрицей Цуюко. В результате вы сможете пройти миссии «Око Ватацуми», «Хвост Ватацуми», «Клык Ватацуми», «Плавник Ватацуми» и «Сердце Ватацуми».",
-					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html"
+					"quest": "Лунная бездна (Сердце Ватацуми)",
+					"source": "Поговорите со жрицей Цуюко.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Чудесное растение глубин",
 					"source": "Поговорите со старушкой по имени Комаки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11726-chudesnoe-rastenie-glubin-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11726-chudesnoe-rastenie-glubin-v-genshin-impact-prohozhdenie.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Одинокий обитатель моря",
 					"source": "Поговорите с девушкой по имени Куми.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11732-odinokiy-obitatel-morya-v-genshin-impact-reshenie-golovolomki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11732-odinokiy-obitatel-morya-v-genshin-impact-reshenie-golovolomki.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Удобрений… продавец?",
 					"source": "Поговорите с фермером по имени Ивата.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11848-udobreniy-prodavec-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11848-udobreniy-prodavec-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Чистый дом",
 					"source": "Поговорите с Сидзуру.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11996-chistyy-dom-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11996-chistyy-dom-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 6,
 					"quest": "Стоячая вода",
 					"source": "Поговорите с Цуюко.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12489-stoyachaya-voda-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12489-stoyachaya-voda-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
+				},
+				{
+					"id": 7,
+					"quest": "Око Ватацуми",
+					"source": "Поговорите со жрицей Цуюко.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 8,
+					"quest": "Клык Ватацуми",
+					"source": "Поговорите со жрицей Цуюко.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 9,
+					"quest": "Плавник Ватацуми",
+					"source": "Поговорите со жрицей Цуюко.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 10,
+					"quest": "Хвост Ватацуми",
+					"source": "Поговорите со жрицей Цуюко.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 11,
+					"quest": "Сердце Ватацуми",
+					"source": "Поговорите со жрицей Цуюко.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1056,37 +1278,43 @@
 					"id": 1,
 					"quest": "Сквозь туман",
 					"source": "Поговорите с Катериной в столице архипелага.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11974-skvoz-tuman-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11974-skvoz-tuman-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Исключительно исключительный писатель",
 					"source": "Поговорите с Катериной в столице архипелага.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11973-isklyuchitelno-isklyuchitelnyy-pisatel-v-genshin-impact-gnezdovya-i-perya.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11973-isklyuchitelno-isklyuchitelnyy-pisatel-v-genshin-impact-gnezdovya-i-perya.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Октава Маусиро",
 					"source": "Поговорите с Сумидой в столице архипелага.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11975-oktava-mausiro-v-genshin-impact-kak-reshit-zagadki-kamney.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11975-oktava-mausiro-v-genshin-impact-kak-reshit-zagadki-kamney.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Море тумана и обряд деревьев",
 					"source": "Поговорите с лодочником Камой на Рито.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11984-more-tumana-i-obryad-derevev-v-genshin-impact-unichtozhte-gnezdove.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11984-more-tumana-i-obryad-derevev-v-genshin-impact-unichtozhte-gnezdove.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Приключения забывчивого короля",
 					"source": "Поговорите с персонажем по имени Роальд.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11989-priklyucheniya-zabyvchivogo-korolya-v-genshin-impact-snimki-risunkov-v-ruinah.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11989-priklyucheniya-zabyvchivogo-korolya-v-genshin-impact-snimki-risunkov-v-ruinah.html",
+					"isReputation": true
 				},
 				{
 					"id": 6,
 					"quest": "Колесо солнца и гора Канна",
 					"source": "Поговорите с лодочником Камой на Цуруми.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11990-koleso-solnca-i-gora-kanna-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/11990-koleso-solnca-i-gora-kanna-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				}
 			]
 		}
@@ -1099,121 +1327,141 @@
 					"id": 1,
 					"quest": "Вход в Токое",
 					"source": "Осмотрите глубины пещеры.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12491-vhod-v-tokoe-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12491-vhod-v-tokoe-v-genshin-impact-prohozhdenie.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Проблеск белой ночи",
 					"source": "Поговорите с Эндзе.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12492-problesk-beloy-nochi-v-genshin-impact-kak-otkryt-kartu-enkanomii.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12492-problesk-beloy-nochi-v-genshin-impact-kak-otkryt-kartu-enkanomii.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Подземные испытания драконов и змея",
 					"source": "Доберитесь до руин.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12493-podzemnye-ispytaniya-drakonov-i-zmeya-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12493-podzemnye-ispytaniya-drakonov-i-zmeya-v-genshin-impact-prohozhdenie.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "По следам драконов и змея",
 					"source": "Поговорите с призраком Ару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12494-po-sledam-drakonov-i-zmeya-v-genshin-impact-kak-popast-v-taynuyu-komnatu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12494-po-sledam-drakonov-i-zmeya-v-genshin-impact-kak-popast-v-taynuyu-komnatu.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Сердце Уробороса",
 					"source": "Поговорите с призраком Ару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12495-serdce-uroborosa-v-genshin-impact-reshenie-golovolomki-altarya.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12495-serdce-uroborosa-v-genshin-impact-reshenie-golovolomki-altarya.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Сновидения в Улочках",
 					"source": "Поговорите с призраком Ару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12496-snovideniya-v-ulochkah-v-genshin-impact-kak-otkryt-taynuyu-komnatu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12496-snovideniya-v-ulochkah-v-genshin-impact-kak-otkryt-taynuyu-komnatu.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Антигон",
 					"source": "Поговорите с призраками во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12500-antigon-v-genshin-impact-kniga-do-solnca-i-luny.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12500-antigon-v-genshin-impact-kniga-do-solnca-i-luny.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Испытание Датэ",
 					"source": "Поговорите с призраком по имени Датэ во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12502-ispytanie-date-v-genshin-impact-kniga-gidrologicheskie-issledovaniya-v-byakuyakoku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12502-ispytanie-date-v-genshin-impact-kniga-gidrologicheskie-issledovaniya-v-byakuyakoku.html",
+					"isReputation": false
 				},
 				{
 					"id": 9,
 					"quest": "Трехцветный архив",
 					"source": "Поговорите с призраком по имени Мития.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12503-trehcvetnyy-arhiv-v-genshin-impact-kniga-protokol-ispytaniy-vishapov-glubin.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12503-trehcvetnyy-arhiv-v-genshin-impact-kniga-protokol-ispytaniy-vishapov-glubin.html",
+					"isReputation": false
 				},
 				{
 					"id": 10,
 					"quest": "Собрание драконов и змей",
 					"source": "Поговорите с призраком по имени Эма.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12505-sobranie-drakonov-i-zmey-v-genshin-impact-gde-nayti-poteryannye-knigi.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12505-sobranie-drakonov-i-zmey-v-genshin-impact-gde-nayti-poteryannye-knigi.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Испытание Ятиматахико",
 					"source": "Поговорите с призраком по имени Уда во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12506-ispytanie-yatimatahiko-v-genshin-impact-kak-vypustit-ogni-vysokih-vrat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12506-ispytanie-yatimatahiko-v-genshin-impact-kak-vypustit-ogni-vysokih-vrat.html",
+					"isReputation": false
 				},
 				{
 					"id": 12,
 					"quest": "Испытание Ятиматахимэ",
 					"source": "Поговорите с призраком по имени Эки во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12507-ispytanie-yatimatahime-v-genshin-imact-gde-nayti-ogni-vysokih-vrat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12507-ispytanie-yatimatahime-v-genshin-imact-gde-nayti-ogni-vysokih-vrat.html",
+					"isReputation": false
 				},
 				{
 					"id": 13,
 					"quest": "Испытание Кунадо",
 					"source": "Поговорите с призраком по имени Даймон во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12508-ispytanie-kunado-v-genshin-impact-prohozhdenie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12508-ispytanie-kunado-v-genshin-impact-prohozhdenie.html",
+					"isReputation": false
 				},
 				{
 					"id": 14,
-					"quest": "Тайна Эреба",
+					"quest": "Тайна Эреба (Три великих боевых испытания)",
 					"source": "Поговорите с призраком по имени Эбоси во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12509-tayna-ereba-i-tri-velikih-boevyh-ispytaniya-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12509-tayna-ereba-i-tri-velikih-boevyh-ispytaniya-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 15,
 					"quest": "Испытание Теснины",
 					"source": "Поговорите с призраком по имени Абэраку во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12515-ispytanie-tesniny-v-genshin-impact-kak-pobedit-vishapov-glubin.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12515-ispytanie-tesniny-v-genshin-impact-kak-pobedit-vishapov-glubin.html",
+					"isReputation": false
 				},
 				{
 					"id": 16,
 					"quest": "Испытание Храма",
 					"source": "Поговорите с призраком по имени Абэраку во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12516-ispytanie-hrama-v-genshin-impact-kak-pobedit-kamnegryzov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12516-ispytanie-hrama-v-genshin-impact-kak-pobedit-kamnegryzov.html",
+					"isReputation": false
 				},
 				{
 					"id": 17,
 					"quest": "Испытание Сердца змея",
 					"source": "Поговорите с призраком по имени Абэраку во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12517-ispytanie-serdca-zmeya-v-genshin-impact-kak-pobedit-magov-bezdny.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12517-ispytanie-serdca-zmeya-v-genshin-impact-kak-pobedit-magov-bezdny.html",
+					"isReputation": false
 				},
 				{
 					"id": 18,
 					"quest": "Скорбная песнь Гипериона",
 					"source": "Поговорите с призраком по имени Абэраку во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12518-skorbnaya-pesn-giperiona-v-genshin-impact-kak-poluchit-zolotuyu-uzdechku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12518-skorbnaya-pesn-giperiona-v-genshin-impact-kak-poluchit-zolotuyu-uzdechku.html",
+					"isReputation": false
 				},
 				{
 					"id": 19,
 					"quest": "Сиртос Фаэтонов",
 					"source": "Поговорите с призраком по имени Климена во время Вечной ночи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12519-sirtos-faetonov-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12519-sirtos-faetonov-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				},
 				{
 					"id": 20,
 					"quest": "Поедатель лотоса",
 					"source": "Поговорите с призраком во время Вечной ночи после решения головоломки с печатями.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12520-poedatel-lotosa-v-genshin-impact-kak-nachat-i-proyti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/12520-poedatel-lotosa-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
 				}
 			]
 		}
@@ -1226,25 +1474,29 @@
 					"id": 1,
 					"quest": "Дети из деревни Вимара",
 					"source": "помогите члену Лесного дозора Ране.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21780-deti-iz-derevni-vimara-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21780-deti-iz-derevni-vimara-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Поход",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21783-pohod-v-genshin-impact-kak-nachat-i-najti-hvorost.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21783-pohod-v-genshin-impact-kak-nachat-i-najti-hvorost.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Заблудившийся ребенок",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21783-pohod-v-genshin-impact-kak-nachat-i-najti-hvorost.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21783-pohod-v-genshin-impact-kak-nachat-i-najti-hvorost.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
-					"quest": "Вечный изгнанник леса",
+					"quest": "Вечный изгнанник леса (Араньяка)",
 					"source": "нужно поговорить с Альфонсо",
-					"link": "https://landofgames.ru/articles/walkthroughs/21873-vechnyj-izgnannik-lesa-v-genshin-impact-kak-nachat-i-najti-plohih-ljudej.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21873-vechnyj-izgnannik-lesa-v-genshin-impact-kak-nachat-i-najti-plohih-ljudej.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1255,73 +1507,85 @@
 					"id": 1,
 					"quest": "Мир аранар",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21786-mir-aranar-v-genshin-impact-kak-nachat-i-sobrat-semeni-grez.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21786-mir-aranar-v-genshin-impact-kak-nachat-i-sobrat-semeni-grez.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Дети леса",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21841-deti-lesa-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21841-deti-lesa-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Песня, ведущая по мрачному пути",
 					"source": "поговорите с Аракави в Ванаране снов.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21827-pesnja-veduschaja-po-mrachnomu-puti-v-genshin-impact-kak-projti-son-vasary.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21827-pesnja-veduschaja-po-mrachnomu-puti-v-genshin-impact-kak-projti-son-vasary.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Песня, питающая росток",
 					"source": "поговорите с Аракави в Ванаране снов.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21829-pesnja-pitajuschaja-rostok-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21829-pesnja-pitajuschaja-rostok-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Песня, открывающая звериную тропу",
 					"source": "поговорите с Аракави в Ванаране снов.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21830-pesnja-otkryvajuschaja-zverinuju-tropu-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21830-pesnja-otkryvajuschaja-zverinuju-tropu-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Зарождение новой жизни",
 					"source": "поговорите с Аранакулой возле питомника.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21817-zarozhdenie-novoj-zhizni-v-genshin-impact-gde-najti-pitomniki-vasmrti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21817-zarozhdenie-novoj-zhizni-v-genshin-impact-gde-najti-pitomniki-vasmrti.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Ради лучшего воссоединения",
 					"source": "проведайте Рану.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21840-radi-luchshego-vossoedinenija-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21840-radi-luchshego-vossoedinenija-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Праздник Утсава",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21855-prazdnik-utsava-v-genshin-impact-kak-nachat-i-pogovorit-s-aranarami.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21855-prazdnik-utsava-v-genshin-impact-kak-nachat-i-pogovorit-s-aranarami.html",
+					"isReputation": false
 				},
 				{
 					"id": 9,
 					"quest": "Вкус радости",
 					"source": "поговорите с Арапакати.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21846-vkus-radosti-v-genshin-impact-kak-prigotovit-ovoschnoj-sup.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21846-vkus-radosti-v-genshin-impact-kak-prigotovit-ovoschnoj-sup.html",
+					"isReputation": false
 				},
 				{
 					"id": 10,
 					"quest": "Вкусные загадки",
 					"source": "поговорите с Араешу.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21847-vkusnye-zagadki-v-genshin-impact-otvety-na-voprosy-araeshi.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21847-vkusnye-zagadki-v-genshin-impact-otvety-na-voprosy-araeshi.html",
+					"isReputation": false
 				},
 				{
 					"id": 11,
 					"quest": "Духи сада",
 					"source": "поговорите с Аралилу.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21849-duhi-sada-v-genshin-impact-kak-najti-aranishata-i-aralilu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21849-duhi-sada-v-genshin-impact-kak-najti-aranishata-i-aralilu.html",
+					"isReputation": false
 				},
 				{
 					"id": 12,
 					"quest": "Тигр ришболанд р-р-р-р-р",
 					"source": "поговорите с Араканту.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21848-tigr-rishboland-v-genshin-impact-kak-sobrat-dendro-chasticy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21848-tigr-rishboland-v-genshin-impact-kak-sobrat-dendro-chasticy.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1332,19 +1596,22 @@
 					"id": 1,
 					"quest": "Во имя фруктов, семян и деревьев",
 					"source": "поговорите с Арамой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21854-vo-imja-fruktov-semjan-i-derevev-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21854-vo-imja-fruktov-semjan-i-derevev-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Во имя детей прошлого",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21860-vo-imja-detej-proshlogo-v-genshin-impact-kak-najti-vospominanija-i-slomat-pechati.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21860-vo-imja-detej-proshlogo-v-genshin-impact-kak-najti-vospominanija-i-slomat-pechati.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Во имя стремящихся к жизни детей",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21861-vo-imja-stremjaschihsja-k-zhizni-detej-v-genshin-impact-kak-pobedit-maranu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21861-vo-imja-stremjaschihsja-k-zhizni-detej-v-genshin-impact-kak-pobedit-maranu.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1355,7 +1622,8 @@
 					"id": 1,
 					"quest": "Здравствуй, спасибо и прощай",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21863-zdravstvuj-spasibo-i-proschaj-v-genshin-impact-v-konce-koncov-les-pomnit-vse.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21863-zdravstvuj-spasibo-i-proschaj-v-genshin-impact-v-konce-koncov-les-pomnit-vse.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1366,31 +1634,36 @@
 					"id": 1,
 					"quest": "Еда – это естественный вкус природы",
 					"source": "поговорите с Арапакати.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21790-eda-jeto-estestvennyj-vkus-prirody-v-genshin-impact-kak-nachat-i-slit-vodu-v-peschere.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21790-eda-jeto-estestvennyj-vkus-prirody-v-genshin-impact-kak-nachat-i-slit-vodu-v-peschere.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Еда – счастливое воспоминание",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21791-eda-schastlivoe-vospominanie-v-genshin-impact-kak-nachat-i-najti-arasaku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21791-eda-schastlivoe-vospominanie-v-genshin-impact-kak-nachat-i-najti-arasaku.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Еда – это аромат родины",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21792-eda-jeto-aromat-rodiny-v-genshin-impact-kak-najti-arapasa.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21792-eda-jeto-aromat-rodiny-v-genshin-impact-kak-najti-arapasa.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Еда – это способ поделиться прекрасным",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21793-eda-jeto-sposob-podelitsja-prekrasnym-v-genshin-impact-gde-najti-arafalu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21793-eda-jeto-sposob-podelitsja-prekrasnym-v-genshin-impact-gde-najti-arafalu.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
-					"quest": "Преподнести нарам лакомства",
+					"quest": "Преподнести нарам лакомства (Кулинарная мечта)",
 					"source": "стартует автоматически.",
-					"link": ""
+					"link": "",
+					"isReputation": true
 				}
 			]
 		},
@@ -1401,43 +1674,50 @@
 					"id": 1,
 					"quest": "Вимана-агама: Глава I",
 					"source": "поговорите с аранаром по имени Арарикан.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21804-vimana-agama-glava-i-v-genshin-impact-kak-nachat-i-najti-podskazki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21804-vimana-agama-glava-i-v-genshin-impact-kak-nachat-i-najti-podskazki.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Вимана-агама: Глава Роинджана",
 					"source": "стартует автоматически после завершения предыдущего квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21805-vimana-agama-glava-roindzhana-v-genshin-impact-gde-najti-detali.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21805-vimana-agama-glava-roindzhana-v-genshin-impact-gde-najti-detali.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Глава Роинджана: Линга",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21810-glava-roindzhana-linga-v-genshin-impact-kak-ponizit-uroven-vody.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21810-glava-roindzhana-linga-v-genshin-impact-kak-ponizit-uroven-vody.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Глава Роинджана: Йони",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21812-glava-roindzhani-joni-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21812-glava-roindzhani-joni-v-genshin-impact-kak-ustranit-zonu-uvjadanija.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Вимана-агама: глава «Джазари»",
 					"source": "стартует автоматически после завершения указанного квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21813-vimana-agama-glava-dzhazari-v-genshin-impact-kak-soedinit-chetyre-rele.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21813-vimana-agama-glava-dzhazari-v-genshin-impact-kak-soedinit-chetyre-rele.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Вимана-агама: глава «Спуск в Пещеру дэва»",
 					"source": "стартует автоматически после завершения указанного квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21814-vimana-agama-glava-spusk-v-pescheru-djeva-v-genshin-impact-kak-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21814-vimana-agama-glava-spusk-v-pescheru-djeva-v-genshin-impact-kak-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Пока вана не исцелится",
 					"source": "поговорите с Арариканом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21884-poka-vana-ne-iscelitsja-v-genshin-impact-kak-nachat-i-razgadat-zagadki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21884-poka-vana-ne-iscelitsja-v-genshin-impact-kak-nachat-i-razgadat-zagadki.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1448,37 +1728,43 @@
 					"id": 1,
 					"quest": "Варуна-гата",
 					"source": "вам нужно будет помочь Арапанду, на котором напали плесенники, а затем поговорить с ним.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21798-varuna-gata-v-genshin-impact-kak-povernut-tri-lista-v-storonu-vetvi.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21798-varuna-gata-v-genshin-impact-kak-povernut-tri-lista-v-storonu-vetvi.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Каменное воспоминание",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21799-kamennoe-vospominanie-v-genshin-impact-kak-najti-vetvi-i-povernut-listy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21799-kamennoe-vospominanie-v-genshin-impact-kak-najti-vetvi-i-povernut-listy.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Разъяренная железяка",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21807-razjarennaja-zhelezjaka-v-genshin-impact-reshenie-golovolomki-s-listami-i-vetvju.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21807-razjarennaja-zhelezjaka-v-genshin-impact-reshenie-golovolomki-s-listami-i-vetvju.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Спящие корни",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21808-spjaschie-korni-v-genshin-impact-kak-najti-listja-i-kuda-ih-povernut.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21808-spjaschie-korni-v-genshin-impact-kak-najti-listja-i-kuda-ih-povernut.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Молитва о дожде на плодородной земле",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21809-molitva-o-dozhde-na-plodorodnoj-zemle-v-genshin-impact-kak-pobedit-plesennikov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21809-molitva-o-dozhde-na-plodorodnoj-zemle-v-genshin-impact-kak-pobedit-plesennikov.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Дарите цветы (закрытие главы)",
 					"source": "необходимо поговорить с девочкой Варшей после очистки зоны Увядания.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21832-darite-cvety-v-genshin-impact-kak-nachat-i-poluchit-galochku-dlja-varuna-gata.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21832-darite-cvety-v-genshin-impact-kak-nachat-i-poluchit-galochku-dlja-varuna-gata.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1489,43 +1775,50 @@
 					"id": 1,
 					"quest": "Глава звездной ночи",
 					"source": "вам нужно будет поговорить с группой пустынников возле поселения.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21816-glava-zvezdnoj-nochi-v-genshin-impact-kak-nachat-i-ponizit-uroven-vody.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21816-glava-zvezdnoj-nochi-v-genshin-impact-kak-nachat-i-ponizit-uroven-vody.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Восходящая луна",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21818-voshodjaschaja-luna-v-genshin-impact-kak-slomat-pechat-cvetka-barsam.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21818-voshodjaschaja-luna-v-genshin-impact-kak-slomat-pechat-cvetka-barsam.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Последняя глава",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21821-poslednjaja-glava-v-genshin-impact-kak-snjat-pechati-i-ochistit-zagrjaznenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21821-poslednjaja-glava-v-genshin-impact-kak-snjat-pechati-i-ochistit-zagrjaznenija.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Воспоминания Аранаги",
 					"source": "поговорите со стариком Хайямом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21878-vospominanija-aranagi-v-genshin-impact-kak-nachat-i-izuchit-rastenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21878-vospominanija-aranagi-v-genshin-impact-kak-nachat-i-izuchit-rastenija.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Старый друг Аранакина",
 					"source": "поговорите с Аранакином.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21879-staryj-drug-aranakina-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21879-staryj-drug-aranakina-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Запись Арагару",
 					"source": "разберитесь с пустынниками в пещере",
-					"link": "https://landofgames.ru/articles/walkthroughs/21881-zapis-aragaru-v-genshin-impact-kak-nachat-i-issledovat-lager-pustynnikov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21881-zapis-aragaru-v-genshin-impact-kak-nachat-i-issledovat-lager-pustynnikov.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Эпилог: Воспоминания",
 					"source": "поговорите со стариком Хайямом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21882-jepilog-vospominanija-v-genshin-impact-dostizhenie-orehovoe-derevo-posredi-sada.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21882-jepilog-vospominanija-v-genshin-impact-dostizhenie-orehovoe-derevo-posredi-sada.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1536,25 +1829,29 @@
 					"id": 1,
 					"quest": "Затерянные в песках",
 					"source": "поговорите с торговцем Бонифацием в деревушке.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21982-zaterjannye-v-peskah-v-genshin-impact-kak-nachat-i-reshit-zagadki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21982-zaterjannye-v-peskah-v-genshin-impact-kak-nachat-i-reshit-zagadki.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Введение в кабинетную археологию",
 					"source": "поговорите с ученым Тирзадом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21985-vvedenie-v-kabinetnuju-arheologiju-v-genshin-impact-kak-otkryt-komnaty-v-glubine.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21985-vvedenie-v-kabinetnuju-arheologiju-v-genshin-impact-kak-otkryt-komnaty-v-glubine.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Тайна аль-Ахмара",
 					"source": "пройдите в гробницу.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21986-tajna-al-ahmara-v-genshin-impact-kak-otkryt-grob-i-najti-iskry.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21986-tajna-al-ahmara-v-genshin-impact-kak-otkryt-grob-i-najti-iskry.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Сны под жгучими песками",
 					"source": "возвратитесь в оазис Собека.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21988-sny-pod-zhguchimi-peskami-v-genshin-impact-kak-projti-ispytanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21988-sny-pod-zhguchimi-peskami-v-genshin-impact-kak-projti-ispytanija.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1565,31 +1862,36 @@
 					"id": 1,
 					"quest": "Двойное доказательство",
 					"source": "поговорите с ученым в деревушке Аару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21997-dvojnoe-dokazatelstvo-v-genshin-impact-kak-nachat-i-reshit-golovolomki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21997-dvojnoe-dokazatelstvo-v-genshin-impact-kak-nachat-i-reshit-golovolomki.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Мечта Сохейля",
 					"source": "поговорите с ученым в деревушке Аару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21998-mechta-sohejlja-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21998-mechta-sohejlja-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Невидимый барьер",
 					"source": "поговорите с ученым в деревушке Аару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21999-nevidimyj-barer-v-genshin-impact-kak-issledovat-prozrachnye-ruiny.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21999-nevidimyj-barer-v-genshin-impact-kak-issledovat-prozrachnye-ruiny.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Затаившиеся наемники",
 					"source": "поговорите с ученым в деревушке Аару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22002-zataivshiesja-naemniki-v-genshin-impact-kak-vojti-v-bazu-tutmosa.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22002-zataivshiesja-naemniki-v-genshin-impact-kak-vojti-v-bazu-tutmosa.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Воспоминания пустыни",
 					"source": "поговорите с ученым в деревушке Аару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22003-vospominanija-pustyni-v-genshin-impact-kak-issledovat-kurgan-pirshestv.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22003-vospominanija-pustyni-v-genshin-impact-kak-issledovat-kurgan-pirshestv.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1600,37 +1902,43 @@
 					"id": 1,
 					"quest": "Семь столпов, воздвигнутых мудростью",
 					"source": "поговорите с Катериной в гильдии искателей приключений",
-					"link": "https://landofgames.ru/articles/walkthroughs/22443-sem-stolpov-vozdvignutyh-mudrostju-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22443-sem-stolpov-vozdvignutyh-mudrostju-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Храм, где пески текут, точно слезы",
 					"source": "стартует автоматически после прохождения прошлой миссии цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22445-hram-gde-peski-tekut-tochno-slezy-v-genshin-impact-kak-nachat-i-aktivirovat-mehanizm.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22445-hram-gde-peski-tekut-tochno-slezy-v-genshin-impact-kak-nachat-i-aktivirovat-mehanizm.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Изобилие под песчаными дюнами I",
 					"source": "стартует автоматически после прохождения прошлой миссии цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22448-izobilie-pod-peschanymi-djunami-1-v-genshin-impact-kak-zapustit-tainstvennyj-mehanizm.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22448-izobilie-pod-peschanymi-djunami-1-v-genshin-impact-kak-zapustit-tainstvennyj-mehanizm.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Изобилие под песчаными дюнами II",
 					"source": "стартует автоматически после прохождения прошлой миссии цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22449-izobilie-pod-peschanymi-djunami-2-v-genshin-impact-kak-aktivirovat-jenergosistemu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22449-izobilie-pod-peschanymi-djunami-2-v-genshin-impact-kak-aktivirovat-jenergosistemu.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Изобилие под песчаными дюнами III",
 					"source": "стартует автоматически после прохождения прошлой миссии цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22450-izobilie-pod-peschanymi-djunami-3-v-genshin-impact-kak-otkryt-starinnuju-dver.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22450-izobilie-pod-peschanymi-djunami-3-v-genshin-impact-kak-otkryt-starinnuju-dver.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Вечнозеленый сон",
 					"source": "стартует автоматически после прохождения прошлой миссии цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22452-vechnozelenyj-son-v-genshin-impact-kak-najti-dzheht-i-kakuju-nagradu-vybrat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22452-vechnozelenyj-son-v-genshin-impact-kak-najti-dzheht-i-kakuju-nagradu-vybrat.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -1641,19 +1949,22 @@
 					"id": 1,
 					"quest": "Знамение пришло в обличье вора...",
 					"source": "поговорите с Юфтеном в поселении Танит.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22559-znamenie-prishlo-v-obliche-vora-v-genshin-impact-kak-nachat-i-gde-najti-uliki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22559-znamenie-prishlo-v-obliche-vora-v-genshin-impact-kak-nachat-i-gde-najti-uliki.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Наточите стрелы, приготовьте щиты...",
 					"source": "стартует автоматически после прохождения нужной миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22560-natochite-strely-prigotovte-schity-v-genshin-impact-kak-najti-podskazki-i-dokumenty.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22560-natochite-strely-prigotovte-schity-v-genshin-impact-kak-najti-podskazki-i-dokumenty.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Ибо ее злодеяниям нет числа...",
 					"source": "стартует автоматически после прохождения нужной миссии.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22561-ibo-ee-zlodejanijam-net-chisla-v-genshin-impact-kak-najti-dzheht.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22561-ibo-ee-zlodejanijam-net-chisla-v-genshin-impact-kak-najti-dzheht.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1664,55 +1975,64 @@
 					"id": 1,
 					"quest": "Величественное небо того дня",
 					"source": "доберитесь до самого южного телепорта Гавирех Ладжавард.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22911-velichestvennoe-nebo-togo-dnja-v-genshin-impact-kak-nachat-i-najti-zurvan.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22911-velichestvennoe-nebo-togo-dnja-v-genshin-impact-kak-nachat-i-najti-zurvan.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Итихаса Асипаттраваны",
 					"source": "стартует сразу же после завершения предыдущего задания цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22913-itihasa-asipattravany-v-genshin-impact-kak-rassejat-fioletovyj-tuman.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22913-itihasa-asipattravany-v-genshin-impact-kak-rassejat-fioletovyj-tuman.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Истинный звук пробуждения",
 					"source": "стартует сразу же после завершения первого задания цепочки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22914-istinnyj-zvuk-probuzhdenija-v-genshin-impact-kak-najti-kori-barabany-i-sygrat-na-nih.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22914-istinnyj-zvuk-probuzhdenija-v-genshin-impact-kak-najti-kori-barabany-i-sygrat-na-nih.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Когда проявляется свет Хварны",
 					"source": "стартует сразу же после завершения указанных миссий.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22915-kogda-projavljaetsja-svet-hvarny-v-genshin-impact-kak-najti-pesni-i-otkryt-dveri.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22915-kogda-projavljaetsja-svet-hvarny-v-genshin-impact-kak-najti-pesni-i-otkryt-dveri.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Когда проявляется свет Хварны: Самудая",
 					"source": "стартует автоматически после разговора с Наседжуной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22918-samudaja-v-genshin-impact-kak-ubrat-barer-v-peschere.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22918-samudaja-v-genshin-impact-kak-ubrat-barer-v-peschere.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Когда проявляется свет Хварны: Дуккха",
 					"source": "стартует автоматически после разговора с Наседжуной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22917-dukkha-v-genshin-impact-kak-najti-pesnju-hvarny-v-peschere.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22917-dukkha-v-genshin-impact-kak-najti-pesnju-hvarny-v-peschere.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Когда проявляется свет Хварны: Ниродха",
 					"source": "стартует автоматически после разговора с Наседжуной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22921-nirodha-v-genshin-impact-kak-najti-jenergeticheskij-blok-i-podkljuchit-cep.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22921-nirodha-v-genshin-impact-kak-najti-jenergeticheskij-blok-i-podkljuchit-cep.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Гимн Тир Язада 1",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22922-gimn-tir-jazada-1-v-genshin-impact-kak-razmestit-pesni-i-ochistit-derevo.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22922-gimn-tir-jazada-1-v-genshin-impact-kak-razmestit-pesni-i-ochistit-derevo.html",
+					"isReputation": true
 				},
 				{
 					"id": 9,
 					"quest": "Гимн Тир Язада 2",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22923-gimn-tir-jazada-2-v-genshin-impact-kak-najti-serdca-spenty-i-zaschitit-cvetok-svjatosti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22923-gimn-tir-jazada-2-v-genshin-impact-kak-najti-serdca-spenty-i-zaschitit-cvetok-svjatosti.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1723,19 +2043,22 @@
 					"id": 1,
 					"quest": "Исследуйте отмеченный Соши лагерь Фатуи",
 					"source": "погворите со скептиком Соши.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22920-issledujte-otmechennyj-soshi-lager-fatui-v-genshin-impact-kak-nachat-i-najti-podskazki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22920-issledujte-otmechennyj-soshi-lager-fatui-v-genshin-impact-kak-nachat-i-najti-podskazki.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Найдите утраченные фрагменты монумента",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22927-najdite-utrachennye-fragmenty-monumenta-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22927-najdite-utrachennye-fragmenty-monumenta-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Монументальное исследование",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22930-monumentalnoe-issledovanie-v-genshin-impact-kak-odolet-protivnikov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22930-monumentalnoe-issledovanie-v-genshin-impact-kak-odolet-protivnikov.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1746,235 +2069,274 @@
 					"id": 1,
 					"quest": "Где свирепые животные?",
 					"source": "поговорите с экспертом Сантоном.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21801-gde-svirepye-zhivotnye-v-genshin-impact-kak-nachat-i-najti-zverej.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21801-gde-svirepye-zhivotnye-v-genshin-impact-kak-nachat-i-najti-zverej.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Храбрость исходит из сердца",
 					"source": "пройдите или пролетите рядом с указанным местом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21803-hrabrost-ishodit-iz-serdca-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21803-hrabrost-ishodit-iz-serdca-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Статичные пейзажи",
 					"source": "подойдите к почтовому ящику возле домика аранар и заберите рисунок.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21806-statichnye-pejzazhi-v-genshin-impact-gde-najti-vse-sunduki-tainstvennogo-alboma.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21806-statichnye-pejzazhi-v-genshin-impact-gde-najti-vse-sunduki-tainstvennogo-alboma.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Статичные пейзажи II",
 					"source": "соберите 9 сундуков по снимкам из Таинственного альбома.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21806-statichnye-pejzazhi-v-genshin-impact-gde-najti-vse-sunduki-tainstvennogo-alboma.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21806-statichnye-pejzazhi-v-genshin-impact-gde-najti-vse-sunduki-tainstvennogo-alboma.html",
+					"isReputation": true
 				},
 				{
 					"id": 5,
 					"quest": "У Фатуи ума как у статуи",
 					"source": "отправляйтесь в указанную область и подслушайте разговор Фатуи и Касима.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21825-u-fatui-uma-kak-u-statui-v-genshin-impact-kak-nachat-i-doprosit-kasima.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21825-u-fatui-uma-kak-u-statui-v-genshin-impact-kak-nachat-i-doprosit-kasima.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Короткая встреча с редкой птицей",
 					"source": "выстрелите в грибосвинов и поговорите с Шефкетом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21826-korotkaja-vstrecha-s-redkoj-pticej-v-genshin-impact-kak-pojmat-sumerechnyh-ptic.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21826-korotkaja-vstrecha-s-redkoj-pticej-v-genshin-impact-kak-pojmat-sumerechnyh-ptic.html",
+					"isReputation": true
 				},
 				{
 					"id": 7,
 					"quest": "Сокровище мудрости: Новый план",
 					"source": "поговорите с ученым Друсусом.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21836-sokrovische-mudrosti-novyj-plan-v-genshin-impact-kak-nachat-i-kakie-otvety-vybrat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21836-sokrovische-mudrosti-novyj-plan-v-genshin-impact-kak-nachat-i-kakie-otvety-vybrat.html",
+					"isReputation": true
 				},
 				{
 					"id": 8,
 					"quest": "Легенды каменного замка",
 					"source": "поговорите с Арадашаном в пещере.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21837-legendy-kamennogo-zamka-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21837-legendy-kamennogo-zamka-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 9,
 					"quest": "Цена",
 					"source": "взаимодействуйте с сундуком.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21872-cena-v-genshin-impact-kak-nachat-i-otkryt-dostizhenie-data-otplytija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21872-cena-v-genshin-impact-kak-nachat-i-otkryt-dostizhenie-data-otplytija.html",
+					"isReputation": true
 				},
 				{
 					"id": 10,
 					"quest": "Путь к знаниям",
 					"source": "поговорите с девушкой по имени Нилуфар.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21889-put-k-znanijam-v-genshin-impact-kak-nachat-i-otkryt-dostizhenie-vremja-otveta.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21889-put-k-znanijam-v-genshin-impact-kak-nachat-i-otkryt-dostizhenie-vremja-otveta.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Як о четырех ногах, да спотыкается",
 					"source": "помогите Элберу отбиться от хиличурлов.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21891-jak-o-chetyreh-nogah-da-spotykaetsja-v-genshin-impact-kak-nachat-i-najti-jakov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21891-jak-o-chetyreh-nogah-da-spotykaetsja-v-genshin-impact-kak-nachat-i-najti-jakov.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "Пока длится мечта",
 					"source": "поговорите с Джави.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21892-poka-dlitsja-mechta-v-genshin-impact-kak-nachat-i-otkryt-dostizhenie-gde-zhe-vy-snovidenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21892-poka-dlitsja-mechta-v-genshin-impact-kak-nachat-i-otkryt-dostizhenie-gde-zhe-vy-snovidenija.html",
+					"isReputation": true
 				},
 				{
 					"id": 13,
 					"quest": "Приключения требуют мужества!",
 					"source": "поговорите с Катериной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21893-prikljuchenija-trebujut-muzhestva-v-genshin-impact-kak-otkryt-poruchenija-v-sumeru.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21893-prikljuchenija-trebujut-muzhestva-v-genshin-impact-kak-otkryt-poruchenija-v-sumeru.html",
+					"isReputation": true
 				},
 				{
 					"id": 14,
 					"quest": "Чудодейственный крючок",
 					"source": "поговорите с Кайваном и Хельбет.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21900-chudodejstvennyj-krjuchok-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21900-chudodejstvennyj-krjuchok-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 15,
 					"quest": "Всеядные гурманы: В рамках долга",
 					"source": "поговорите с Парваной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21919-vsejadnye-gurmany-v-ramkah-dolga-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21919-vsejadnye-gurmany-v-ramkah-dolga-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 16,
 					"quest": "Всеядные гурманы: Наведение порядка",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22107-vsejadnye-gurmany-navedenie-porjadka-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22107-vsejadnye-gurmany-navedenie-porjadka-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 17,
 					"quest": "Ода Гарсии Подарок совместимости",
 					"source": "поговорите с Гарсией.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21922-oda-garsii-podarok-sovmestimosti-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21922-oda-garsii-podarok-sovmestimosti-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 18,
 					"quest": "Дилемма Афрату",
 					"source": "поговорите с Афрату.",
-					"link": "https://landofgames.ru/articles/walkthroughs/21996-dilemma-afratu-v-genshin-impact-kak-nachat-i-razbit-potoki-sudy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/21996-dilemma-afratu-v-genshin-impact-kak-nachat-i-razbit-potoki-sudy.html",
+					"isReputation": true
 				},
 				{
 					"id": 19,
 					"quest": "Изгнание: всходы",
 					"source": "поговорите с девушкой по имени Саббах.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22000-izgnanie-vshody-v-genshin-impact-kak-nachat-i-udobrit-semena.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22000-izgnanie-vshody-v-genshin-impact-kak-nachat-i-udobrit-semena.html",
+					"isReputation": false
 				},
 				{
 					"id": 20,
 					"quest": "Изгнанник: цветение",
 					"source": "поговорите с девушкой по имени Саббах.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22001-izgnanie-cvetenie-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22001-izgnanie-cvetenie-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 21,
 					"quest": "Подаренная роза: острые колючки",
 					"source": "поговорите с дедушкой по имени Аффан.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22008-podarennaja-roza-ostrye-koljuchki-v-genshin-impact-kak-nachat-i-ochistit-zonu-uvjadanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22008-podarennaja-roza-ostrye-koljuchki-v-genshin-impact-kak-nachat-i-ochistit-zonu-uvjadanija.html",
+					"isReputation": false
 				},
 				{
 					"id": 22,
 					"quest": "Подаренная роза: длинные деньки",
 					"source": "поговорите с дедушкой по имени Аффан.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22009-podarennaja-roza-dlinnye-denki-v-genshin-impact-kak-nachat-i-polit-cvety.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22009-podarennaja-roza-dlinnye-denki-v-genshin-impact-kak-nachat-i-polit-cvety.html",
+					"isReputation": false
 				},
 				{
 					"id": 23,
 					"quest": "Подаренная роза: могут ли зацвести камни",
 					"source": "поговорите с дедушкой по имени Аффан.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22015-podarennaja-roza-mogut-li-zacvesti-kamni-v-genshin-impact-kak-nachat-i-polit-cvety.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22015-podarennaja-roza-mogut-li-zacvesti-kamni-v-genshin-impact-kak-nachat-i-polit-cvety.html",
+					"isReputation": false
 				},
 				{
 					"id": 24,
 					"quest": "Подаренная роза: баллада ушедших дней",
 					"source": "поговорите с Саббах.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22016-podarennaja-roza-ballada-ushedshih-dnej-v-genshin-impact-kak-nachat-i-probudit-semechko.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22016-podarennaja-roza-ballada-ushedshih-dnej-v-genshin-impact-kak-nachat-i-probudit-semechko.html",
+					"isReputation": false
 				},
 				{
 					"id": 25,
 					"quest": "Подаренная роза: забвению не бывать",
 					"source": "поговорите с Саббах.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22021-podarennaja-roza-zabveniju-ne-byvat-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22021-podarennaja-roza-zabveniju-ne-byvat-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 26,
 					"quest": "Вступайте в ряды Пустынников, и ваша жизнь наладится",
 					"source": "поговорите с мужчиной по имени Атия.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22007-vstupajte-v-rjady-pustynnikov-i-vasha-zhizn-naladitsja-v-genshin-impact-kak-nachat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22007-vstupajte-v-rjady-pustynnikov-i-vasha-zhizn-naladitsja-v-genshin-impact-kak-nachat.html",
+					"isReputation": true
 				},
 				{
 					"id": 27,
 					"quest": "Цветок пустыни",
 					"source": "поговорите с мужчиной по имени Раеф в дневное время суток.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22012-cvetok-pustyni-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22012-cvetok-pustyni-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 28,
 					"quest": "В следующей части «Короля заклинаний»",
 					"source": "поговорите с Фукумуто, стоящим возле телепорта.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22101-v-sledujuschej-chasti-korolja-zaklinanij-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22101-v-sledujuschej-chasti-korolja-zaklinanij-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 29,
 					"quest": "Сокол Тадлэ",
 					"source": "поговорите с Массейрой, стоящим возле палатки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22453-sokol-tadlje-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22453-sokol-tadlje-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 30,
 					"quest": "Соколиная охота",
 					"source": "поговорите с Массейрой, стоящим возле палатки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22454-sokolinaja-ohota-v-genshin-impact-kak-najti-stervjatnika-skorpiona-i-letuchih-zmeev.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22454-sokolinaja-ohota-v-genshin-impact-kak-najti-stervjatnika-skorpiona-i-letuchih-zmeev.html",
+					"isReputation": false
 				},
 				{
 					"id": 31,
 					"quest": "Сложивший крылья сокол",
 					"source": "поговорите с Массейрой, стоящим возле палатки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22455-slozhivshij-krylja-sokol-v-genshin-impact-kak-otkryt-dostizhenie-milost-ohotnika.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22455-slozhivshij-krylja-sokol-v-genshin-impact-kak-otkryt-dostizhenie-milost-ohotnika.html",
+					"isReputation": false
 				},
 				{
 					"id": 32,
 					"quest": "Память о Гюрабаде",
 					"source": "поговорите с Лилупар.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22461-pamjat-o-gjurabade-v-genshin-impact-kak-nachat-i-otkryt-vrata.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22461-pamjat-o-gjurabade-v-genshin-impact-kak-nachat-i-otkryt-vrata.html",
+					"isReputation": false
 				},
 				{
 					"id": 33,
 					"quest": "Возрадуйся обретению утраченного",
 					"source": "поговорите с Джехт возле ее палатки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22458-vozradujsja-obreteniju-utrachennogo-v-genshin-impact-kak-nachat-i-najti-mesto-vstrechi.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22458-vozradujsja-obreteniju-utrachennogo-v-genshin-impact-kak-nachat-i-najti-mesto-vstrechi.html",
+					"isReputation": false
 				},
 				{
 					"id": 34,
 					"quest": "Вдруг где-то есть и другой дом",
 					"source": "поговорите с Гидро плесенниками.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22919-vdrug-gde-to-est-i-drugoj-dom-v-genshin-impact-kak-nachat-i-vypolnit.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22919-vdrug-gde-to-est-i-drugoj-dom-v-genshin-impact-kak-nachat-i-vypolnit.html",
+					"isReputation": false
 				},
 				{
 					"id": 35,
 					"quest": "Художник в свободном плавании",
 					"source": "поговорите с раненным незнакомцем возле воды.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22916-hudozhnik-v-svobodnom-plavanii-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22916-hudozhnik-v-svobodnom-plavanii-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 36,
 					"quest": "Зов света",
 					"source": "поговорите со странной пари.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22928-zov-sveta-v-genshin-impact-kak-nachat-i-projti-vse-ispytanija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22928-zov-sveta-v-genshin-impact-kak-nachat-i-projti-vse-ispytanija.html",
+					"isReputation": false
 				},
 				{
 					"id": 37,
 					"quest": "Наставление Пурбируни",
 					"source": "поговорите с исследовательницей Ирис.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23312-nastavlenie-purbiruni-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23312-nastavlenie-purbiruni-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 38,
 					"quest": "Воспоминания одного фонтейнца",
 					"source": "поговорите с исследовательницей Ирис.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23316-vospominanija-odnogo-fontejnca-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23316-vospominanija-odnogo-fontejnca-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 39,
 					"quest": "Бледное пламя",
 					"source": "подойдите к любому дереву фраваши.",
-					"link": "https://landofgames.ru/articles/walkthroughs/22887-mercajuschee-plamja-v-genshin-impact-kak-najti-i-probudit-derevja-fravashi.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/22887-mercajuschee-plamja-v-genshin-impact-kak-najti-i-probudit-derevja-fravashi.html",
+					"isReputation": false
 				}
 			]
 		}
@@ -1987,7 +2349,8 @@
 					"id": 1,
 					"quest": "Краски иллюзий",
 					"source": "спасите мелюзину от пустынников.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23533-kraski-illjuzij-v-genshin-impact-kak-nachat-i-nastroit-polozhenie-prizm.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23533-kraski-illjuzij-v-genshin-impact-kak-nachat-i-nastroit-polozhenie-prizm.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -1998,7 +2361,8 @@
 					"id": 1,
 					"quest": "Собирается дождь",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23534-sobiraetsja-dozhd-v-genshin-impact-kak-najti-neobychnye-detali-i-meljuzinu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23534-sobiraetsja-dozhd-v-genshin-impact-kak-najti-neobychnye-detali-i-meljuzinu.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -2007,9 +2371,10 @@
 			"content": [
 				{
 					"id": 1,
-					"quest": "Картины, загадочные реальности и механический пес",
+					"quest": "Картины, загадочные реальности и механический пес (История Сеймура: Пролог)",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23535-kartiny-mechty-mehanicheskij-pes-v-genshin-impact-kak-pobedit-zhakoba.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23535-kartiny-mechty-mehanicheskij-pes-v-genshin-impact-kak-pobedit-zhakoba.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -2020,13 +2385,15 @@
 					"id": 1,
 					"quest": "Великое приключение в Нарциссенкрейце",
 					"source": "проплывите через арку в руинах",
-					"link": "https://landofgames.ru/articles/walkthroughs/23539-velikoe-prikljuchenie-v-narcissenkrejce-v-genshin-impact-kak-pobedit-puzyri-forty.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23539-velikoe-prikljuchenie-v-narcissenkrejce-v-genshin-impact-kak-pobedit-puzyri-forty.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "История принцессы и отряда героев",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23541-istorija-princessy-i-otrjada-geroev-v-genshin-impact-kak-snjat-pechati-s-sokrovischa.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23541-istorija-princessy-i-otrjada-geroev-v-genshin-impact-kak-snjat-pechati-s-sokrovischa.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -2037,7 +2404,8 @@
 					"id": 1,
 					"quest": "История Анн",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23542-istorija-ann-v-genshin-impact-kak-projti-dalshe-cherez-biblioteku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23542-istorija-ann-v-genshin-impact-kak-projti-dalshe-cherez-biblioteku.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -2046,9 +2414,10 @@
 			"content": [
 				{
 					"id": 1,
-					"quest": "История Марианны",
+					"quest": "История Марианны (История Анн: Пролог)",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23543-istorija-mari-ann-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23543-istorija-mari-ann-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -2059,73 +2428,85 @@
 					"id": 1,
 					"quest": "Техника безопасности",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23831-tehnika-bezopasnosti-v-genshin-impact-kak-otkryt-prohod-k-skladu-s-pomoschju-klapana.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23831-tehnika-bezopasnosti-v-genshin-impact-kak-otkryt-prohod-k-skladu-s-pomoschju-klapana.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Тупик",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23832-tupik-v-genshin-impact-kak-reshit-golovolomku-s-terminalom.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23832-tupik-v-genshin-impact-kak-reshit-golovolomku-s-terminalom.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Плохая сделка",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23833-plohaja-sdelka-v-genshin-impact-otpravljat-pismo-ili-net.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23833-plohaja-sdelka-v-genshin-impact-otpravljat-pismo-ili-net.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Храбрость с кулаками",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23834-hrabrost-s-kulakami-v-genshin-impact-kak-nachat-i-pobedit-nizami.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23834-hrabrost-s-kulakami-v-genshin-impact-kak-nachat-i-pobedit-nizami.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Паллиатив",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23836-palliativ-v-genshin-impact-kak-nachat-i-pomoch-lechlejdu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23836-palliativ-v-genshin-impact-kak-nachat-i-pomoch-lechlejdu.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Разговоры",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23841-razgovory-v-genshin-impact-chto-otvetit-cheloveku-za-dverju.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23841-razgovory-v-genshin-impact-chto-otvetit-cheloveku-za-dverju.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Нерешенная задача",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23842-nereshennaja-zadacha-v-genshin-impact-kak-zamanit-ohrannika.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23842-nereshennaja-zadacha-v-genshin-impact-kak-zamanit-ohrannika.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Помни, у кого брал взаймы",
 					"source": "поговорите с Гальварет на административном этаже.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23869-pomni-u-kogo-bral-vzajmy-v-genshin-impact-kak-nachat-i-najti-vinovnika.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23869-pomni-u-kogo-bral-vzajmy-v-genshin-impact-kak-nachat-i-najti-vinovnika.html",
+					"isReputation": false
 				},
 				{
 					"id": 9,
 					"quest": "Видимая рука",
 					"source": "переместитесь на «Производственный участок: нижний уровень» и поговорите с Декабрэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23870-vidimaja-ruka-v-genshin-impact-kak-pobedit-inorodov-fontmera-v-zheodovoj-shahte.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23870-vidimaja-ruka-v-genshin-impact-kak-pobedit-inorodov-fontmera-v-zheodovoj-shahte.html",
+					"isReputation": false
 				},
 				{
 					"id": 10,
 					"quest": "Искусство переговоров",
 					"source": "Переместитесь на административный этаж крепости Меропид, где расположена купонная столовая, и пройдите в торговую точку «Тряпье и кости». Там поговорите с Алвардом и приобретите у него книжку под названием «Искусство переговоров»",
-					"link": "https://landofgames.ru/articles/walkthroughs/23871-iskusstvo-peregovorov-v-genshin-impact-chto-otvetit-monglan.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23871-iskusstvo-peregovorov-v-genshin-impact-chto-otvetit-monglan.html",
+					"isReputation": false
 				},
 				{
 					"id": 11,
 					"quest": "Воспоминания",
 					"source": "переместитесь на «Производственный участок: нижний уровень» крепости Меропид, воспользуйтесь подъемником с левой стороны, чтобы попасть на верхний ярус локации, и пройдите мимо громкоговорителей.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23873-vospominanija-v-genshin-impact-kak-nachat-i-proverit-megafony.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23873-vospominanija-v-genshin-impact-kak-nachat-i-proverit-megafony.html",
+					"isReputation": false
 				},
 				{
 					"id": 12,
 					"quest": "Подготовка актера",
 					"source": "Переместитесь на административный уровень, пройдите к купонной столовой, идите еще немного вперед, пока не заметите с правой стороны Фурмона и Мейю, репетирующих сценку из театральной постановки. Сядьте возле них на табурет для старта кат-сцены.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23876-podgotovka-aktera-v-genshin-impact-kak-nachat-i-vybrat-final.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23876-podgotovka-aktera-v-genshin-impact-kak-nachat-i-vybrat-final.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -2136,19 +2517,22 @@
 					"id": 1,
 					"quest": "Институт Фонтейна, стоящий в руинах",
 					"source": "Cпасите исследователя от меков.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23844-institut-fontejna-stojaschij-v-ruinah-v-genshin-impact-gde-najti-vse-kondensirujuschie-chasti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23844-institut-fontejna-stojaschij-v-ruinah-v-genshin-impact-gde-najti-vse-kondensirujuschie-chasti.html",
+					"isReputation": true
 				},
 				{
 					"id": 2,
 					"quest": "Отправляйтесь в общежитие Исследовательского института и заберите якорь",
 					"source": "Cтартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23845-otpravljajtes-v-obschezhitie-issledovatelskogo-instituta-i-zaberite-jakor-v-genshin-impact-kak-otkryt-reshetku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23845-otpravljajtes-v-obschezhitie-issledovatelskogo-instituta-i-zaberite-jakor-v-genshin-impact-kak-otkryt-reshetku.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Отправляйтесь в Институт прикладного использования механизмов и заберите якорь",
 					"source": "Cтартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23846-otpravljajtes-v-institut-prikladnogo-ispolzovanija-mehanizmov-i-zaberite-jakor-v-genshin-impact-kak-perenesti-jenergiju.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23846-otpravljajtes-v-institut-prikladnogo-ispolzovanija-mehanizmov-i-zaberite-jakor-v-genshin-impact-kak-perenesti-jenergiju.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -2159,19 +2543,22 @@
 					"id": 1,
 					"quest": "Игра в монополистов",
 					"source": "Стартует автоматически после попадения в крепость Меропид",
-					"link": "https://landofgames.ru/articles/walkthroughs/23830-igra-v-monopolistov-v-genshin-impact-kak-nachat-i-zarabotat-kupony.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23830-igra-v-monopolistov-v-genshin-impact-kak-nachat-i-zarabotat-kupony.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Зуб за зуб",
 					"source": "Стартует автоматически сразу же после прохождения предыдущей миссии цепочки под названием «Игра в монополистов».",
-					"link": "https://landofgames.ru/articles/walkthroughs/23848-zub-za-zub-v-genshin-impact-kak-otvlech-ohrannikov-i-aktivirovat-terminaly.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23848-zub-za-zub-v-genshin-impact-kak-otvlech-ohrannikov-i-aktivirovat-terminaly.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
-					"quest": "С той поры…",
+					"quest": "С той поры… (История Катерпиллера: Пролог)",
 					"source": "Стартует автоматически сразу же после прохождения предыдущей миссии цепочки под названием «Зуб за зуб».",
-					"link": "https://landofgames.ru/articles/walkthroughs/23849-s-toj-pory-v-genshin-impact-vernite-lanuar-k-seme.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23849-s-toj-pory-v-genshin-impact-vernite-lanuar-k-seme.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -2182,25 +2569,29 @@
 					"id": 1,
 					"quest": "Путь в Туманном лесу",
 					"source": "Отправляйтесь к небольшому фонтанчику около станции Маркот. Около одной из статуй, стоящих по периметру, вы найдете каменную табличку. Прочитайте надпись на ней, чтобы запустить миссию.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24179-put-v-tumannom-lesu-v-genshin-impact-kak-ochistit-vse-zagrjaznenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24179-put-v-tumannom-lesu-v-genshin-impact-kak-ochistit-vse-zagrjaznenija.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Увядающая плакучая ива",
 					"source": "Стартует автоматически после предыдущего квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24185-uvjadajuschaja-plakuchaja-iva-v-genshin-impact-kak-najti-altar.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24185-uvjadajuschaja-plakuchaja-iva-v-genshin-impact-kak-najti-altar.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Яростное озеро у родника",
 					"source": "Стартует автоматически после предыдущего квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24186-jarostnoe-ozero-u-rodnika-v-genshin-impact-kak-popast-v-ozero-i-najti-vse-zagrjaznenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24186-jarostnoe-ozero-u-rodnika-v-genshin-impact-kak-popast-v-ozero-i-najti-vse-zagrjaznenija.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
-					"quest": "В сердце Эриний",
+					"quest": "В сердце Эриний (Дикая фея Эриний)",
 					"source": "Стартует автоматически после предыдущего квеста.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24187-v-serdce-jerinij-v-genshin-impact-kak-najti-prohod-k-kornjam-dereva.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24187-v-serdce-jerinij-v-genshin-impact-kak-najti-prohod-k-kornjam-dereva.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -2211,49 +2602,57 @@
 					"id": 1,
 					"quest": "Поиск в Море водорослей",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24148-poisk-v-more-vodoroslej-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24148-poisk-v-more-vodoroslej-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Мать муз",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24183-mat-muz-v-genshin-impact-kak-nachat-i-reshit-zagadku-ortanta.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24183-mat-muz-v-genshin-impact-kak-nachat-i-reshit-zagadku-ortanta.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Метеоритное копье",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24184-meteoritnoe-kope-v-genshin-impact-kak-najti-put-vpered-i-reshit-zagadku-ortanta.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24184-meteoritnoe-kope-v-genshin-impact-kak-najti-put-vpered-i-reshit-zagadku-ortanta.html",
+					"isReputation": false
 				},
 				{
 					"id": 4,
 					"quest": "Любовь Купидона",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24189-ljubov-kupidona-v-genshin-impact-kak-otyskat-put-vpered-i-reshit-zagadku-ortanta.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24189-ljubov-kupidona-v-genshin-impact-kak-otyskat-put-vpered-i-reshit-zagadku-ortanta.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Талия и Мельпомена",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24190-talija-i-melpona-v-genshin-impact-razgadajte-zagadku-ortanta.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24190-talija-i-melpona-v-genshin-impact-razgadajte-zagadku-ortanta.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Покой спасителя",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24149-pokoj-spasitelja-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24149-pokoj-spasitelja-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Пробуждение от великого сна",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24150-probuzhdenie-ot-velikogo-sna-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24150-probuzhdenie-ot-velikogo-sna-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
-					"quest": "След за кормой",
+					"quest": "След за кормой (По следам Нарцисса)",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24151-shljupka-na-volnah-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24151-shljupka-na-volnah-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -2264,19 +2663,22 @@
 					"id": 1,
 					"quest": "Бродяги и озорники",
 					"source": "подойдите к редакции «Паровой птицы».",
-					"link": "https://landofgames.ru/articles/walkthroughs/24155-brodjagi-i-ozorniki-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24155-brodjagi-i-ozorniki-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Красное и черное",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24156-pohititeli-sokrovisch-i-fatui-v-genshin-impact-kak-projti-krasnoe-i-chernoe.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24156-pohititeli-sokrovisch-i-fatui-v-genshin-impact-kak-projti-krasnoe-i-chernoe.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
-					"quest": "Вопросы и ответы",
+					"quest": "Вопросы и ответы (Опрос мелюзины и ответ машины)",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24158-meljuziny-i-mashiny-i-fatui-v-genshin-impact-kak-projti-voprosy-i-otvety.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24158-meljuziny-i-mashiny-i-fatui-v-genshin-impact-kak-projti-voprosy-i-otvety.html",
+					"isReputation": true
 				}
 			]
 		},
@@ -2287,337 +2689,393 @@
 					"id": 1,
 					"quest": "Полуавтоматическая ковка",
 					"source": "поговорите с Эстель.",
-					"link": "https://landofgames.ru/articles/guides/23525-kraftovoe-oruzhie-fontejna-v-genshin-impact-kak-poluchit-chertezhi-i-sozdat.html"
+					"link": "https://landofgames.ru/articles/guides/23525-kraftovoe-oruzhie-fontejna-v-genshin-impact-kak-poluchit-chertezhi-i-sozdat.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Собеседование в Паровой птице",
 					"source": "поговорите с Ефрасией.",
-					"link": "https://landofgames.ru/articles/guides/23454-reputacija-v-fontejne-v-genshin-impact-kak-uznat-i-povysit.html"
+					"link": "https://landofgames.ru/articles/guides/23454-reputacija-v-fontejne-v-genshin-impact-kak-uznat-i-povysit.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "На цветочном лугу",
 					"source": "поговорите с мужчиной возле сада.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23560-na-cvetochnom-lugu-v-genshin-impact-kak-vernut-hrabreca-princa-i-princessu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23560-na-cvetochnom-lugu-v-genshin-impact-kak-vernut-hrabreca-princa-i-princessu.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Следы прилива",
 					"source": "поговорите с Виржилем возле статуи Гидро архонта.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23545-sledy-priliva-v-genshin-impact-kak-najti-podskazki-i-sokrovischa.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23545-sledy-priliva-v-genshin-impact-kak-najti-podskazki-i-sokrovischa.html",
+					"isReputation": true
 				},
 				{
 					"id": 5,
 					"quest": "Фонтейнское послание",
 					"source": "поговорите с незнакомыми мужчинами возле статуи Гидро архонта.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23549-fontejnskoe-poslanie-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23549-fontejnskoe-poslanie-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Тайны «Книги Откровения»",
 					"source": "поговорите с мелузиной возле водопада.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23561-tajny-knigi-otkrovenija-v-genshin-impact-gde-najti-vse-stranicy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23561-tajny-knigi-otkrovenija-v-genshin-impact-gde-najti-vse-stranicy.html",
+					"isReputation": false
 				},
 				{
 					"id": 7,
 					"quest": "Хорошие вещи в неумелых руках 1-5",
 					"source": "решите головоломку возле любого из 5 мольбертов.",
-					"link": "https://landofgames.ru/articles/guides/23559-horoshie-veschi-v-neumelyh-rukah-v-genshin-impact-kak-perestavit-predmety.html"
+					"link": "https://landofgames.ru/articles/guides/23559-horoshie-veschi-v-neumelyh-rukah-v-genshin-impact-kak-perestavit-predmety.html",
+					"isReputation": false
 				},
 				{
 					"id": 8,
 					"quest": "Хорошие вещи в неумелых руках: Продолжение",
 					"source": "решите головоломку с Гидро тотемами.",
-					"link": "https://landofgames.ru/articles/guides/23559-horoshie-veschi-v-neumelyh-rukah-v-genshin-impact-kak-perestavit-predmety.html"
+					"link": "https://landofgames.ru/articles/guides/23559-horoshie-veschi-v-neumelyh-rukah-v-genshin-impact-kak-perestavit-predmety.html",
+					"isReputation": false
 				},
 				{
 					"id": 9,
 					"quest": "Это вам не тыквенная похлебка…",
 					"source": "поговорите с Веренатой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23537-jeto-vam-ne-tykvennaja-pohlebka-v-genshin-impact-kak-nachat-i-pobedit-vragov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23537-jeto-vam-ne-tykvennaja-pohlebka-v-genshin-impact-kak-nachat-i-pobedit-vragov.html",
+					"isReputation": true
 				},
 				{
 					"id": 10,
 					"quest": "Эхо древнего мира",
 					"source": "поговорите с Веренатой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23556-jeho-drevnego-mira-v-genshin-impact-kak-najti-partituru-i-ochistit-tubinellu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23556-jeho-drevnego-mira-v-genshin-impact-kak-najti-partituru-i-ochistit-tubinellu.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Призрак одинокого парусника",
 					"source": "поговорите с мелюзиной Аиз.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23567-prizrak-odinokogo-parusnika-v-genshin-impact-kak-pravilno-vybrat-signaly.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23567-prizrak-odinokogo-parusnika-v-genshin-impact-kak-pravilno-vybrat-signaly.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "Приключения чудесного камня 1-3",
 					"source": "поговорите с Пуки.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23563-prikljuchenija-chudesnogo-kamnja-v-genshin-impact-kak-nachat-i-sobrat-rudu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23563-prikljuchenija-chudesnogo-kamnja-v-genshin-impact-kak-nachat-i-sobrat-rudu.html",
+					"isReputation": true
 				},
 				{
 					"id": 13,
 					"quest": "Успех не дается легко",
 					"source": "поговорите с Косынзяной.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23564-uspeh-ne-daetsja-legko-v-genshin-impact-kak-nachat-i-najti-podskazki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23564-uspeh-ne-daetsja-legko-v-genshin-impact-kak-nachat-i-najti-podskazki.html",
+					"isReputation": true
 				},
 				{
 					"id": 14,
 					"quest": "Три оттенка короны солнца",
 					"source": "поговорите с Слуази.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23568-tri-ottenka-korony-solnca-v-genshin-impact-kak-nachat-i-chto-dat-sluazi.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23568-tri-ottenka-korony-solnca-v-genshin-impact-kak-nachat-i-chto-dat-sluazi.html",
+					"isReputation": true
 				},
 				{
 					"id": 15,
 					"quest": "Игра в рыбалку",
 					"source": "поговорите с Ярой.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23569-igra-v-rybalku-v-genshin-impact-kak-nachat-i-pomoch-jare.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23569-igra-v-rybalku-v-genshin-impact-kak-nachat-i-pomoch-jare.html",
+					"isReputation": true
 				},
 				{
 					"id": 16,
 					"quest": "Неоконченная история",
 					"source": "взаимодействуйте с книжкой в указанной области.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23546-neokonchennaja-istorija-v-genshin-impact-kak-popast-v-ordo-narcissenkrejc.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23546-neokonchennaja-istorija-v-genshin-impact-kak-popast-v-ordo-narcissenkrejc.html",
+					"isReputation": false
 				},
 				{
 					"id": 17,
 					"quest": "Последний вопрос",
 					"source": "взаимодействуйте с книжкой в указанной области.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23547-poslednij-vopros-v-genshin-impact-kuda-ushel-sejmur.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23547-poslednij-vopros-v-genshin-impact-kuda-ushel-sejmur.html",
+					"isReputation": false
 				},
 				{
 					"id": 18,
 					"quest": "Умопомрачительный аромат",
 					"source": "поговорите с Генри, которого кто-то закопал в землю.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23551-umopomrachitelnyj-aromat-v-genshin-impact-chto-sluchilos-s-genri-i-pochemu-ego-zakopali.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23551-umopomrachitelnyj-aromat-v-genshin-impact-chto-sluchilos-s-genri-i-pochemu-ego-zakopali.html",
+					"isReputation": true
 				},
 				{
 					"id": 19,
 					"quest": "По-прежнему невозможно удержаться",
 					"source": "поговорите с Генри.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23555-po-prezhnemu-nevozmozhno-uderzhatsja-v-genshin-impact-kak-nachat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23555-po-prezhnemu-nevozmozhno-uderzhatsja-v-genshin-impact-kak-nachat.html",
+					"isReputation": false
 				},
 				{
 					"id": 20,
 					"quest": "Собеседование в «Паровой птице»",
 					"source": "выдается автоматически.",
-					"link": "https://landofgames.ru/articles/guides/23454-reputacija-v-fontejne-v-genshin-impact-kak-uznat-i-povysit.html"
+					"link": "https://landofgames.ru/articles/guides/23454-reputacija-v-fontejne-v-genshin-impact-kak-uznat-i-povysit.html",
+					"isReputation": false
 				},
 				{
 					"id": 21,
 					"quest": "Новые горизонты приключений",
 					"source": "выдается автоматически.",
-					"link": "https://landofgames.ru/articles/guides/23531-ezhednevnye-poruchenija-fontejna-v-genshin-impact-kak-otkryt-dejliki.html"
+					"link": "https://landofgames.ru/articles/guides/23531-ezhednevnye-poruchenija-fontejna-v-genshin-impact-kak-otkryt-dejliki.html",
+					"isReputation": true
 				},
 				{
 					"id": 22,
 					"quest": "Восстановление фонтана",
 					"source": "осмотрите неработающий фонтан.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23565-vosstanovlenie-fontana-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23565-vosstanovlenie-fontana-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 23,
 					"quest": "В Кур-де-Фонтейне опасность поджидает на каждом шагу",
 					"source": "поговорите с девушкой по имени Гийарра.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23570-v-kur-de-fontejne-opasnost-podzhidaet-na-kazhdom-shagu-v-genshin-impact-kak-nachat.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23570-v-kur-de-fontejne-opasnost-podzhidaet-na-kazhdom-shagu-v-genshin-impact-kak-nachat.html",
+					"isReputation": true
 				},
 				{
 					"id": 24,
 					"quest": "Некое уведомление",
 					"source": "поговорите с Айюном во Дворце Мермония.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23571-nekoe-uvedomlenie-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23571-nekoe-uvedomlenie-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": true
 				},
 				{
 					"id": 25,
 					"quest": "Некий пустячок",
 					"source": "поговорите с Айюном во Дворце Мермония.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23572-nekij-pustjachok-v-genshin-impact-kak-kupit-i-ustanovit-klavishu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23572-nekij-pustjachok-v-genshin-impact-kak-kupit-i-ustanovit-klavishu.html",
+					"isReputation": true
 				},
 				{
 					"id": 26,
 					"quest": "Некая печать",
 					"source": "поговорите с Айюном во Дворце Мермония.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23573-nekaja-pechat-v-genshin-impact-kak-oformit-dokument.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23573-nekaja-pechat-v-genshin-impact-kak-oformit-dokument.html",
+					"isReputation": true
 				},
 				{
 					"id": 27,
 					"quest": "Трое в Фонтейне не считая кинокамеры 1 и 2",
 					"source": "поговорите с иностранцами из Ли Юэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23574-troe-v-fontejne-ne-schitaja-kinokamery-v-genshin-impact-kak-vernut-jaschik-s-plenkoj.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23574-troe-v-fontejne-ne-schitaja-kinokamery-v-genshin-impact-kak-vernut-jaschik-s-plenkoj.html",
+					"isReputation": false
 				},
 				{
 					"id": 28,
 					"quest": "Рыбалка с Деларош 1-3",
 					"source": "поймайте рыбу возле Деларош.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23575-rybalka-s-delarosh-v-genshin-impact-kak-nachat-i-vybrat-nazhivku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23575-rybalka-s-delarosh-v-genshin-impact-kak-nachat-i-vybrat-nazhivku.html",
+					"isReputation": false
 				},
 				{
 					"id": 29,
 					"quest": "Бесплатный обед",
 					"source": "поговорите со странным человеком.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23807-besplatnyj-obed-v-genshin-impact-kak-nachat-i-poluchit-biletik-s-gadaniem.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23807-besplatnyj-obed-v-genshin-impact-kak-nachat-i-poluchit-biletik-s-gadaniem.html",
+					"isReputation": false
 				},
 				{
 					"id": 30,
 					"quest": "Наша цель в другом трубопроводе",
 					"source": "поговорите с Эгуи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23837-nasha-cel-v-drugom-truboprovode-v-genshin-impact-kak-pochinit-truboprovod.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23837-nasha-cel-v-drugom-truboprovode-v-genshin-impact-kak-pochinit-truboprovod.html",
+					"isReputation": true
 				},
 				{
 					"id": 31,
 					"quest": "Первичные факты",
 					"source": "отправляйтесь в Ордо Нарциссенкрейц.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23850-pervichnye-fakty-v-genshin-impact-gde-najti-katerpillera.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23850-pervichnye-fakty-v-genshin-impact-gde-najti-katerpillera.html",
+					"isReputation": false
 				},
 				{
 					"id": 32,
 					"quest": "Путь к сингулярности",
 					"source": "ознакомьтесь с табличкой возле пещеры.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23857-put-k-singuljarnosti-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23857-put-k-singuljarnosti-v-genshin-impact.html",
+					"isReputation": true
 				},
 				{
 					"id": 33,
 					"quest": "Коварный свет из глубин",
 					"source": "попадите в секретную область под землей.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23861-kovarnyj-svet-iz-glubin-v-genshin-impact-kak-aktivirovat-opticheskie-mehanizmy.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23861-kovarnyj-svet-iz-glubin-v-genshin-impact-kak-aktivirovat-opticheskie-mehanizmy.html",
+					"isReputation": true
 				},
 				{
 					"id": 34,
 					"quest": "Сила и смекалка",
 					"source": "посетите Ринг.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23866-sila-i-smekalka-v-genshin-impact-kak-pobedit-v-turnire-pankration.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23866-sila-i-smekalka-v-genshin-impact-kak-pobedit-v-turnire-pankration.html",
+					"isReputation": true
 				},
 				{
 					"id": 35,
 					"quest": "Негодяи",
 					"source": "помогите девочке, к которой пристали бандиты.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23879-negodjai-v-genshin-impact-gde-najti-chistye-shishki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23879-negodjai-v-genshin-impact-gde-najti-chistye-shishki.html",
+					"isReputation": true
 				},
 				{
 					"id": 36,
 					"quest": "В поисках прошлого: Юг",
 					"source": "поговорите с мужчиной по имени Бройль.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23881-v-poiskah-proshlogo-jug-genshin-impact-kak-aktivirovat-terminal.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23881-v-poiskah-proshlogo-jug-genshin-impact-kak-aktivirovat-terminal.html",
+					"isReputation": false
 				},
 				{
 					"id": 37,
 					"quest": "В поисках прошлого: Запад",
 					"source": "пройдите в башню с Фатуи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23882-v-poiskah-proshlogo-zapad-v-genshin-impact-gde-najti-lager-fatui.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23882-v-poiskah-proshlogo-zapad-v-genshin-impact-gde-najti-lager-fatui.html",
+					"isReputation": false
 				},
 				{
 					"id": 38,
 					"quest": "В поисках прошлого: Север",
 					"source": "пройдите в закрытую башню.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23883-v-poiskah-proshlogo-sever-v-genshin-impact-kak-ubrat-vse-barery-na-stancii.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23883-v-poiskah-proshlogo-sever-v-genshin-impact-kak-ubrat-vse-barery-na-stancii.html",
+					"isReputation": false
 				},
 				{
 					"id": 39,
 					"quest": "В поисках прошлого",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23880-v-poiskah-proshlogo-v-genshin-impact-kak-dognat-kapitana-fatui.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23880-v-poiskah-proshlogo-v-genshin-impact-kak-dognat-kapitana-fatui.html",
+					"isReputation": true
 				},
 				{
 					"id": 40,
 					"quest": "Письмо",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/23905-pismo-v-genshin-impact-kak-pomoch-ajjunu.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/23905-pismo-v-genshin-impact-kak-pomoch-ajjunu.html",
+					"isReputation": true
 				},
 				{
 					"id": 41,
 					"quest": "Сквозь тайное зеркало",
 					"source": "в башне Ипсиссимус найдите секретное тайное зеркало.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24195-skvoz-tajnoe-zerkalo-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24195-skvoz-tajnoe-zerkalo-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 42,
 					"quest": "Погоня",
 					"source": "возвратитесь в Очень теплое место к Книге откровений и взаимодействуйте с ней.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24196-pogonja-v-genshin-impact-sledujte-za-tenju-i-prodolzhajte-poiski.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24196-pogonja-v-genshin-impact-sledujte-za-tenju-i-prodolzhajte-poiski.html",
+					"isReputation": false
 				},
 				{
 					"id": 43,
 					"quest": "С днем рождения",
 					"source": "поговорите с Эрншоу.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24197-s-dnem-rozhdenija-v-genshin-impact-kak-nachat-i-gde-najti-lanuar.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24197-s-dnem-rozhdenija-v-genshin-impact-kak-nachat-i-gde-najti-lanuar.html",
+					"isReputation": true
 				},
 				{
 					"id": 44,
 					"quest": "Охота за сокровищами, исполняющими желания",
 					"source": "поговорите с Юрвиллем, и мелюзиной Надией.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24199-ohota-za-sokrovischami-ispolnjajuschimi-zhelanija-v-genshin-impact-gde-vylovit-poterjannoe.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24199-ohota-za-sokrovischami-ispolnjajuschimi-zhelanija-v-genshin-impact-gde-vylovit-poterjannoe.html",
+					"isReputation": true
 				},
 				{
 					"id": 45,
 					"quest": "Свободное стихосложение",
 					"source": "поговорите с девочкой возле собаки на причале.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24203-svobodnoe-stihoslozhenie-v-genshin-impact-kak-spasti-vseh-detej.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24203-svobodnoe-stihoslozhenie-v-genshin-impact-kak-spasti-vseh-detej.html",
+					"isReputation": true
 				},
 				{
 					"id": 46,
 					"quest": "Импровизированная поэма о рассвете",
 					"source": "поговорите с незнакомцем в клетке.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24205-improvizirovannaja-pojema-o-rassvete-v-genshin-impact-kak-pomoch-ruzhe.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24205-improvizirovannaja-pojema-o-rassvete-v-genshin-impact-kak-pomoch-ruzhe.html",
+					"isReputation": true
 				},
 				{
 					"id": 47,
 					"quest": "Предполагаемый план",
 					"source": "поговорите с незнакомкой в Порту Люмидус.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24209-predpolagaemyj-plan-v-genshin-impact-kak-najti-vse-uliki.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24209-predpolagaemyj-plan-v-genshin-impact-kak-najti-vse-uliki.html",
+					"isReputation": false
 				},
 				{
 					"id": 48,
 					"quest": "Ожидаемая ложь",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24222-ozhidaemaja-lozh-v-genshin-impact-kak-popast-v-ubezhische-njekera.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24222-ozhidaemaja-lozh-v-genshin-impact-kak-popast-v-ubezhische-njekera.html",
+					"isReputation": true
 				},
 				{
 					"id": 49,
 					"quest": "Давно провалившаяся Технология распознавания преступников",
 					"source": "стартует автоматически (поговорите с Лепин-Полин).",
-					"link": "https://landofgames.ru/articles/walkthroughs/24343-davno-provalivshajasja-tehnologija-raspoznavanija-prestupnikov-v-genshin-impact-kak-poluchit-zum-obektiv-osobogo-analiza.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24343-davno-provalivshajasja-tehnologija-raspoznavanija-prestupnikov-v-genshin-impact-kak-poluchit-zum-obektiv-osobogo-analiza.html",
+					"isReputation": false
 				},
 				{
 					"id": 50,
 					"quest": "Леруа: Предсмертное просветление",
 					"source": "поговорите с Евфрасией в столице Гидро королевства и спросите ее про работу.",
-					"link": "https://landofgames.ru/articles/guides/24487-lerua-predsmertnoe-prosvetlenie-v-genshin-impact-kak-nachat-i-projti.html"
+					"link": "https://landofgames.ru/articles/guides/24487-lerua-predsmertnoe-prosvetlenie-v-genshin-impact-kak-nachat-i-projti.html",
+					"isReputation": false
 				},
 				{
 					"id": 51,
 					"quest": "Леруа: Расстрельный отряд",
 					"source": "прокрутите время на следующий день.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24495-lerua-rasstrelnyj-otrjad-v-genshin-impact-kak-ubrat-vse-zagrjaznenija.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24495-lerua-rasstrelnyj-otrjad-v-genshin-impact-kak-ubrat-vse-zagrjaznenija.html",
+					"isReputation": false
 				},
 				{
 					"id": 52,
 					"quest": "Леруа: Под опекой",
 					"source": "прокрутите время на следующий день.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24488-lerua-pod-opekoj-v-genshin-impact-kak-sdelat-uborku-vozle-doma.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24488-lerua-pod-opekoj-v-genshin-impact-kak-sdelat-uborku-vozle-doma.html",
+					"isReputation": false
 				},
 				{
 					"id": 53,
 					"quest": "Леруа: Час расплаты",
 					"source": "прокрутите время на следующий день.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24489-lerua-chas-rasplaty-v-genshin-impact-gde-najti-prohozhego.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24489-lerua-chas-rasplaty-v-genshin-impact-gde-najti-prohozhego.html",
+					"isReputation": false
 				},
 				{
 					"id": 54,
 					"quest": "Леруа: Петля на шее",
 					"source": "прокрутите время на следующий день.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24491-lerua-petlja-na-shee-v-genshin-impact-osmotrite-strannyj-jaschik.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24491-lerua-petlja-na-shee-v-genshin-impact-osmotrite-strannyj-jaschik.html",
+					"isReputation": false
 				},
 				{
 					"id": 55,
 					"quest": "Леруа: Ария царицы ночи",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24492-lerua-arija-caricy-nochi-v-genshin-impact-ne-vmeshivatsja-ili-pomoch-benua.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24492-lerua-arija-caricy-nochi-v-genshin-impact-ne-vmeshivatsja-ili-pomoch-benua.html",
+					"isReputation": false
 				},
 				{
 					"id": 56,
-					"quest": "Леруа: Прекрасные друзья",
+					"quest": "Леруа: Прекрасные друзья (Леруа)",
 					"source": "прокрутите время на следующий день.",
-					"link": "https://landofgames.ru/articles/guides/24493-lerua-prekrasnye-druzja-v-genshin-impact-vse-koncovki.html"
+					"link": "https://landofgames.ru/articles/guides/24493-lerua-prekrasnye-druzja-v-genshin-impact-vse-koncovki.html",
+					"isReputation": true
 				}
 			]
 		}
@@ -2630,19 +3088,22 @@
 					"id": 1,
 					"quest": "Священные горы, деревня Цяоин",
 					"source": "впервые переместитесь в долину Чэньюй и поговорите с Фу Цзинь.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24765-svjaschennye-gory-derevnja-cjaoin-v-genshin-impact-kak-reshit-golovolomku.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24765-svjaschennye-gory-derevnja-cjaoin-v-genshin-impact-kak-reshit-golovolomku.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Нефрит в реке, сокровище Чэньюй",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24767-nefrit-v-reke-sokrovische-chjenjuj-v-genshin-impact-kak-sobrat-silu-adeptov.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24767-nefrit-v-reke-sokrovische-chjenjuj-v-genshin-impact-kak-sobrat-silu-adeptov.html",
+					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Древняя жертва Священной кометы",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24768-drevnjaja-zhertva-svjaschennoj-komety-v-genshin-impact-kak-sobrat-duhovnye-sfery-i-pobedit-sjuanvjenja.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24768-drevnjaja-zhertva-svjaschennoj-komety-v-genshin-impact-kak-sobrat-duhovnye-sfery-i-pobedit-sjuanvjenja.html",
+					"isReputation": false
 				}
 			]
 		},
@@ -2653,73 +3114,85 @@
 					"id": 1,
 					"quest": "Обитель Чиван, упавшая комета возносится к облакам",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24770-zastlannyj-oblakami-put-k-obiteli-chivan-v-genshin-impact-kak-popast-v-pokoi-karpa.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24770-zastlannyj-oblakami-put-k-obiteli-chivan-v-genshin-impact-kak-popast-v-pokoi-karpa.html",
+					"isReputation": false
 				},
 				{
 					"id": 2,
 					"quest": "Странствующая обитель",
 					"source": "поговорите с девочкой на бамбуковом плоту после 20:00.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24772-stranstvujuschaja-obitel-v-genshin-impact-kak-ubrat-barer.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24772-stranstvujuschaja-obitel-v-genshin-impact-kak-ubrat-barer.html",
+					"isReputation": true
 				},
 				{
 					"id": 3,
 					"quest": "Трехкратные ожидания",
 					"source": "поговорите с дядюшкой Ло.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24771-trehkratnye-ozhidanija-v-genshin-impact-kak-nastroit-tri-monolita.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24771-trehkratnye-ozhidanija-v-genshin-impact-kak-nastroit-tri-monolita.html",
+					"isReputation": true
 				},
 				{
 					"id": 4,
 					"quest": "Прогулка по Залу Ваншань, которую стоит запомнить",
 					"source": "поговорите с Хуаном Третьим в гавани.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24778-progulka-po-zalu-vanshan-kotoruju-stoit-zapomnit-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24778-progulka-po-zalu-vanshan-kotoruju-stoit-zapomnit-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 5,
 					"quest": "Древние свитки и искусство меча Гухуа",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24782-drevnie-svitki-i-iskusstvo-mecha-guhua-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24782-drevnie-svitki-i-iskusstvo-mecha-guhua-v-genshin-impact.html",
+					"isReputation": false
 				},
 				{
 					"id": 6,
 					"quest": "Скрытая долина, тайный герой",
 					"source": "стартует автоматически.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24781-skrytaja-dolina-tajnyj-geroj-v-genshin-impact-kak-zavershit-ispytanie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24781-skrytaja-dolina-tajnyj-geroj-v-genshin-impact-kak-zavershit-ispytanie.html",
+					"isReputation": true
 				},
 				{
 					"id": 7,
 					"quest": "Путешествие по Чэньюй",
 					"source": "поговорите с Фан Цзюй.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24777-puteshestvie-po-chjenjuj-v-genshin-impact-kak-sdelat-foto.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24777-puteshestvie-po-chjenjuj-v-genshin-impact-kak-sdelat-foto.html",
+					"isReputation": true
 				},
 				{
 					"id": 8,
 					"quest": "Заоблачный и Перчик",
 					"source": "поговорите с Вэнь Хуа.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24785-zaoblachnyj-i-perchik-v-genshin-impact-kak-nachat-i-posmotret-sostjazanie.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24785-zaoblachnyj-i-perchik-v-genshin-impact-kak-nachat-i-posmotret-sostjazanie.html",
+					"isReputation": true
 				},
 				{
 					"id": 9,
 					"quest": "Бабочка, что тихо летит сквозь долину",
 					"source": "поговорите со священным симулякром в пещере.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24773-babochka-chto-letit-tiho-skvoz-dolinu-v-genshin-impact-kak-pojmat-vse-babochek.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24773-babochka-chto-letit-tiho-skvoz-dolinu-v-genshin-impact-kak-pojmat-vse-babochek.html",
+					"isReputation": false
 				},
 				{
 					"id": 10,
 					"quest": "Песок договоренностей",
 					"source": "помогите девушке, на которую напали похитители сокровищ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24779-pesok-dogovorennostej-v-genshin-impact-kak-pobedit-zheleznogo-mina.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24779-pesok-dogovorennostej-v-genshin-impact-kak-pobedit-zheleznogo-mina.html",
+					"isReputation": true
 				},
 				{
 					"id": 11,
 					"quest": "Цяоин, деревня историй",
 					"source": "поговорите с Гийаррой в деревушке.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24787-cjaoin-derevnja-istorij-v-genshin-impact-kak-sobrat-material-i-najti-gijarru.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24787-cjaoin-derevnja-istorij-v-genshin-impact-kak-sobrat-material-i-najti-gijarru.html",
+					"isReputation": true
 				},
 				{
 					"id": 12,
 					"quest": "Привыкание к местности",
 					"source": "поговорите с гидрологом Во Лю рядом с портовым поселением.",
-					"link": "https://landofgames.ru/articles/walkthroughs/24794-privykanie-k-mestnosti-v-genshin-impact.html"
+					"link": "https://landofgames.ru/articles/walkthroughs/24794-privykanie-k-mestnosti-v-genshin-impact.html",
+					"isReputation": true
 				}
 			]
 		}
