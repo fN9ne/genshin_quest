@@ -555,6 +555,13 @@
 					"source": "Поговорите с Харрисом в лагере искателей приключений, расположенном за пределами Драконьего хребта.",
 					"link": "https://landofgames.ru/articles/walkthroughs/10284-gde-nayti-celnomorozhenoe-myaso-v-genshin-impact-korol-snezhnyh-kabanov.html",
 					"isReputation": true
+				},
+				{
+					"id": 7,
+					"quest": "Клык разложения",
+					"source": "Направляйтесь в краснуюл пещеру, находящуюся в Ущелье спящего дракона.",
+					"link": "https://landofgames.ru/articles/guides/10255-kope-drakonego-hrebta-v-genshin-impact-vse-drakoni-klyki.html",
+					"isReputation": false
 				}
 			]
 		}
