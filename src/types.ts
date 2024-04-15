@@ -11,6 +11,7 @@ export interface ISubRegion {
 	content: IQuest[];
 }
 
+/* #UPDATEABLE */
 export interface IQuestsData {
 	mondstadt: ISubRegion[];
 	liyue: ISubRegion[];

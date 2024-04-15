@@ -4,13 +4,6 @@
 			"name": "",
 			"content": [
 				{
-					"id": 1,
-					"quest": "Хорошая возможность?",
-					"source": "Поговорить с Сайрусом после заверешения задания «Дракон и буря».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12336-horoshaya-vozmozhnost-v-genshin-impact-kak-pobedit-mitachurla.html",
-					"isReputation": false
-				},
-				{
 					"id": 2,
 					"quest": "После бури...",
 					"source": "Поговорите с Вагнером после завершения задания «Песнь о драконьей свободе».",
@@ -149,13 +142,6 @@
 					"source": "Доберитесь до секретного острова и осмотрите солнечные часы.",
 					"link": "https://landofgames.ru/articles/guides/9799-sekretnyy-ostrov-v-genshin-impact-kak-proyti-kvest-vremya-i-veter.html",
 					"isReputation": true
-				},
-				{
-					"id": 22,
-					"quest": "Время никого не ждет",
-					"source": "Побеседуйте с Сайрусом в столице региона после выполнения задания «Песнь о драконьей свободы».",
-					"link": "https://landofgames.ru/articles/walkthroughs/12328-vremya-nikogo-ne-zhdet-v-genshin-impact-kak-nachat-i-proyti.html",
-					"isReputation": false
 				},
 				{
 					"id": 23,

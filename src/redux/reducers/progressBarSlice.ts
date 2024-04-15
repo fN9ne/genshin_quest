@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
+/* #UPDATEABLE */
 interface progressBarState {
 	mondstadt: boolean;
 	liyue: boolean;
@@ -12,6 +13,7 @@ interface progressBarState {
 	chenyu: boolean;
 }
 
+/* #UPDATEABLE */
 const initialState: progressBarState = {
 	mondstadt: true,
 	liyue: true,

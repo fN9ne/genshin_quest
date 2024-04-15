@@ -5,6 +5,7 @@ interface SubRegion {
 	content: number[];
 }
 
+/* #UPDATEABLE */
 export interface ProgressState {
 	mondstadt: SubRegion[];
 	liyue: SubRegion[];
@@ -17,6 +18,7 @@ export interface ProgressState {
 	chenyu: SubRegion[];
 }
 
+/* #UPDATEABLE */
 const initialState: ProgressState = {
 	mondstadt: [{ name: "", content: [] }],
 	liyue: [{ name: "", content: [] }],

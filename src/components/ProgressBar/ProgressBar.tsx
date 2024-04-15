@@ -10,6 +10,7 @@ interface SubRegion {
 	content: number[];
 }
 
+/* #UPDATEABLE */
 interface Quests {
 	mondstadt: SubRegion[];
 	liyue: SubRegion[];
@@ -25,6 +26,7 @@ interface Quests {
 const quests: IQuestsData = questsData;
 
 const ProgressBar: FC = () => {
+	/* #UPDATEABLE */
 	const { mondstadt, liyue, dragonspine, chasm, inazuma, enkanomiya, sumeru, fontaine, chenyu } = useAppSelector(
 		(state) => state.progress
 	);
@@ -36,6 +38,7 @@ const ProgressBar: FC = () => {
 
 	const { setIsActiveRegion } = useActions();
 
+	/* #UPDATEABLE */
 	const regions: ProgressBarItemProps[] = [
 		{
 			background: "/regions/backgrounds/mondstadt.jpg",

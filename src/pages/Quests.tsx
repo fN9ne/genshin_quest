@@ -10,6 +10,7 @@ import AnimatePage from "../components/UI/AnimatePage";
 const quests: IQuestsData = questsData;
 
 const Quests: FC = () => {
+	/* #UPDATEABLE */
 	const { chasm, chenyu, dragonspine, enkanomiya, fontaine, inazuma, liyue, mondstadt, sumeru } = useAppSelector(
 		(state) => state.progressBar
 	);
@@ -44,6 +45,7 @@ const Quests: FC = () => {
 				<ProgressBar />
 				{!isAllQuestsComplete() || !isHideCompleted ? (
 					<>
+						{/* #UPDATEABLE */}
 						<AP mode="wait" initial={false}>
 							{mondstadt && (
 								<m.div key="mondstadt" {...transitions}>

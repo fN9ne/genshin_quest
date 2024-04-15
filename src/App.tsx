@@ -11,6 +11,7 @@ import { IQuestsData } from "./types";
 import questData from "./quests.json";
 import { ProgressState } from "./redux/reducers/progressSlice";
 import PatchModal from "./components/Modal/PatchModal";
+import deletedQuests from "./deletedQuests.json";
 
 const quests: IQuestsData = questData;
 
@@ -43,8 +44,32 @@ const App: FC = () => {
 	const progress = useAppSelector((state) => state.progress);
 	const global = useAppSelector((state) => state.global);
 
+	const removeDeletedQuests = (
+		progress: ProgressState,
+		deletedQuests: { [key: string]: { name: string; content: number[] } }
+	): ProgressState => {
+		const updatedProgress: ProgressState = { ...progress };
+
+		for (const region in deletedQuests) {
+			const regionName = region as keyof ProgressState;
+
+			if (regionName in updatedProgress) {
+				const deletedContent = deletedQuests[regionName].content;
+
+				updatedProgress[regionName] = updatedProgress[regionName]
+					.map((subRegion) => ({
+						...subRegion,
+						content: subRegion.content.filter((id) => !deletedContent.includes(id)),
+					}))
+					.filter((subRegion) => subRegion.content.length > 0);
+			}
+		}
+
+		return updatedProgress;
+	};
+
 	const handleLoadProgress = (data: any): void => {
-		setProgress(data);
+		setProgress(removeDeletedQuests(data, deletedQuests));
 		setProgressLoaded(true);
 	};
 
@@ -90,6 +115,7 @@ const App: FC = () => {
 					const newProgress = updateProgress(progress, quests);
 
 					setProgress(newProgress);
+
 					localStorage.setItem("progress", JSON.stringify(newProgress));
 				}
 			}
