@@ -6,7 +6,7 @@ interface SubRegion {
 }
 
 /* #UPDATEABLE */
-export interface ProgressState {
+export interface InProgressState {
 	mondstadt: SubRegion[];
 	liyue: SubRegion[];
 	dragonspine: SubRegion[];
@@ -19,7 +19,7 @@ export interface ProgressState {
 }
 
 /* #UPDATEABLE */
-const initialState: ProgressState = {
+const initialState: InProgressState = {
 	mondstadt: [{ name: "", content: [] }],
 	liyue: [{ name: "", content: [] }],
 	dragonspine: [{ name: "", content: [] }],
@@ -72,16 +72,16 @@ const initialState: ProgressState = {
 	],
 };
 
-const progressSlice = createSlice({
+const inProgressSlice = createSlice({
 	name: "progress",
 	initialState,
 	reducers: {
-		setProgress(_, action: PayloadAction<ProgressState>) {
+		setInProgress(_, action: PayloadAction<InProgressState>) {
 			return action.payload;
 		},
-		setRegionProgress(
+		setRegionInProgress(
 			state,
-			action: PayloadAction<{ region: keyof ProgressState; id: number; subregion: string; force?: boolean }>
+			action: PayloadAction<{ region: keyof InProgressState; id: number; subregion: string; force?: boolean }>
 		) {
 			const { region, id, subregion, force } = action.payload;
 
@@ -113,7 +113,7 @@ const progressSlice = createSlice({
 			state[region] = newState;
 
 			localStorage.setItem(
-				"progress",
+				"inProgress",
 				JSON.stringify({
 					...state,
 					[region]: newState,
@@ -123,4 +123,4 @@ const progressSlice = createSlice({
 	},
 });
 
-export default progressSlice;
+export default inProgressSlice;

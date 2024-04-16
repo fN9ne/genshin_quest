@@ -106,20 +106,16 @@
 		&>div:not([class]) {
 			display: flex;
 			align-items: center;
-			gap: 28px;
+			gap: 16px;
 
-			@media (max-width: 1340px) {
-				gap: 20px;
-			}
-
-			@media (max-width: 1024px) {
+			@media (max-width: 1400px) {
 				&>.switcher {
 					display: none;
 				}
 			}
 		}
 
-		@media (max-width: 1024px) {
+		@media (max-width: 1400px) {
 			&>.navbar {
 				display: none;
 			}
@@ -131,6 +127,7 @@
 		color: var(--0);
 		font-weight: 900;
 		transition: var(--trn);
+		margin: 0 20px 0 0;
 
 		@media (max-width: 1024px) {
 			font-size: 24px;
@@ -200,7 +197,7 @@
 				}
 			}
 
-			@media (max-width: 1024px) {
+			@media (max-width: 1400px) {
 				display: block;
 				width: 40px;
 				height: 40px;
@@ -320,6 +317,21 @@
 				pointer-events: none;
 				font-size: 12px;
 			}
+		}
+	}
+}
+
+.animate-out {
+	animation: fadeOut 0.25s ease forwards 0.35s;
+
+	@keyframes fadeOut {
+		from {
+			opacity: 1;
+		}
+
+		to {
+			opacity: 0;
+			visibility: hidden;
 		}
 	}
 }
@@ -737,6 +749,7 @@
 				position: relative;
 				z-index: 1;
 				width: 100%;
+				translate: 0 1px;
 			}
 		}
 
@@ -833,8 +846,7 @@
 			}
 
 			&:hover {
-				scale: 0.95;
-				opacity: 0.8;
+				opacity: 0.7;
 			}
 
 			&__box {
@@ -863,7 +875,7 @@
 					top: 50%;
 					left: 50%;
 					translate: -50% -50%;
-					background-color: #4d5060;
+					background-color: #667a67;
 					border-radius: 20px;
 					z-index: 0;
 					opacity: 0;
@@ -874,9 +886,8 @@
 				svg {
 					position: relative;
 					z-index: 1;
-					opacity: 0;
-					visibility: hidden;
-					scale: 0.95;
+					opacity: 0.25;
+					scale: 0.65;
 					transition: var(--trn);
 
 					path {
@@ -899,8 +910,67 @@
 							svg {
 								scale: 1;
 								opacity: 1;
-								visibility: visible;
 							}
+						}
+					}
+				}
+			}
+
+			&:not(.quest-item-check__inprogress) {
+				.quest-item-check__wrapper {
+					svg {
+						scale: 1;
+
+						path {
+							fill: none;
+							stroke-dasharray: 24 24;
+							stroke-dashoffset: 24;
+							stroke: var(--0);
+							transition: stroke-dashoffset 0.35s ease-out;
+						}
+					}
+				}
+
+				input:checked+.quest-item-check__box {
+					.quest-item-check__wrapper {
+						svg {
+							opacity: 1;
+
+							path {
+								stroke-dashoffset: 0;
+							}
+						}
+					}
+				}
+			}
+
+			&__inprogress {
+				.quest-item-check__wrapper {
+					&::before {
+						background-color: #8e8b6c;
+					}
+
+					svg {
+						width: 18px;
+					}
+				}
+
+				input {
+					&:checked {
+						&+.quest-item-check__box {
+							.quest-item-check__wrapper {
+								svg {
+									rotate: 180deg;
+								}
+							}
+						}
+					}
+				}
+
+				&:hover {
+					.quest-item-check__wrapper {
+						svg {
+							rotate: 180deg;
 						}
 					}
 				}
@@ -1146,7 +1216,7 @@
 				transition: 350ms;
 
 				path {
-					fill: var(--0);
+					stroke: var(--0);
 				}
 			}
 		}
@@ -1339,9 +1409,19 @@
 	width: 100%;
 	position: relative;
 
+	&__content {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
+	}
+
 	&__header {
 		padding: 0 0 20px 0;
 		border-bottom: 1px solid var(--500);
+
+		display: flex;
+		align-items: center;
+		gap: 8px;
 	}
 
 	&__title {
@@ -1367,6 +1447,63 @@
 
 			&:first-of-type {
 				margin: 0;
+			}
+		}
+	}
+
+	&__label {
+		height: 24px;
+		padding: 0 5px 0 6px;
+		border-radius: 3px;
+		line-height: 22px;
+		text-transform: uppercase;
+		font-size: 10px;
+		color: #e6aa4f;
+		font-weight: 700;
+		background-color: #f0e2b4;
+		border: 2px solid #e6aa4f;
+		position: relative;
+
+		.star {
+			position: absolute;
+			right: -1px;
+			top: -1px;
+			translate: 50% -50%;
+
+			path {
+				fill: #e6aa4f;
+			}
+
+			animation: star 3s ease infinite;
+
+			@keyframes star {
+
+				0%,
+				100% {
+					opacity: 0;
+				}
+
+				40%,
+				60% {
+					opacity: 1;
+				}
+			}
+
+			&-2 {
+				right: auto;
+				top: auto;
+				translate: -50% 50%;
+				scale: 0.7;
+				left: -1px;
+				bottom: -1px;
+				animation: star 4s ease infinite 0.5s;
+			}
+
+			&-3 {
+				right: 9px;
+				top: -11px;
+				scale: 0.8;
+				animation: star 2.5s ease infinite 1.5s;
 			}
 		}
 	}
