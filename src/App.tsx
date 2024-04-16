@@ -40,8 +40,9 @@ export const updateProgress = (progress: ProgressState, database: IQuestsData): 
 };
 
 const App: FC = () => {
-	const { setActiveRegions, setProgress, setProgressLoaded, setModal } = useActions();
+	const { setActiveRegions, setProgress, setInProgress, setProgressLoaded, setModal, setGlobalState } = useActions();
 	const progress = useAppSelector((state) => state.progress);
+	const inProgress = useAppSelector((state) => state.inProgress);
 	const global = useAppSelector((state) => state.global);
 
 	const removeDeletedQuests = (
@@ -56,12 +57,10 @@ const App: FC = () => {
 			if (regionName in updatedProgress) {
 				const deletedContent = deletedQuests[regionName].content;
 
-				updatedProgress[regionName] = updatedProgress[regionName]
-					.map((subRegion) => ({
-						...subRegion,
-						content: subRegion.content.filter((id) => !deletedContent.includes(id)),
-					}))
-					.filter((subRegion) => subRegion.content.length > 0);
+				updatedProgress[regionName] = updatedProgress[regionName].map((subRegion) => ({
+					...subRegion,
+					content: subRegion.content.filter((id) => !deletedContent.includes(id)),
+				}));
 			}
 		}
 
@@ -73,6 +72,10 @@ const App: FC = () => {
 		setProgressLoaded(true);
 	};
 
+	const handleLoadInProgress = (data: any): void => {
+		setInProgress(removeDeletedQuests(data, deletedQuests));
+	};
+
 	const checkVersion = (data: any): void => {
 		if (data + "" !== import.meta.env.VITE_APP_VERSION) {
 			setModal({ state: "isPatchNoteActive", value: true });
@@ -82,6 +85,8 @@ const App: FC = () => {
 
 	useLocalStorage("progressBarActiveRegions", setActiveRegions);
 	useLocalStorage("progress", handleLoadProgress);
+	useLocalStorage("inProgress", handleLoadInProgress);
+	useLocalStorage("global", setGlobalState);
 	useLocalStorage("version", checkVersion);
 
 	useEffect(() => {
@@ -106,7 +111,9 @@ const App: FC = () => {
 	useEffect(() => {
 		if (global.isProgressLoaded) {
 			const dataQuestCount = calculateQuests(quests);
+
 			const storedData = localStorage.getItem("progress");
+			const inProgressData = localStorage.getItem("inProgress");
 
 			if (storedData) {
 				const storedDataQuestCount = calculateQuests(JSON.parse(storedData));
@@ -117,6 +124,18 @@ const App: FC = () => {
 					setProgress(newProgress);
 
 					localStorage.setItem("progress", JSON.stringify(newProgress));
+				}
+			}
+
+			if (inProgressData) {
+				const inProgressQuestCount = calculateQuests(JSON.parse(inProgressData));
+
+				if (dataQuestCount > inProgressQuestCount) {
+					const newProgress = updateProgress(inProgress, quests);
+
+					setInProgress(newProgress);
+
+					localStorage.setItem("inProgress", JSON.stringify(newProgress));
 				}
 			}
 		}

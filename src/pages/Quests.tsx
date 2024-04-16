@@ -26,11 +26,9 @@ const Quests: FC = () => {
 
 	const isAllQuestsComplete = (): boolean => {
 		const calculateQuests = (quests: typeof progress | IQuestsData): number => {
-			return Object.keys(quests)
-				.map((region) => {
-					return quests[region as keyof typeof progress].map((item) => item.content.length);
-				})
-				.reduce((prev, curr) => prev + curr.reduce((prev, curr) => prev + curr), 0);
+			return Object.keys(quests).reduce((prev, curr) => {
+				return prev + quests[curr as keyof typeof progress].reduce((prev, curr) => prev + curr.content.length, 0);
+			}, 0);
 		};
 
 		const allQuestsCount = calculateQuests(quests);

@@ -14,13 +14,17 @@ const Save: FC = () => {
 	const [error, setError] = useState<string | null>(null);
 	const [success, setSuccess] = useState<string | null>(null);
 
-	const { setProgress } = useActions();
+	const { setProgress, setInProgress } = useActions();
 	const progress = useAppSelector((state) => state.progress);
+	const inProgress = useAppSelector((state) => state.inProgress);
 
 	/* export */
 	const handleExport = () => {
 		const createDataJsonFile = (): string => {
-			const data = progress;
+			const data = {
+				complete: progress,
+				inProgress: inProgress,
+			};
 			const jsonData = JSON.stringify(data, null, 2);
 			const blob = new Blob([jsonData], { type: "application/json" });
 
@@ -72,8 +76,8 @@ const Save: FC = () => {
 		}
 	};
 
-	const validateData = (data: any): data is ProgressState => {
-		if (!data || typeof data !== "object") return false;
+	const validateData = (data: any): boolean => {
+		if (Object.keys(data).includes("complete") || Object.keys(data).includes("inProgress")) return false;
 		return true;
 	};
 
@@ -103,19 +107,29 @@ const Save: FC = () => {
 					if (validateData(jsonData)) {
 						const questsData = jsonData as ProgressState;
 
-						const databaseQuestsCount = calculateQuests(quests);
-
-						if (databaseQuestsCount > calculateQuests(questsData)) {
-							const newProgress = updateProgress(questsData, quests);
-
-							setProgress(newProgress);
-							localStorage.setItem("progress", JSON.stringify(newProgress));
-						} else {
-							setProgress(questsData);
-							localStorage.setItem("progress", JSON.stringify(questsData));
-						}
+						const newProgress = updateProgress(questsData, quests);
+						setProgress(newProgress);
+						localStorage.setItem("progress", JSON.stringify(newProgress));
 
 						setSuccess(`Успешно загружено ${calculateQuests(questsData)} ${questWord(calculateQuests(questsData))}.`);
+					} else {
+						const questsData = jsonData as {
+							complete: ProgressState;
+							inProgress: ProgressState;
+						};
+
+						const newProgress = updateProgress(questsData.complete, quests);
+						const newInProgress = updateProgress(questsData.inProgress, quests);
+
+						setProgress(newProgress);
+						setInProgress(newInProgress);
+
+						localStorage.setItem("progress", JSON.stringify(newProgress));
+						localStorage.setItem("inProgress", JSON.stringify(newInProgress));
+
+						const sum = calculateQuests(questsData.complete) + calculateQuests(questsData.inProgress);
+
+						setSuccess(`Успешно загружено ${sum} ${questWord(sum)}.`);
 					}
 				} catch (error: any) {
 					setError("Ошибка при чтении файла: " + error.message);

@@ -4,6 +4,8 @@ import { useAppSelector } from "../../hooks/useAppSelector";
 import { useActions } from "../../hooks/useActions";
 import patch from "../../patch.json";
 
+import StarIcon from "../../img/icons/star.svg?react";
+
 const PatchModal: FC = () => {
 	const { isPatchNoteActive } = useAppSelector((state) => state.modal);
 	const { setModal } = useActions();
@@ -14,16 +16,32 @@ const PatchModal: FC = () => {
 			onClose={() => setModal({ state: "isPatchNoteActive", value: false })}
 			className="patch"
 		>
-			<div className="patch__header">
-				<h2 className="patch__title">Обновление {import.meta.env.VITE_APP_VERSION}</h2>
-				<div className="modal__close" onClick={() => setModal({ state: "isPatchNoteActive", value: false })}></div>
-			</div>
-			<div className="patch__body">
-				<ul className="patch__list">
-					{patch[import.meta.env.VITE_APP_VERSION as keyof typeof patch].map((text, index) => (
-						<li key={index}>{text}</li>
+			<div className="modal__close" onClick={() => setModal({ state: "isPatchNoteActive", value: false })}></div>
+			<div className="patch__content">
+				{Object.keys(patch)
+					.reverse()
+					.map((version, index) => (
+						<div className="patch__version" key={index}>
+							<div className="patch__header">
+								<h2 className="patch__title">Обновление {version}</h2>
+								{index === 0 && (
+									<div className="patch__label">
+										<span>Новое</span>
+										<StarIcon className="star star-1" />
+										<StarIcon className="star star-2" />
+										<StarIcon className="star star-3" />
+									</div>
+								)}
+							</div>
+							<div className="patch__body">
+								<ul className="patch__list">
+									{patch[version as keyof typeof patch].map((text, index) => (
+										<li key={index}>{text}</li>
+									))}
+								</ul>
+							</div>
+						</div>
 					))}
-				</ul>
 			</div>
 		</ModalLayout>
 	);

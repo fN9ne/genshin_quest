@@ -1,6 +1,8 @@
-import { FC, useEffect, useRef } from "react";
+import { FC, useEffect, useRef, useState } from "react";
 
 import Check from "../../img/icons/check.svg?react";
+import Hourglass from "../../img/icons/hourglass.svg?react";
+
 import { useActions } from "../../hooks/useActions";
 import { useAppSelector } from "../../hooks/useAppSelector";
 
@@ -23,11 +25,15 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 	isReputation,
 	link,
 }) => {
-	const { setRegionProgress } = useActions();
+	const [shouldAnimateOut, setShouldAnimateOut] = useState<boolean>(false);
+
+	const { setRegionProgress, setRegionInProgress } = useActions();
 	const progress = useAppSelector((state) => state.progress);
-	const { isInCompleteFirst } = useAppSelector((state) => state.global);
+	const inProgress = useAppSelector((state) => state.inProgress);
+	const { isInCompleteFirst, isInProgressFirst, isHideCompleted } = useAppSelector((state) => state.global);
 
 	const input = useRef<null | HTMLInputElement>(null);
+	const inputInProgress = useRef<null | HTMLInputElement>(null);
 
 	const regionInterpreter = (region: string): string => {
 		/* #UPDATEABLE */
@@ -41,27 +47,56 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 	const handleToggleProgress = (event: React.MouseEvent<HTMLLabelElement>) => {
 		event.preventDefault();
 
-		const array = progress[region as keyof typeof progress];
 		const element = input.current as HTMLInputElement;
-		const newItems = element.checked
-			? array.filter((subregionItem) => subregionItem.name === subregion)[0].content.filter((item) => item !== id)
-			: [...array.filter((subregionItem) => subregionItem.name === subregion)[0].content, id];
 
-		setRegionProgress({ region: region as keyof ProgressState, data: newItems, subregion });
+		if (isHideCompleted) {
+			if (!element.checked) {
+				setShouldAnimateOut(true);
+			}
+		} else {
+			setRegionProgress({ region: region as keyof ProgressState, id: id, subregion });
+			setRegionInProgress({ region: region as keyof ProgressState, id: id, subregion, force: false });
+		}
+	};
+
+	const handleToggleInProgress = (event: React.MouseEvent<HTMLLabelElement>) => {
+		event.preventDefault();
+		setRegionInProgress({ region: region as keyof ProgressState, id: id, subregion });
+		setRegionProgress({ region: region as keyof ProgressState, id: id, subregion, force: false });
+	};
+
+	const onAnimationEnd = () => {
+		if (shouldAnimateOut) {
+			setRegionProgress({ region: region as keyof ProgressState, id: id, subregion });
+			setRegionInProgress({ region: region as keyof ProgressState, id: id, subregion, force: false });
+			setShouldAnimateOut(false);
+		}
 	};
 
 	useEffect(() => {
 		if (input.current) {
 			const element = input.current as HTMLInputElement;
 
-			element.checked = progress[region as keyof typeof progress]
+			element.checked = shouldAnimateOut
+				? true
+				: progress[region as keyof typeof progress]
+						.filter((subregionItem) => subregionItem.name === subregion)[0]
+						.content.includes(id);
+		}
+	}, [progress, isInCompleteFirst, isInProgressFirst, shouldAnimateOut]);
+
+	useEffect(() => {
+		if (inputInProgress.current) {
+			const element = inputInProgress.current as HTMLInputElement;
+
+			element.checked = inProgress[region as keyof typeof inProgress]
 				.filter((subregionItem) => subregionItem.name === subregion)[0]
 				.content.includes(id);
 		}
-	}, [progress, isInCompleteFirst]);
+	}, [inProgress, isInCompleteFirst, isInProgressFirst]);
 
 	return (
-		<div className="quest-item" id={`quest-${id}`}>
+		<div className={`quest-item ${shouldAnimateOut ? " animate-out" : ""}`} onAnimationEnd={onAnimationEnd}>
 			<div className="quest-item__wrapper">
 				<div className="quest-item__content">
 					<div className="quest-item__name">
@@ -86,6 +121,16 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 							<div className="quest-item-check__box">
 								<div className="quest-item-check__wrapper">
 									<Check />
+								</div>
+							</div>
+						</button>
+					</label>
+					<label className="quest-item-check quest-item-check__inprogress" onClick={handleToggleInProgress}>
+						<button>
+							<input type="checkbox" ref={inputInProgress} />
+							<div className="quest-item-check__box">
+								<div className="quest-item-check__wrapper">
+									<Hourglass />
 								</div>
 							</div>
 						</button>

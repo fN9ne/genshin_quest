@@ -8,8 +8,7 @@ import { useActions } from "../hooks/useActions";
 const Header: FC = () => {
 	const [isBurgerMenuActive, setIsBurgerMenuActive] = useState<boolean>(false);
 
-	const { isHideCompleted, isInCompleteFirst } = useAppSelector((state) => state.global);
-	const { toggleIsHideCompleted, toggleIsInCompleteFirst, setModal } = useActions();
+	const { setModal } = useActions();
 
 	const routes: NavbarItem[] = [
 		{
@@ -39,32 +38,7 @@ const Header: FC = () => {
 						<NavLink to="/" className="header__logo">
 							Genshin <span>Quest</span>
 						</NavLink>
-						{location.pathname === "/" && (
-							<>
-								<Switcher
-									text="Скрыть выполненные"
-									checked={isHideCompleted}
-									onClick={() => {
-										if (isInCompleteFirst) {
-											toggleIsInCompleteFirst(false);
-										}
-
-										toggleIsHideCompleted(!isHideCompleted);
-									}}
-								/>
-								<Switcher
-									text="Сначала не выполненные"
-									checked={isInCompleteFirst}
-									onClick={() => {
-										if (isHideCompleted) {
-											toggleIsHideCompleted(false);
-										}
-
-										toggleIsInCompleteFirst(!isInCompleteFirst);
-									}}
-								/>
-							</>
-						)}
+						{location.pathname === "/" && <Switchers />}
 					</div>
 					<Navbar links={routes} />
 					<div
@@ -82,34 +56,7 @@ const Header: FC = () => {
 						<div className="easter-egg">автор игры: Владимир Хиль</div>
 						<div className="header-burger-content__close" onClick={() => setIsBurgerMenuActive(false)}></div>
 						<Navbar links={routes} />
-						<div className="header-burger-content__switchers">
-							{location.pathname === "/" && (
-								<>
-									<Switcher
-										text="Скрыть выполненные"
-										checked={isHideCompleted}
-										onClick={() => {
-											if (isInCompleteFirst) {
-												toggleIsInCompleteFirst(false);
-											}
-
-											toggleIsHideCompleted(!isHideCompleted);
-										}}
-									/>
-									<Switcher
-										text="Сначала не выполненные"
-										checked={isInCompleteFirst}
-										onClick={() => {
-											if (isHideCompleted) {
-												toggleIsHideCompleted(false);
-											}
-
-											toggleIsInCompleteFirst(!isInCompleteFirst);
-										}}
-									/>
-								</>
-							)}
-						</div>
+						<div className="header-burger-content__switchers">{location.pathname === "/" && <Switchers />}</div>
 					</div>
 				</div>
 			</div>
@@ -118,3 +65,47 @@ const Header: FC = () => {
 };
 
 export default Header;
+
+const Switchers: FC = () => {
+	const { isHideCompleted, isInCompleteFirst, isInProgressFirst } = useAppSelector((state) => state.global);
+	const { toggleIsHideCompleted, toggleIsInCompleteFirst, toggleIsInProgressFirst } = useActions();
+
+	return (
+		<>
+			<Switcher
+				text="Скрыть выполненные"
+				checked={isHideCompleted}
+				onClick={() => {
+					if (isInCompleteFirst) {
+						toggleIsInCompleteFirst(false);
+					}
+
+					toggleIsHideCompleted(!isHideCompleted);
+				}}
+			/>
+			<Switcher
+				text="Сначала не выполненные"
+				checked={isInCompleteFirst}
+				onClick={() => {
+					if (isHideCompleted || isInProgressFirst) {
+						toggleIsHideCompleted(false);
+						toggleIsInProgressFirst(false);
+					}
+
+					toggleIsInCompleteFirst(!isInCompleteFirst);
+				}}
+			/>
+			<Switcher
+				text="Сначала в процессе"
+				checked={isInProgressFirst}
+				onClick={() => {
+					if (isInCompleteFirst) {
+						toggleIsInCompleteFirst(false);
+					}
+
+					toggleIsInProgressFirst(!isInProgressFirst);
+				}}
+			/>
+		</>
+	);
+};
