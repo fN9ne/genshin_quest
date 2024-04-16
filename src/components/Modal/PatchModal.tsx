@@ -23,8 +23,8 @@ const PatchModal: FC = () => {
 					.map((version, index) => (
 						<div className="patch__version" key={index}>
 							<div className="patch__header">
-								<h2 className="patch__title">Обновление {version}</h2>
-								{index === 0 && (
+								<h2 className="patch__title">Обновление {version[0] === "l" ? version.slice(1) : version}</h2>
+								{version[0] === "l" && (
 									<div className="patch__label">
 										<span>Новое</span>
 										<StarIcon className="star star-1" />
