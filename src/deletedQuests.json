@@ -2,5 +2,9 @@
 	"mondstadt": {
 		"name": "",
 		"content": [1, 22]
+	},
+	"chasm": {
+		"name": "",
+		"content": [1]
 	}
 }

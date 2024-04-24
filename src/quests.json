@@ -41,14 +41,14 @@
 				{
 					"id": 7,
 					"quest": "Равноценный обмен",
-					"source": "Поговорите с Виктором в Мондштадтском соборе.",
+					"source": "Поговорите с Виктором в Мондштадтском соборе. После прохождения ежедневного поручения «Зимняя история».",
 					"link": "https://landofgames.ru/articles/walkthroughs/10295-prohozhdenie-kvesta-ravnocennyy-obmen-v-genshin-impact.html",
 					"isReputation": true
 				},
 				{
 					"id": 8,
 					"quest": "Каждый день новые приключения",
-					"source": "Поговорите с Катериной, секретаршей гильдии искателей приключений, в Мондштадте.",
+					"source": "Поговорите с Катериной, в Мондштадте после получения 12 ранга приключений.",
 					"link": "",
 					"isReputation": false
 				},
@@ -83,28 +83,28 @@
 				{
 					"id": 13,
 					"quest": "Новые горизонты приключений",
-					"source": "Поговорите с Катериной в Мондштадте.",
+					"source": "Даётся автоматически после прохождения «Пролог. Глава II. Горькие слёзы».",
 					"link": "",
 					"isReputation": false
 				},
 				{
 					"id": 14,
-					"quest": "Не упусти!",
-					"source": "Поговорите с Сайрусом в Мондштадте.",
+					"quest": "Не упусти! («Время никого не ждёт»)",
+					"source": "Поговорите с Сайрусом в Мондштадте после прохождения «Пролог. Глава I. Чужеземец, поймавший ветер».",
 					"link": "https://landofgames.ru/articles/walkthroughs/12334-ne-upusti-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": false
 				},
 				{
 					"id": 15,
 					"quest": "Вопросы и ответы",
-					"source": "Поговорите с Свэном, рыцарем Фавониуса, у входа в Мондштадт.",
+					"source": "Поговорите с Свэном, рыцарем Фавониуса, у входа в Мондштадт после получения 24 ранга приключений.",
 					"link": "https://landofgames.ru/articles/walkthroughs/12344-voprosy-i-otvety-v-genshin-impact-kak-pravilno-otvetit-svenu.html",
 					"isReputation": true
 				},
 				{
 					"id": 16,
 					"quest": "Аромат на ветру",
-					"source": "Поговорите с Сарой в Мондштадте.",
+					"source": "Поговорите с Сарой в Мондштадте после прохождения «Пролог. Глава I. Чужеземец, поймавший ветер».",
 					"link": "",
 					"isReputation": false
 				},
@@ -117,14 +117,14 @@
 				},
 				{
 					"id": 18,
-					"quest": "Одиночное приключение",
+					"quest": "Одиночное приключение («Хорошая возможность?»)",
 					"source": "Поговорить с Джеком.",
 					"link": "https://landofgames.ru/articles/walkthroughs/12327-odinochnoe-priklyuchenie-v-genshin-impact-gde-nayti-veschi-dzheka.html",
 					"isReputation": false
 				},
 				{
 					"id": 19,
-					"quest": "Искусство кулинарии",
+					"quest": "Кулинарное искусство",
 					"source": "Поговорите с персонажем, который готовит возле моста, ведущего в Мондштадт.",
 					"link": "",
 					"isReputation": false
@@ -132,7 +132,7 @@
 				{
 					"id": 20,
 					"quest": "Держи вора!",
-					"source": "Поговорите с Сайрусом в Мондштадте.",
+					"source": "Поговорите с Сайрусом в Мондштадте после получения 24 ранга приключений.",
 					"link": "https://landofgames.ru/articles/walkthroughs/12335-derzhi-vora-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": true
 				},
@@ -146,28 +146,28 @@
 				{
 					"id": 23,
 					"quest": "Добро пожаловать в гильдию искателей приключений",
-					"source": "Пообщайтесь с Катериной в столице региона.",
+					"source": "Даётся автоматически после прохождения «Пролог. Глава I. Чужеземец, поймавший ветер».",
 					"link": "",
 					"isReputation": false
 				},
 				{
 					"id": 24,
 					"quest": "Проблема с ветром",
-					"source": "Пообщайтесь с Эльзером в винокурне «Рассвет».",
+					"source": "Пообщайтесь с Эльзером на винокурне «Рассвет» после прохождения «Пролог. Глава II. Горькие слёзы».",
 					"link": "https://landofgames.ru/articles/walkthroughs/12337-problema-s-vetrom-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": false
 				},
 				{
 					"id": 25,
 					"quest": "Хранитель ветви: Дайнслейф",
-					"source": "Поговорите с секретарем гильдии искателей приключений Катериной в городе Мондштадт.",
+					"source": "Даётся автоматически после прохождения «Том I. Глава III. Приближение новой звезды» (Сюжет Ли Юэ).",
 					"link": "https://landofgames.ru/articles/walkthroughs/10465-prohozhdenie-kvesta-hranitel-vetvi-daynsleyf-v-genshin-impact.html",
 					"isReputation": false
 				},
 				{
 					"id": 26,
 					"quest": "Взрывной рост популяции",
-					"source": "Стартует автоматически после открытия системы «Чайник безмятежности». Нужно потом просто поговорить с Катериной.",
+					"source": "Стартует автоматически после открытия системы «Чайник безмятежности».",
 					"link": "https://landofgames.ru/articles/walkthroughs/11718-vzryvnoy-rost-populyacii-v-genshin-impact-kak-poluchit-udochku-i-nazhivku.html",
 					"isReputation": false
 				},
@@ -188,7 +188,7 @@
 				{
 					"id": 1,
 					"quest": "Что будут делать искатели приключений?",
-					"source": "Пообщайтесь с мисс Лань после прохождения задания Архонтов «Прощайте, древний лорд».",
+					"source": "Пообщайтесь с мисс Лань после прохождения «Том I. Глава II. Прощайте, древний лорд».",
 					"link": "https://landofgames.ru/articles/walkthroughs/12439-chto-budut-delat-iskateli-priklyucheniy-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": true
 				},
@@ -556,13 +556,6 @@
 		{
 			"name": "",
 			"content": [
-				{
-					"id": 1,
-					"quest": "Исследования Разлома",
-					"source": "Поговорите с мисс Лань.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13047-issledovanija-razloma-v-genshin-impact-kak-nachat-i-projti.html",
-					"isReputation": false
-				},
 				{
 					"id": 2,
 					"quest": "Тайна скалистых затворов Цисин",
@@ -2589,6 +2582,18 @@
 			]
 		},
 		{
+			"name": "Сон о Петрикоре",
+			"content": [
+				{
+					"id": 1,
+					"quest": "Тень над Петрикором",
+					"source": "Поговорить с НПС на Петрикоре.",
+					"link": "",
+					"isReputation": false
+				}
+			]
+		},
+		{
 			"name": "По следам Нарцисса",
 			"content": [
 				{
@@ -3087,14 +3092,14 @@
 				{
 					"id": 2,
 					"quest": "Нефрит в реке, сокровище Чэньюй",
-					"source": "стартует автоматически.",
+					"source": "Cтартует автоматически после завершения предыдущего задания из цепочки.",
 					"link": "https://landofgames.ru/articles/walkthroughs/24767-nefrit-v-reke-sokrovische-chjenjuj-v-genshin-impact-kak-sobrat-silu-adeptov.html",
 					"isReputation": false
 				},
 				{
 					"id": 3,
 					"quest": "Древняя жертва Священной кометы",
-					"source": "стартует автоматически.",
+					"source": "стартует автоматически после завершения предыдущего задания из цепочки.",
 					"link": "https://landofgames.ru/articles/walkthroughs/24768-drevnjaja-zhertva-svjaschennoj-komety-v-genshin-impact-kak-sobrat-duhovnye-sfery-i-pobedit-sjuanvjenja.html",
 					"isReputation": false
 				}
@@ -3105,8 +3110,8 @@
 			"content": [
 				{
 					"id": 1,
-					"quest": "Обитель Чиван, упавшая комета возносится к облакам",
-					"source": "стартует автоматически.",
+					"quest": "Застланный облаками путь к Обители Чиван",
+					"source": "Промотать время на следующий игровой день после завершения цепочки \"Нефритовое благословение\".",
 					"link": "https://landofgames.ru/articles/walkthroughs/24770-zastlannyj-oblakami-put-k-obiteli-chivan-v-genshin-impact-kak-popast-v-pokoi-karpa.html",
 					"isReputation": false
 				},

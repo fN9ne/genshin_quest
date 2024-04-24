@@ -77,9 +77,9 @@ const App: FC = () => {
 	};
 
 	const checkVersion = (data: any): void => {
-		if (data + "" !== import.meta.env.VITE_APP_VERSION) {
+		if (`${data}` !== `${import.meta.env.VITE_APP_VERSION}`) {
 			setModal({ state: "isPatchNoteActive", value: true });
-			localStorage.setItem("version", import.meta.env.VITE_APP_VERSION);
+			localStorage.setItem("version", JSON.stringify(import.meta.env.VITE_APP_VERSION));
 		}
 	};
 
@@ -93,7 +93,7 @@ const App: FC = () => {
 		const storedData = localStorage.getItem("version");
 
 		if (!storedData) {
-			localStorage.setItem("version", import.meta.env.VITE_APP_VERSION);
+			localStorage.setItem("version", JSON.stringify(import.meta.env.VITE_APP_VERSION));
 			setModal({ state: "isPatchNoteActive", value: true });
 		}
 	}, []);
