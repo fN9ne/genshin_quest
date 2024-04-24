@@ -18,8 +18,11 @@ const globalSlice = createSlice({
 	name: "global",
 	initialState,
 	reducers: {
-		setGlobalState(_, action: PayloadAction<GlobalState>) {
-			return action.payload;
+		setGlobalState(state, action: PayloadAction<GlobalState>) {
+			return {
+				...state,
+				...action.payload,
+			};
 		},
 		toggleIsHideCompleted(state, action: PayloadAction<boolean>) {
 			state.isHideCompleted = action.payload;
