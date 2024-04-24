@@ -90,8 +90,6 @@ const App: FC = () => {
 	useLocalStorage("version", checkVersion);
 
 	useEffect(() => {
-		setProgressLoaded(true);
-
 		const storedData = localStorage.getItem("version");
 
 		if (!storedData) {
