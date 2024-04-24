@@ -63,8 +63,7 @@ const initialState: InProgressState = {
 		{ name: "Дикая фея Эриний", content: [] },
 		{ name: "По следам Нарцисса", content: [] },
 		{ name: "Опрос мелюзины и ответ машины", content: [] },
-		{ name: "Ремурия", content: [] },
-		{ name: "Сон о Петрикоре", content: [] },
+		{ name: "Оды Гармонии", content: [] },
 		{ name: "Отдельные задания мира Фонтейна", content: [] },
 	],
 	chenyu: [
