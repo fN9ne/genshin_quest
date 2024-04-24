@@ -5,6 +5,7 @@ interface GlobalState {
 	isInCompleteFirst: boolean;
 	isProgressLoaded: boolean;
 	isInProgressFirst: boolean;
+	isUpdated: boolean;
 }
 
 const initialState: GlobalState = {
@@ -12,6 +13,7 @@ const initialState: GlobalState = {
 	isInCompleteFirst: false,
 	isInProgressFirst: false,
 	isProgressLoaded: false,
+	isUpdated: false,
 };
 
 const globalSlice = createSlice({
@@ -62,6 +64,9 @@ const globalSlice = createSlice({
 		},
 		setProgressLoaded(state, action: PayloadAction<boolean>) {
 			state.isProgressLoaded = action.payload;
+		},
+		setProgressUpdated(state, action: PayloadAction<boolean>) {
+			state.isUpdated = action.payload;
 		},
 	},
 });

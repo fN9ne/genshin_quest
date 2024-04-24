@@ -40,7 +40,8 @@ export const updateProgress = (progress: ProgressState, database: IQuestsData): 
 };
 
 const App: FC = () => {
-	const { setActiveRegions, setProgress, setInProgress, setProgressLoaded, setModal, setGlobalState } = useActions();
+	const { setActiveRegions, setProgress, setInProgress, setProgressLoaded, setModal, setGlobalState, setProgressUpdated } =
+		useActions();
 	const progress = useAppSelector((state) => state.progress);
 	const inProgress = useAppSelector((state) => state.inProgress);
 	const global = useAppSelector((state) => state.global);
@@ -120,13 +121,10 @@ const App: FC = () => {
 
 				if (dataQuestCount > storedDataQuestCount) {
 					const newProgress = updateProgress(progress, quests);
-					const newInProgress = updateProgress(inProgress, quests);
 
 					setProgress(newProgress);
-					setInProgress(newInProgress);
 
 					localStorage.setItem("progress", JSON.stringify(newProgress));
-					localStorage.setItem("inProgress", JSON.stringify(newInProgress));
 				}
 			}
 
@@ -141,6 +139,8 @@ const App: FC = () => {
 					localStorage.setItem("inProgress", JSON.stringify(newProgress));
 				}
 			}
+
+			setProgressUpdated(true);
 		}
 	}, [global.isProgressLoaded]);
 

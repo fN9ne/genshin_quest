@@ -15,6 +15,8 @@ const Quests: FC = () => {
 		(state) => state.progressBar
 	);
 
+	const { isUpdated } = useAppSelector((state) => state.global);
+
 	const progress = useAppSelector((state) => state.progress);
 	const { isHideCompleted } = useAppSelector((state) => state.global);
 
@@ -41,77 +43,81 @@ const Quests: FC = () => {
 		<AnimatePage className="quests">
 			<div className="quests__container container">
 				<ProgressBar />
-				{!isAllQuestsComplete() || !isHideCompleted ? (
+				{isUpdated && (
 					<>
-						{/* #UPDATEABLE */}
-						<AP mode="wait" initial={false}>
-							{mondstadt && (
-								<m.div key="mondstadt" {...transitions}>
-									<QuestBlock quests={quests.mondstadt} region="mondstadt" name="Мондштадт" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{liyue && (
-								<m.div key="liyue" {...transitions}>
-									<QuestBlock quests={quests.liyue} region="liyue" name="Ли Юэ" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{dragonspine && (
-								<m.div key="dragonspine" {...transitions}>
-									<QuestBlock quests={quests.dragonspine} region="dragonspine" name="Драконий хребет" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{chasm && (
-								<m.div key="chasm" {...transitions}>
-									<QuestBlock quests={quests.chasm} region="chasm" name="Разлом" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{inazuma && (
-								<m.div key="inazuma" {...transitions}>
-									<QuestBlock quests={quests.inazuma} region="inazuma" name="Инадзума" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{enkanomiya && (
-								<m.div key="enkanomiya" {...transitions}>
-									<QuestBlock quests={quests.enkanomiya} region="enkanomiya" name="Энканомия" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{sumeru && (
-								<m.div key="sumeru" {...transitions}>
-									<QuestBlock quests={quests.sumeru} region="sumeru" name="Сумеру" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{fontaine && (
-								<m.div key="fontaine" {...transitions}>
-									<QuestBlock quests={quests.fontaine} region="fontaine" name="Фонтейн" />
-								</m.div>
-							)}
-						</AP>
-						<AP mode="wait" initial={false}>
-							{chenyu && (
-								<m.div key="chenyu" {...transitions}>
-									<QuestBlock quests={quests.chenyu} region="chenyu" name="Долина Чэньюй" />
-								</m.div>
-							)}
-						</AP>
+						{!isAllQuestsComplete() || !isHideCompleted ? (
+							<>
+								{/* #UPDATEABLE */}
+								<AP mode="wait" initial={false}>
+									{mondstadt && (
+										<m.div key="mondstadt" {...transitions}>
+											<QuestBlock quests={quests.mondstadt} region="mondstadt" name="Мондштадт" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{liyue && (
+										<m.div key="liyue" {...transitions}>
+											<QuestBlock quests={quests.liyue} region="liyue" name="Ли Юэ" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{dragonspine && (
+										<m.div key="dragonspine" {...transitions}>
+											<QuestBlock quests={quests.dragonspine} region="dragonspine" name="Драконий хребет" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{chasm && (
+										<m.div key="chasm" {...transitions}>
+											<QuestBlock quests={quests.chasm} region="chasm" name="Разлом" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{inazuma && (
+										<m.div key="inazuma" {...transitions}>
+											<QuestBlock quests={quests.inazuma} region="inazuma" name="Инадзума" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{enkanomiya && (
+										<m.div key="enkanomiya" {...transitions}>
+											<QuestBlock quests={quests.enkanomiya} region="enkanomiya" name="Энканомия" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{sumeru && (
+										<m.div key="sumeru" {...transitions}>
+											<QuestBlock quests={quests.sumeru} region="sumeru" name="Сумеру" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{fontaine && (
+										<m.div key="fontaine" {...transitions}>
+											<QuestBlock quests={quests.fontaine} region="fontaine" name="Фонтейн" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{chenyu && (
+										<m.div key="chenyu" {...transitions}>
+											<QuestBlock quests={quests.chenyu} region="chenyu" name="Долина Чэньюй" />
+										</m.div>
+									)}
+								</AP>
+							</>
+						) : (
+							<div className="quests__complete">
+								Поздравляю! Ты выполнил все задания мира, теперь можешь сесть и подумать сколько часов ты мог потратить с пользой.
+							</div>
+						)}
 					</>
-				) : (
-					<div className="quests__complete">
-						Поздравляю! Ты выполнил все задания мира, теперь можешь сесть и подумать сколько часов ты мог потратить с пользой.
-					</div>
 				)}
 			</div>
 		</AnimatePage>
