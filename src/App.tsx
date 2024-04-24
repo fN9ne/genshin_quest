@@ -120,10 +120,13 @@ const App: FC = () => {
 
 				if (dataQuestCount > storedDataQuestCount) {
 					const newProgress = updateProgress(progress, quests);
+					const newInProgress = updateProgress(inProgress, quests);
 
 					setProgress(newProgress);
+					setInProgress(newInProgress);
 
 					localStorage.setItem("progress", JSON.stringify(newProgress));
+					localStorage.setItem("inProgress", JSON.stringify(newInProgress));
 				}
 			}
 
