@@ -1,10 +1,4 @@
 {
-	"mondstadt": {
-		"name": "",
-		"content": [1, 22]
-	},
-	"chasm": {
-		"name": "",
-		"content": [1]
-	}
+	"mondstadt": [1, 22],
+	"chasm": [1]
 }

@@ -15,7 +15,7 @@ const Quests: FC = () => {
 		(state) => state.progressBar
 	);
 
-	const { isUpdated } = useAppSelector((state) => state.global);
+	const { isProgressLoaded } = useAppSelector((state) => state.global);
 
 	const progress = useAppSelector((state) => state.progress);
 	const { isHideCompleted } = useAppSelector((state) => state.global);
@@ -27,13 +27,26 @@ const Quests: FC = () => {
 	};
 
 	const isAllQuestsComplete = (): boolean => {
-		const calculateQuests = (quests: typeof progress | IQuestsData): number => {
-			return Object.keys(quests).reduce((prev, curr) => {
-				return prev + quests[curr as keyof typeof progress].reduce((prev, curr) => prev + curr.content.length, 0);
-			}, 0);
+		const calculateQuests = (questsProgress?: typeof progress, quests?: IQuestsData): number => {
+			const regions = Object.keys(questsProgress ? questsProgress : quests ? quests : []);
+
+			if (questsProgress) {
+				return regions.reduce((prev, curr) => {
+					const region = curr as keyof typeof progress;
+					return prev + questsProgress[region].length;
+				}, 0);
+			}
+			if (quests) {
+				return regions.reduce((prev, curr) => {
+					const region = curr as keyof IQuestsData;
+
+					return prev + quests[region].reduce((prev, curr) => prev + curr.content.length, 0);
+				}, 0);
+			}
+			return -1;
 		};
 
-		const allQuestsCount = calculateQuests(quests);
+		const allQuestsCount = calculateQuests(undefined, quests);
 		const completedQuestsCount = calculateQuests(progress);
 
 		return allQuestsCount === completedQuestsCount;
@@ -43,7 +56,7 @@ const Quests: FC = () => {
 		<AnimatePage className="quests">
 			<div className="quests__container container">
 				<ProgressBar />
-				{isUpdated && (
+				{isProgressLoaded && (
 					<>
 						{!isAllQuestsComplete() || !isHideCompleted ? (
 							<>

@@ -44,7 +44,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/mondstadt.jpg",
 			icon: "/regions/symbol/mondstadt.png",
 			name: "Мондштадт",
-			progress: getProgress(mondstadt[0].content, "mondstadt"),
+			progress: getProgress(mondstadt, "mondstadt"),
 			isActive: regionIsActive.mondstadt,
 			onClick: () => setIsActiveRegion(["mondstadt", !regionIsActive.mondstadt]),
 		},
@@ -52,7 +52,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/liyue.jpg",
 			icon: "/regions/symbol/liyue.png",
 			name: "Ли Юэ",
-			progress: getProgress(liyue[0].content, "liyue"),
+			progress: getProgress(liyue, "liyue"),
 			isActive: regionIsActive.liyue,
 			onClick: () => setIsActiveRegion(["liyue", !regionIsActive.liyue]),
 		},
@@ -60,7 +60,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/dragonspine.jpg",
 			icon: "/regions/symbol/dragonspine.png",
 			name: "Драконий хребет",
-			progress: getProgress(dragonspine[0].content, "dragonspine"),
+			progress: getProgress(dragonspine, "dragonspine"),
 			isActive: regionIsActive.dragonspine,
 			onClick: () => setIsActiveRegion(["dragonspine", !regionIsActive.dragonspine]),
 		},
@@ -68,7 +68,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/chasm.jpg",
 			icon: "/regions/symbol/chasm.png",
 			name: "Разлом",
-			progress: getProgress(chasm[0].content, "chasm"),
+			progress: getProgress(chasm, "chasm"),
 			isActive: regionIsActive.chasm,
 			onClick: () => setIsActiveRegion(["chasm", !regionIsActive.chasm]),
 		},
@@ -76,10 +76,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/inazuma.jpg",
 			icon: "/regions/symbol/inazuma.png",
 			name: "Инадзума",
-			progress: getProgress(
-				inazuma.flatMap((subregion) => subregion.content),
-				"inazuma"
-			),
+			progress: getProgress(inazuma, "inazuma"),
 			isActive: regionIsActive.inazuma,
 			onClick: () => setIsActiveRegion(["inazuma", !regionIsActive.inazuma]),
 		},
@@ -87,10 +84,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/enkanomiya.jpg",
 			icon: "/regions/symbol/enkanomiya.png",
 			name: "Энканомия",
-			progress: getProgress(
-				enkanomiya.flatMap((subregion) => subregion.content),
-				"enkanomiya"
-			),
+			progress: getProgress(enkanomiya, "enkanomiya"),
 			isActive: regionIsActive.enkanomiya,
 			onClick: () => setIsActiveRegion(["enkanomiya", !regionIsActive.enkanomiya]),
 		},
@@ -98,10 +92,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/sumeru.jpg",
 			icon: "/regions/symbol/sumeru.png",
 			name: "Сумеру",
-			progress: getProgress(
-				sumeru.flatMap((subregion) => subregion.content),
-				"sumeru"
-			),
+			progress: getProgress(sumeru, "sumeru"),
 			isActive: regionIsActive.sumeru,
 			onClick: () => setIsActiveRegion(["sumeru", !regionIsActive.sumeru]),
 		},
@@ -109,10 +100,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/fontaine.jpg",
 			icon: "/regions/symbol/fontaine.png",
 			name: "Фонтейн",
-			progress: getProgress(
-				fontaine.flatMap((subregion) => subregion.content),
-				"fontaine"
-			),
+			progress: getProgress(fontaine, "fontaine"),
 			isActive: regionIsActive.fontaine,
 			onClick: () => setIsActiveRegion(["fontaine", !regionIsActive.fontaine]),
 		},
@@ -120,10 +108,7 @@ const ProgressBar: FC = () => {
 			background: "/regions/backgrounds/chenyu.jpg",
 			icon: "/regions/symbol/chenyu.png",
 			name: "Долина Чэньюй",
-			progress: getProgress(
-				chenyu.flatMap((subregion) => subregion.content),
-				"chenyu"
-			),
+			progress: getProgress(chenyu, "chenyu"),
 			isActive: regionIsActive.chenyu,
 			onClick: () => setIsActiveRegion(["chenyu", !regionIsActive.chenyu]),
 		},

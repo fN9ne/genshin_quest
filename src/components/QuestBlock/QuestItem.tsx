@@ -21,7 +21,6 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 	region,
 	quest,
 	source,
-	subregion,
 	isReputation,
 	link,
 }) => {
@@ -54,21 +53,21 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 				setShouldAnimateOut(true);
 			}
 		} else {
-			setRegionProgress({ region: region as keyof ProgressState, id: id, subregion });
-			setRegionInProgress({ region: region as keyof ProgressState, id: id, subregion, force: false });
+			setRegionProgress({ region: region as keyof ProgressState, id: id });
+			setRegionInProgress({ region: region as keyof ProgressState, id: id, force: false });
 		}
 	};
 
 	const handleToggleInProgress = (event: React.MouseEvent<HTMLLabelElement>) => {
 		event.preventDefault();
-		setRegionInProgress({ region: region as keyof ProgressState, id: id, subregion });
-		setRegionProgress({ region: region as keyof ProgressState, id: id, subregion, force: false });
+		setRegionInProgress({ region: region as keyof ProgressState, id: id });
+		setRegionProgress({ region: region as keyof ProgressState, id: id, force: false });
 	};
 
 	const onAnimationEnd = () => {
 		if (shouldAnimateOut) {
-			setRegionProgress({ region: region as keyof ProgressState, id: id, subregion });
-			setRegionInProgress({ region: region as keyof ProgressState, id: id, subregion, force: false });
+			setRegionProgress({ region: region as keyof ProgressState, id: id });
+			setRegionInProgress({ region: region as keyof ProgressState, id: id, force: false });
 			setShouldAnimateOut(false);
 		}
 	};
@@ -77,11 +76,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 		if (input.current) {
 			const element = input.current as HTMLInputElement;
 
-			element.checked = shouldAnimateOut
-				? true
-				: progress[region as keyof typeof progress]
-						.filter((subregionItem) => subregionItem.name === subregion)[0]
-						.content.includes(id);
+			element.checked = shouldAnimateOut ? true : progress[region as keyof typeof progress].includes(id);
 		}
 	}, [progress, isInCompleteFirst, isInProgressFirst, shouldAnimateOut]);
 
@@ -89,9 +84,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 		if (inputInProgress.current) {
 			const element = inputInProgress.current as HTMLInputElement;
 
-			element.checked = inProgress[region as keyof typeof inProgress]
-				.filter((subregionItem) => subregionItem.name === subregion)[0]
-				.content.includes(id);
+			element.checked = inProgress[region as keyof typeof inProgress].includes(id);
 		}
 	}, [inProgress, isInCompleteFirst, isInProgressFirst]);
 

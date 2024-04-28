@@ -6,62 +6,37 @@ import useLocalStorage from "./hooks/useLocalStorage";
 import { useActions } from "./hooks/useActions";
 import { AnimatePresence as AP } from "framer-motion";
 import Save from "./pages/Save";
-import { useAppSelector } from "./hooks/useAppSelector";
-import { IQuestsData } from "./types";
-import questData from "./quests.json";
 import { ProgressState } from "./redux/reducers/progressSlice";
 import PatchModal from "./components/Modal/PatchModal";
 import deletedQuests from "./deletedQuests.json";
+import MigrationModal from "./components/Modal/MigrationModal";
 
-const quests: IQuestsData = questData;
-
-export const updateProgress = (progress: ProgressState, database: IQuestsData): ProgressState => {
-	let progressData = { ...progress };
-
-	Object.keys(database).forEach((regionKey) => {
-		const region = regionKey as keyof ProgressState;
-
-		if (!progressData.hasOwnProperty(region)) {
-			progressData[region] = [{ name: "", content: [] }];
-		}
-
-		database[region].forEach((subregion) => {
-			const subregionName = subregion.name;
-
-			if (!progressData[region].some((item) => item.name === subregionName)) {
-				const prev = progressData[region].slice(0, database[region].indexOf(subregion));
-				const next = progressData[region].slice(database[region].indexOf(subregion));
-				progressData[region] = [...prev, { name: subregionName, content: [] }, ...next];
-			}
-		});
-	});
-
-	return progressData;
-};
+interface IDeletedQuests {
+	mondstadt?: number[];
+	liyue?: number[];
+	dragonspine?: number[];
+	chasm?: number[];
+	inazuma?: number[];
+	enkanomiya?: number[];
+	sumeru?: number[];
+	fontaine?: number[];
+	chenyu?: number[];
+}
 
 const App: FC = () => {
-	const { setActiveRegions, setProgress, setInProgress, setProgressLoaded, setModal, setGlobalState, setProgressUpdated } =
+	const { setActiveRegions, setProgress, setInProgress, setProgressLoaded, setModal, setGlobalState, setNeedMigration } =
 		useActions();
-	const progress = useAppSelector((state) => state.progress);
-	const inProgress = useAppSelector((state) => state.inProgress);
-	const global = useAppSelector((state) => state.global);
 
-	const removeDeletedQuests = (
-		progress: ProgressState,
-		deletedQuests: { [key: string]: { name: string; content: number[] } }
-	): ProgressState => {
+	const removeDeletedQuests = (progress: ProgressState, deletedQuests: IDeletedQuests): ProgressState => {
 		const updatedProgress: ProgressState = { ...progress };
 
 		for (const region in deletedQuests) {
-			const regionName = region as keyof ProgressState;
+			const regionName = region as keyof IDeletedQuests;
 
 			if (regionName in updatedProgress) {
-				const deletedContent = deletedQuests[regionName].content;
+				const deletedContent = deletedQuests[regionName];
 
-				updatedProgress[regionName] = updatedProgress[regionName].map((subRegion) => ({
-					...subRegion,
-					content: subRegion.content.filter((id) => !deletedContent.includes(id)),
-				}));
+				updatedProgress[regionName] = updatedProgress[regionName].filter((questId) => !deletedContent!.includes(questId));
 			}
 		}
 
@@ -91,6 +66,12 @@ const App: FC = () => {
 	useLocalStorage("version", checkVersion);
 
 	useEffect(() => {
+		const storedProgress = localStorage.getItem("progress");
+
+		if (!storedProgress) setProgressLoaded(true);
+	}, []);
+
+	useEffect(() => {
 		const storedData = localStorage.getItem("version");
 
 		if (!storedData) {
@@ -101,48 +82,18 @@ const App: FC = () => {
 
 	const location = useLocation();
 
-	const calculateQuests = (quests: typeof progress | IQuestsData): number => {
-		return Object.keys(quests)
-			.map((region) => {
-				return quests[region as keyof typeof progress].map((item) => item.content.length);
-			})
-			.reduce((prev, curr) => prev + curr.reduce((prev, curr) => prev + curr), 0);
-	};
+	/* migration */
 
 	useEffect(() => {
-		if (global.isProgressLoaded) {
-			const dataQuestCount = calculateQuests(quests);
+		const storedProgress = localStorage.getItem("progress");
 
-			const storedData = localStorage.getItem("progress");
-			const inProgressData = localStorage.getItem("inProgress");
-
-			if (storedData) {
-				const storedDataQuestCount = calculateQuests(JSON.parse(storedData));
-
-				if (dataQuestCount > storedDataQuestCount) {
-					const newProgress = updateProgress(progress, quests);
-
-					setProgress(newProgress);
-
-					localStorage.setItem("progress", JSON.stringify(newProgress));
-				}
+		if (storedProgress) {
+			if (typeof JSON.parse(storedProgress)["fontaine"][0] === "object") {
+				setNeedMigration(true);
+				setModal({ state: "isMigrationActive", value: true });
 			}
-
-			if (inProgressData) {
-				const inProgressQuestCount = calculateQuests(JSON.parse(inProgressData));
-
-				if (dataQuestCount > inProgressQuestCount) {
-					const newProgress = updateProgress(inProgress, quests);
-
-					setInProgress(newProgress);
-
-					localStorage.setItem("inProgress", JSON.stringify(newProgress));
-				}
-			}
-
-			setProgressUpdated(true);
 		}
-	}, [global.isProgressLoaded]);
+	}, []);
 
 	return (
 		<>
@@ -155,6 +106,7 @@ const App: FC = () => {
 				</Routes>
 			</AP>
 			<PatchModal />
+			<MigrationModal />
 		</>
 	);
 };

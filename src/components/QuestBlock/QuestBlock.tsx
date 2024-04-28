@@ -14,13 +14,11 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 	const inProgress = useAppSelector((state) => state.inProgress);
 	const { isHideCompleted, isInCompleteFirst, isInProgressFirst } = useAppSelector((state) => state.global);
 
-	const completedQuests = progress[region as keyof typeof progress].flatMap((subregion) => subregion.content).length;
+	const completedQuests = progress[region as keyof typeof progress].length;
 	const totalQuests = quests.flatMap((subregion) => subregion.content).length;
 
-	const isQuestStatus = (region: string, subregion: ISubRegion, quest: IQuest, status: typeof progress | typeof inProgress) => {
-		return status[region as keyof typeof progress]
-			.filter((subregionItem) => subregionItem.name === subregion.name)[0]
-			.content.includes(quest.id);
+	const isQuestStatus = (region: string, quest: IQuest, status: typeof progress | typeof inProgress) => {
+		return status[region as keyof typeof progress].includes(quest.id);
 	};
 
 	return isHideCompleted && completedQuests === totalQuests ? null : (
@@ -35,10 +33,7 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 			<div className="quest-block__container">
 				{quests.map(
 					(subregion, index) =>
-						(!isHideCompleted ||
-							subregion.content.length !==
-								progress[region as keyof typeof progress].filter((subregionItem) => subregionItem.name === subregion.name)[0]
-									.content.length) && (
+						(!isHideCompleted || subregion.content.length !== progress[region as keyof typeof progress].length) && (
 							<div key={index} className="quest-block__subregion">
 								{subregion.name !== "" && (
 									<div className="quest-block__subregion-header">
@@ -50,13 +45,13 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 										.slice()
 										.sort((a, b) => {
 											if (isInCompleteFirst && !isInProgressFirst) {
-												const aCompleted = isQuestStatus(region, subregion, a, progress);
-												const bCompleted = isQuestStatus(region, subregion, b, progress);
+												const aCompleted = isQuestStatus(region, a, progress);
+												const bCompleted = isQuestStatus(region, b, progress);
 												if (aCompleted && !bCompleted) return 1;
 												if (!aCompleted && bCompleted) return -1;
 											} else if (!isInCompleteFirst && isInProgressFirst) {
-												const aInProgress = isQuestStatus(region, subregion, a, inProgress);
-												const bInProgress = isQuestStatus(region, subregion, b, inProgress);
+												const aInProgress = isQuestStatus(region, a, inProgress);
+												const bInProgress = isQuestStatus(region, b, inProgress);
 												if (aInProgress && !bInProgress) return -1;
 												if (!aInProgress && bInProgress) return 1;
 											}
@@ -64,7 +59,7 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 										})
 										.map(
 											(quest, index) =>
-												(!isHideCompleted || !isQuestStatus(region, subregion, quest, progress)) && (
+												(!isHideCompleted || !isQuestStatus(region, quest, progress)) && (
 													<QuestItem subregion={subregion.name} {...quest} region={region} key={index} />
 												)
 										)}

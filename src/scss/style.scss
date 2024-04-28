@@ -1354,6 +1354,7 @@
 
 	&__content {
 		max-width: 768px;
+		width: 100%;
 		position: relative;
 		padding: 36px 32px;
 		border-radius: 20px;
@@ -1400,10 +1401,115 @@
 	}
 }
 
-.patch {
-	width: 100%;
-	position: relative;
+.migration {
+	width: auto;
+	overflow: hidden;
 
+	&__complete {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		translate: -50% -50%;
+		opacity: 0;
+		visibility: hidden;
+		transition: 350ms;
+		z-index: 2;
+		font-weight: 900;
+		font-size: 24px;
+		color: var(--900);
+
+		&--active {
+			opacity: 1;
+			visibility: visible;
+			transition: 350ms 1s;
+		}
+	}
+
+	.button {
+		span.circle {
+			width: 50px;
+			height: 50px;
+			border-radius: 1000px;
+			position: absolute;
+			z-index: 0;
+			background-color: #75c2ce;
+			translate: -50% -50%;
+			animation: animate 1s ease-in forwards;
+
+			@keyframes animate {
+				to {
+					width: 2200px;
+					height: 2200px;
+				}
+			}
+		}
+
+		&_primary {
+			&:hover {
+				scale: none;
+				opacity: 1;
+			}
+		}
+	}
+
+	.patch {
+		&__header {
+			border-bottom: 0;
+			justify-content: center;
+			padding: 0 0 32px 0;
+		}
+	}
+
+	&__content {
+		&--animate {
+			pointer-events: none;
+		}
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		transition: 350ms;
+
+		p {
+			text-indent: 20px;
+			color: var(--900);
+			opacity: 0.5;
+			font-size: 16px;
+			line-height: 1.35;
+			font-family: 'TT_Skip-E 85W';
+		}
+
+		&--minified {
+			scale: 0.95;
+			opacity: 0.5;
+
+			p {
+				font-size: 14px;
+			}
+		}
+
+		&--hidden {
+			display: none;
+		}
+	}
+
+	&__footer {
+		margin: 32px 0 0 0;
+		display: flex;
+		justify-content: center;
+		gap: 24px;
+	}
+}
+
+.patch {
 	&__content {
 		display: flex;
 		flex-direction: column;
@@ -1423,6 +1529,20 @@
 		font-size: 24px;
 		text-transform: uppercase;
 		color: var(--900);
+
+		span {
+			&.select {
+				color: #f0e2b4;
+				text-shadow: 1px 1px 0px #e6aa4f,
+					-1px 1px 0px #e6aa4f,
+					1px -1px 0px #e6aa4f,
+					-1px -1px 0px #e6aa4f;
+			}
+
+			&.num {
+				font-weight: 900;
+			}
+		}
 	}
 
 	&__body {

@@ -5,14 +5,15 @@ interface ModalLayoutProps {
 	isActive: boolean;
 	className?: string;
 	onClose: () => void;
+	easyClose?: boolean;
 	children?: React.ReactNode;
 }
 
-const ModalLayout: FC<ModalLayoutProps> = ({ isActive, className, onClose, children }) => {
+const ModalLayout: FC<ModalLayoutProps> = ({ isActive, className, onClose, easyClose = true, children }) => {
 	const handleClose = (event: React.MouseEvent<HTMLDivElement>) => {
 		const element = event.target as HTMLDivElement;
 
-		if (!element.closest(".modal__content")) onClose();
+		if (easyClose) if (!element.closest(".modal__content")) onClose();
 	};
 
 	const transitions = {

@@ -8,7 +8,7 @@ export enum ButtonType {
 
 interface ButtonProps {
 	type: ButtonType;
-	onClick: () => void;
+	onClick: (() => void) | ((event: any) => void);
 	children: React.ReactNode;
 }
 

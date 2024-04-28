@@ -2,10 +2,12 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface ModalState {
 	isPatchNoteActive: boolean;
+	isMigrationActive: boolean;
 }
 
 const initialState: ModalState = {
 	isPatchNoteActive: false,
+	isMigrationActive: false,
 };
 
 const modalSlice = createSlice({

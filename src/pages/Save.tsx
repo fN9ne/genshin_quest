@@ -5,10 +5,6 @@ import { useAppSelector } from "../hooks/useAppSelector";
 import { IQuestsData } from "../types";
 import { useActions } from "../hooks/useActions";
 import { ProgressState } from "../redux/reducers/progressSlice";
-import questsData from "../quests.json";
-import { updateProgress } from "../App";
-
-const quests: IQuestsData = questsData;
 
 const Save: FC = () => {
 	const [error, setError] = useState<string | null>(null);
@@ -47,12 +43,23 @@ const Save: FC = () => {
 	/* import */
 	const uploadFileRef = useRef<HTMLInputElement>(null);
 
-	const calculateQuests = (quests: typeof progress | IQuestsData): number => {
-		return Object.keys(quests)
-			.map((region) => {
-				return quests[region as keyof typeof progress].map((item) => item.content.length);
-			})
-			.reduce((prev, curr) => prev + curr.reduce((prev, curr) => prev + curr), 0);
+	const calculateQuests = (questsProgress?: typeof progress, quests?: IQuestsData): number => {
+		const regions = Object.keys(questsProgress ? questsProgress : quests ? quests : []);
+
+		if (questsProgress) {
+			return regions.reduce((prev, curr) => {
+				const region = curr as keyof typeof progress;
+				return prev + questsProgress[region].length;
+			}, 0);
+		}
+		if (quests) {
+			return regions.reduce((prev, curr) => {
+				const region = curr as keyof IQuestsData;
+
+				return prev + quests[region].reduce((prev, curr) => prev + curr.content.length, 0);
+			}, 0);
+		}
+		return -1;
 	};
 
 	const questWord = (number: number) => {
@@ -107,9 +114,8 @@ const Save: FC = () => {
 					if (validateData(jsonData)) {
 						const questsData = jsonData as ProgressState;
 
-						const newProgress = updateProgress(questsData, quests);
-						setProgress(newProgress);
-						localStorage.setItem("progress", JSON.stringify(newProgress));
+						setProgress(questsData);
+						localStorage.setItem("progress", JSON.stringify(questsData));
 
 						setSuccess(`Успешно загружено ${calculateQuests(questsData)} ${questWord(calculateQuests(questsData))}.`);
 					} else {
@@ -118,14 +124,11 @@ const Save: FC = () => {
 							inProgress: ProgressState;
 						};
 
-						const newProgress = updateProgress(questsData.complete, quests);
-						const newInProgress = updateProgress(questsData.inProgress, quests);
+						setProgress(questsData.complete);
+						setInProgress(questsData.inProgress);
 
-						setProgress(newProgress);
-						setInProgress(newInProgress);
-
-						localStorage.setItem("progress", JSON.stringify(newProgress));
-						localStorage.setItem("inProgress", JSON.stringify(newInProgress));
+						localStorage.setItem("progress", JSON.stringify(questsData.complete));
+						localStorage.setItem("inProgress", JSON.stringify(questsData.inProgress));
 
 						const sum = calculateQuests(questsData.complete) + calculateQuests(questsData.inProgress);
 
