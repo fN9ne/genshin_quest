@@ -14,7 +14,7 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 	const inProgress = useAppSelector((state) => state.inProgress);
 	const { searchQuery } = useAppSelector((state) => state.global);
 
-	const { isHideCompleted, isInCompleteFirst, isInProgressFirst } = useAppSelector((state) => state.global);
+	const { isHideCompletedSearch, isInCompleteFirst, isInProgressFirst } = useAppSelector((state) => state.global);
 
 	const completedQuests = progress[region as keyof typeof progress].length;
 	const totalQuests = quests.flatMap((subregion) => subregion.content).length;
@@ -43,7 +43,7 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 		return region;
 	};
 
-	return isHideCompleted && completedQuests === totalQuests ? null : (
+	return isHideCompletedSearch && completedQuests === totalQuests ? null : (
 		<div className="quest-block">
 			<div className="quest-block__name">
 				<img src={`/regions/symbol/${region}.png`} alt={`${region} icon`} />
@@ -55,7 +55,7 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 			<div className="quest-block__container">
 				{quests.map(
 					(subregion, index) =>
-						(!isHideCompleted ||
+						(!isHideCompletedSearch ||
 							!isAllSubRegionQuestsComplete(
 								subregion.content.map((quest) => quest.id),
 								progress[region as keyof typeof progress]
@@ -96,7 +96,7 @@ const QuestBlock: FC<QuestBlockProps> = ({ quests, region, name }) => {
 										)
 										.map(
 											(quest, index) =>
-												(!isHideCompleted || !isQuestStatus(region, quest, progress)) && (
+												(!isHideCompletedSearch || !isQuestStatus(region, quest, progress)) && (
 													<QuestItem subregion={subregion.name} {...quest} region={region} key={index} />
 												)
 										)}

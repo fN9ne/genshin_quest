@@ -8,6 +8,8 @@ import { useAppSelector } from "../../hooks/useAppSelector";
 
 import { ProgressState } from "../../redux/reducers/progressSlice";
 
+import { AnimatePresence as AP, motion as m } from "framer-motion";
+
 export interface QuestItemProps {
 	id: number;
 	quest: string;
@@ -33,6 +35,8 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 
 	const input = useRef<null | HTMLInputElement>(null);
 	const inputInProgress = useRef<null | HTMLInputElement>(null);
+
+	const [isHideInProgressButton, setIsHideInProgressButton] = useState<boolean>(false);
 
 	const regionInterpreter = (region: string): string => {
 		/* #UPDATEABLE */
@@ -77,6 +81,8 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 			const element = input.current as HTMLInputElement;
 
 			element.checked = shouldAnimateOut ? true : progress[region as keyof typeof progress].includes(id);
+
+			setIsHideInProgressButton(element.checked);
 		}
 	}, [progress, isInCompleteFirst, isInProgressFirst, shouldAnimateOut]);
 
@@ -87,6 +93,12 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 			element.checked = inProgress[region as keyof typeof inProgress].includes(id);
 		}
 	}, [inProgress, isInCompleteFirst, isInProgressFirst]);
+
+	const transitions = {
+		initial: { opacity: 0, scale: 0.95 },
+		animate: { opacity: 1, scale: 1 },
+		exit: { opacity: 0, scale: 0.95 },
+	};
 
 	return (
 		<div className={`quest-item ${shouldAnimateOut ? " animate-out" : ""}`} onAnimationEnd={onAnimationEnd}>
@@ -118,16 +130,24 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 							</div>
 						</button>
 					</label>
-					<label className="quest-item-check quest-item-check__inprogress" onClick={handleToggleInProgress}>
-						<button>
-							<input type="checkbox" ref={inputInProgress} />
-							<div className="quest-item-check__box">
-								<div className="quest-item-check__wrapper">
-									<Hourglass />
-								</div>
-							</div>
-						</button>
-					</label>
+					<AP mode="wait" initial={false}>
+						{!isHideInProgressButton && (
+							<m.label
+								{...transitions}
+								className="quest-item-check quest-item-check__inprogress"
+								onClick={handleToggleInProgress}
+							>
+								<button>
+									<input type="checkbox" ref={inputInProgress} />
+									<div className="quest-item-check__box">
+										<div className="quest-item-check__wrapper">
+											<Hourglass />
+										</div>
+									</div>
+								</button>
+							</m.label>
+						)}
+					</AP>
 				</div>
 			</div>
 		</div>

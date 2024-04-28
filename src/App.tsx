@@ -10,6 +10,7 @@ import { ProgressState } from "./redux/reducers/progressSlice";
 import PatchModal from "./components/Modal/PatchModal";
 import deletedQuests from "./deletedQuests.json";
 import MigrationModal from "./components/Modal/MigrationModal";
+import { useAppSelector } from "./hooks/useAppSelector";
 
 interface IDeletedQuests {
 	mondstadt?: number[];
@@ -24,8 +25,18 @@ interface IDeletedQuests {
 }
 
 const App: FC = () => {
-	const { setActiveRegions, setProgress, setInProgress, setProgressLoaded, setModal, setGlobalState, setNeedMigration } =
-		useActions();
+	const { searchQuery, isHideCompleted } = useAppSelector((state) => state.global);
+
+	const {
+		setActiveRegions,
+		setProgress,
+		setInProgress,
+		setProgressLoaded,
+		setModal,
+		setGlobalState,
+		setNeedMigration,
+		toggleIsHideCompletedSearch,
+	} = useActions();
 
 	const removeDeletedQuests = (progress: ProgressState, deletedQuests: IDeletedQuests): ProgressState => {
 		const updatedProgress: ProgressState = { ...progress };
@@ -130,6 +141,16 @@ const App: FC = () => {
 			window.removeEventListener("keydown", handleKeyDown);
 		};
 	}, []);
+
+	useEffect(() => {
+		if (isHideCompleted) {
+			if (searchQuery.length > 0) {
+				toggleIsHideCompletedSearch(false);
+			} else {
+				toggleIsHideCompletedSearch(isHideCompleted);
+			}
+		}
+	}, [searchQuery]);
 
 	return (
 		<>

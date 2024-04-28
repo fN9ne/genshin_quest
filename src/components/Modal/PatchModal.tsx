@@ -23,7 +23,10 @@ const PatchModal: FC = () => {
 					.map((version, index) => (
 						<div className="patch__version" key={index}>
 							<div className="patch__header">
-								<h2 className="patch__title">Обновление {version[0] === "l" ? version.slice(1) : version}</h2>
+								<h2 className="patch__title">
+									<span className="select">{patch[version as keyof typeof patch][0]}</span> — Обновление{" "}
+									{version[0] === "l" ? version.slice(1) : version}
+								</h2>
 								{version[0] === "l" && (
 									<div className="patch__label">
 										<span>Новое</span>
@@ -35,7 +38,7 @@ const PatchModal: FC = () => {
 							</div>
 							<div className="patch__body">
 								<ul className="patch__list">
-									{patch[version as keyof typeof patch].map((text, index) => (
+									{patch[version as keyof typeof patch].slice(1).map((text, index) => (
 										<li key={index}>{text}</li>
 									))}
 								</ul>

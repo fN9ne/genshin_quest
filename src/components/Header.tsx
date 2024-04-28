@@ -67,20 +67,23 @@ const Header: FC = () => {
 export default Header;
 
 const Switchers: FC = () => {
-	const { isHideCompleted, isInCompleteFirst, isInProgressFirst } = useAppSelector((state) => state.global);
+	const { isHideCompleted, isHideCompletedSearch, isInCompleteFirst, isInProgressFirst, searchQuery } = useAppSelector(
+		(state) => state.global
+	);
 	const { toggleIsHideCompleted, toggleIsInCompleteFirst, toggleIsInProgressFirst } = useActions();
 
 	return (
 		<>
 			<Switcher
 				text="Скрыть выполненные"
-				checked={isHideCompleted}
+				checked={isHideCompletedSearch}
+				disabled={searchQuery.length > 0}
 				onClick={() => {
 					if (isInCompleteFirst) {
 						toggleIsInCompleteFirst(false);
 					}
 
-					toggleIsHideCompleted(!isHideCompleted);
+					toggleIsHideCompleted(!isHideCompletedSearch);
 				}}
 			/>
 			<Switcher

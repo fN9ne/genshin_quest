@@ -1173,6 +1173,10 @@
 	gap: 8px;
 	cursor: pointer;
 
+	&--disabled {
+		pointer-events: none;
+	}
+
 	&__origin {
 		width: 24px;
 		height: 24px;
@@ -1537,11 +1541,11 @@
 
 		span {
 			&.select {
-				color: #f0e2b4;
-				text-shadow: 1px 1px 0px #e6aa4f,
-					-1px 1px 0px #e6aa4f,
-					1px -1px 0px #e6aa4f,
-					-1px -1px 0px #e6aa4f;
+				color: var(--primary);
+				text-shadow: 1px 1px 0px #457b83,
+					-1px 1px 0px #457b83,
+					1px -1px 0px #457b83,
+					-1px -1px 0px #457b83;
 			}
 
 			&.num {

@@ -2,6 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface GlobalState {
 	isHideCompleted: boolean;
+	isHideCompletedSearch: boolean;
 	isInCompleteFirst: boolean;
 	isProgressLoaded: boolean;
 	isInProgressFirst: boolean;
@@ -11,6 +12,7 @@ interface GlobalState {
 
 const initialState: GlobalState = {
 	isHideCompleted: false,
+	isHideCompletedSearch: false,
 	isInCompleteFirst: false,
 	isInProgressFirst: false,
 	isProgressLoaded: false,
@@ -33,6 +35,19 @@ const globalSlice = createSlice({
 		},
 		toggleIsHideCompleted(state, action: PayloadAction<boolean>) {
 			state.isHideCompleted = action.payload;
+			state.isHideCompletedSearch = action.payload;
+
+			localStorage.setItem(
+				"global",
+				JSON.stringify({
+					isHideCompleted: action.payload,
+					isInCompleteFirst: state.isInCompleteFirst,
+					isInProgressFirst: state.isInProgressFirst,
+				})
+			);
+		},
+		toggleIsHideCompletedSearch(state, action: PayloadAction<boolean>) {
+			state.isHideCompletedSearch = action.payload;
 
 			localStorage.setItem(
 				"global",
