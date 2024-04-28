@@ -554,7 +554,7 @@
 	],
 	"chasm": [
 		{
-			"name": "",
+			"name": "Записи о путешествии вглубь Разлома",
 			"content": [
 				{
 					"id": 2,
@@ -604,14 +604,12 @@
 					"source": "Поговорите с Чжи Цюн.",
 					"link": "https://landofgames.ru/articles/walkthroughs/13049-otkuda-zdes-kamen-dush-v-genshin-impact-gde-najti-mehanizmy.html",
 					"isReputation": true
-				},
-				{
-					"id": 9,
-					"quest": "Записи о путешествии вглубь Разлома",
-					"source": "поговорите с мисс Лань возле гильдии искателей приключений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/13050-zapisi-o-puteshestvii-vglub-razloma-v-genshin-impact-kak-otkryt-kartu.html",
-					"isReputation": false
-				},
+				}
+			]
+		},
+		{
+			"name": "Задание мира поверхности Разлома",
+			"content": [
 				{
 					"id": 10,
 					"quest": "Украдено владельцем",
@@ -646,7 +644,12 @@
 					"source": "поговорите с Му Нином.",
 					"link": "https://landofgames.ru/articles/walkthroughs/13068-rechi-ischuschego-kamni-v-genshin-impact-gde-najti-starocvety.html",
 					"isReputation": true
-				},
+				}
+			]
+		},
+		{
+			"name": "Задания мира подземного Разлома",
+			"content": [
 				{
 					"id": 15,
 					"quest": "Погасший гриб просит о помощи",
@@ -736,29 +739,8 @@
 	],
 	"inazuma": [
 		{
-			"name": "Остров Наруками",
+			"name": "Очищение священной сакуры",
 			"content": [
-				{
-					"id": 1,
-					"quest": "Катерина в Инадзуме",
-					"source": "Поговорите с Катериной в гильдии искателей приключений в столице Инадзумы.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11475-neizmennyy-bog-i-vechnaya-utopiya-v-genshin-impact-kak-popast-v-inadzumu.html",
-					"isReputation": true
-				},
-				{
-					"id": 2,
-					"quest": "Письмо Тисато",
-					"source": "Квест должен начаться автоматически, как только вы выберетесь с Рито. Вам нужно будет доставить письмо возлюбленному Тисато – Кудзе Камадзи.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11660-pismo-tisato-v-genshin-impact-prohozhdenie.html",
-					"isReputation": true
-				},
-				{
-					"id": 3,
-					"quest": "Очищение священной сакуры",
-					"source": "Это своеобразная квестовая цепочка, состоящая из нескольких этапов. Чтобы взяться за ее выполнение необходимо поговорить со жрицей, стоящей возле статуи Небесной кицунэ.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11503-ochischenie-svyaschennoy-sakury-v-genshin-impact-prohozhdenie.html",
-					"isReputation": false
-				},
 				{
 					"id": 4,
 					"quest": "Странный случай в деревне Конда",
@@ -774,17 +756,17 @@
 					"isReputation": false
 				},
 				{
-					"id": 6,
-					"quest": "Хаяси из Тануки в лесу",
-					"source": "Отправляйтесь в место, показанное на скриншотах, чтобы услышать странный шум.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11484-hayasi-iz-tanuki-v-lesu-v-genshin-impact-reshenie-golovolomki.html",
-					"isReputation": false
-				},
-				{
 					"id": 7,
 					"quest": "Очищение от скверны",
 					"source": "Он стартует сразу же после завершения указанной выше миссии.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11490-ochischenie-ot-skverny-v-genshin-impact-kak-snyat-barery.html",
+					"isReputation": false
+				},
+				{
+					"id": 6,
+					"quest": "Хаяси из Тануки в лесу",
+					"source": "Отправляйтесь в место, показанное на скриншотах, чтобы услышать странный шум.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11484-hayasi-iz-tanuki-v-lesu-v-genshin-impact-reshenie-golovolomki.html",
 					"isReputation": false
 				},
 				{
@@ -793,35 +775,12 @@
 					"source": "Он стартует сразу же после завершения указанной выше миссии. Вам нужно будет снова спуститься в колодец в деревушке.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11494-ochischenie-ego-v-genshin-impact-zaraznye-opuholi-i-kolco-hakusin.html",
 					"isReputation": true
-				},
-				{
-					"id": 9,
-					"quest": "Сокровище фермера",
-					"source": "Необходимо найти ключ от клетки и освободить мужчину, сидящего взаперти на возвышенности (смотрите скриншоты).",
-					"link": "https://landofgames.ru/articles/walkthroughs/11489-sokrovische-fermera-v-genshin-impact-kamennye-tablichki-i-amenoma-kageuti.html",
-					"isReputation": true
-				},
-				{
-					"id": 10,
-					"quest": "Седьмой самурай",
-					"source": "Отыщите Ксавье на островке, расположенном к востоку от крепости и поговорите с ним.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11543-sedmoy-samuray-v-genshin-impact-kak-nachat-i-proyti.html",
-					"isReputation": true
-				},
-				{
-					"id": 11,
-					"quest": "Приглашение от издательского дома Яэ",
-					"source": "Отыщите Аратани на юге столицы и поговорите с ней.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11548-priglashenie-ot-izdatelskogo-doma-yae-v-genshin-impact.html",
-					"isReputation": true
-				},
-				{
-					"id": 12,
-					"quest": "О, Архонт! Правильно ли я поступил?",
-					"source": "Поговорите с мальчиком по имени Сета после выполнения поручений.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11553-o-arhont-pravilno-li-ya-postupil-v-genshin-impact-kak-nachat-i-proyti.html",
-					"isReputation": true
-				},
+				}
+			]
+		},
+		{
+			"name": "Всеядные гурманы",
+			"content": [
 				{
 					"id": 13,
 					"quest": "Всеядные гурманы!",
@@ -862,6 +821,53 @@
 					"quest": "Всеядные гурманы: о важности правильного питания",
 					"source": "Поговорите с Парваной возле гильдии искателей приключений.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11579-vseyadnye-gurmany-o-vazhnosti-pravilnogo-pitaniya-v-genshin-impact.html",
+					"isReputation": true
+				}
+			]
+		},
+		{
+			"name": "Остров Наруками",
+			"content": [
+				{
+					"id": 1,
+					"quest": "Катерина в Инадзуме",
+					"source": "Поговорите с Катериной в столице Инадзумы после достижения 30 ранга приключений и выполнения задания \"Осенний ветер, багряные листья\" (Том II. Пролог)",
+					"link": "https://landofgames.ru/articles/walkthroughs/11475-neizmennyy-bog-i-vechnaya-utopiya-v-genshin-impact-kak-popast-v-inadzumu.html",
+					"isReputation": true
+				},
+				{
+					"id": 2,
+					"quest": "Письмо Тисато",
+					"source": "Квест должен начаться автоматически, как только вы выберетесь с Рито. Вам нужно будет доставить письмо возлюбленному Тисато – Кудзе Камадзи.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11660-pismo-tisato-v-genshin-impact-prohozhdenie.html",
+					"isReputation": true
+				},
+				{
+					"id": 9,
+					"quest": "Сокровище фермера",
+					"source": "Необходимо найти ключ от клетки и освободить мужчину, сидящего взаперти на возвышенности (смотрите скриншоты).",
+					"link": "https://landofgames.ru/articles/walkthroughs/11489-sokrovische-fermera-v-genshin-impact-kamennye-tablichki-i-amenoma-kageuti.html",
+					"isReputation": true
+				},
+				{
+					"id": 10,
+					"quest": "Седьмой самурай",
+					"source": "Отыщите Ксавье на островке, расположенном к востоку от крепости и поговорите с ним.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11543-sedmoy-samuray-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": true
+				},
+				{
+					"id": 11,
+					"quest": "Приглашение от издательского дома Яэ",
+					"source": "Отыщите Аратани на юге столицы и поговорите с ней.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11548-priglashenie-ot-izdatelskogo-doma-yae-v-genshin-impact.html",
+					"isReputation": true
+				},
+				{
+					"id": 12,
+					"quest": "О, Архонт! Правильно ли я поступил?",
+					"source": "Поговорите с мальчиком по имени Сета после выполнения поручений.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11553-o-arhont-pravilno-li-ya-postupil-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": true
 				},
 				{
@@ -1000,7 +1006,7 @@
 			]
 		},
 		{
-			"name": "Каннадзука",
+			"name": "Сказания из Татары",
 			"content": [
 				{
 					"id": 38,
@@ -1056,8 +1062,14 @@
 					"quest": "Сказания из Татары. Финальный акт",
 					"source": "Снова поговорите с Ксавье спустя 1 реальный день после прохождения предыдущей миссии.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11534-skazaniya-iz-tatarasuny-finalnyy-akt-v-genshin-impact.html",
-					"isReputation": true
-				},
+					"isReputation": false
+				}
+			],
+			"isReputation": true
+		},
+		{
+			"name": "Каннадзука",
+			"content": [
 				{
 					"id": 46,
 					"quest": "Лечение для сакуры",
@@ -1082,36 +1094,49 @@
 			]
 		},
 		{
-			"name": "Остров Ясиори",
+			"name": "Наследие Оробаси",
 			"content": [
 				{
+					"id": 78,
+					"quest": "Наследие Оробаси. Пролог",
+					"source": "Поговорите с персонажем по имени Кадзи.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11511-nasledie-orobasi-chast-1-v-genshin-impact-reshenie-golovolomki.html",
+					"isReputation": false
+				},
+				{
 					"id": 49,
-					"quest": "Наследие Оробаси часть 1",
+					"quest": "Наследие Оробаси. Часть I",
 					"source": "Поговорите с персонажем по имени Кадзи.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11511-nasledie-orobasi-chast-1-v-genshin-impact-reshenie-golovolomki.html",
 					"isReputation": false
 				},
 				{
 					"id": 50,
-					"quest": "Наследие Оробаси часть 2",
+					"quest": "Наследие Оробаси. Часть II",
 					"source": "Продолжайте выполнять просьбы Кадзи.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11512-nasledie-orobasi-chast-2-v-genshin-impact.html",
 					"isReputation": false
 				},
 				{
 					"id": 51,
-					"quest": "Наследие Оробаси часть 3",
+					"quest": "Наследие Оробаси. Часть III",
 					"source": "Продолжайте выполнять просьбы Кадзи.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11513-nasledie-orobasi-chast-3-v-genshin-impact.html",
 					"isReputation": false
 				},
 				{
 					"id": 52,
-					"quest": "Наследие Оробаси часть 4 и 5",
+					"quest": "Наследие Оробаси. Часть IV и V",
 					"source": "Поговорите с Кадзи.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11514-nasledie-orobasi-chast-4-i-5-v-genshin-impact-krest-kope-kitain.html",
-					"isReputation": true
-				},
+					"isReputation": false
+				}
+			],
+			"isReputation": true
+		},
+		{
+			"name": "Остров Ясиори",
+			"content": [
 				{
 					"id": 53,
 					"quest": "Лечение на острове",
@@ -1136,15 +1161,117 @@
 			]
 		},
 		{
-			"name": "Сэйрай",
+			"name": "Охотники за грозами Сэйрая",
 			"content": [
 				{
 					"id": 56,
-					"quest": "Охотники за грозами Сэйрая",
+					"quest": "Охотники за грозами Сэйрая I",
 					"source": "Поговорите с Катериной в гильдии искателей приключений Инадзумы.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11719-ohotniki-za-grozami-seyraya-v-genshin-impact-reshenie-golovolomok.html",
-					"isReputation": true
+					"isReputation": false
 				},
+				{
+					"id": 79,
+					"quest": "Охотники за грозами Сэйрая II",
+					"source": "Стартует автоматически после выполнения предыдущего задания из цепочки.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11719-ohotniki-za-grozami-seyraya-v-genshin-impact-reshenie-golovolomok.html",
+					"isReputation": false
+				},
+				{
+					"id": 80,
+					"quest": "Охотники за грозами Сэйрая III",
+					"source": "Стартует автоматически после выполнения предыдущего задания из цепочки.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11719-ohotniki-za-grozami-seyraya-v-genshin-impact-reshenie-golovolomok.html",
+					"isReputation": false
+				},
+				{
+					"id": 81,
+					"quest": "Охотники за грозами Сэйрая IV",
+					"source": "Стартует автоматически после выполнения предыдущего задания из цепочки.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11719-ohotniki-za-grozami-seyraya-v-genshin-impact-reshenie-golovolomok.html",
+					"isReputation": false
+				}
+			],
+			"isReputation": true
+		},
+		{
+			"name": "Кошка Нэко",
+			"content": [
+				{
+					"id": 59,
+					"quest": "Кошка Нэко",
+					"source": "Поговорите с кошкой по имени Нэко в храме. Она может выдать вам 9 миссий, причем следующий квест можно получить только на следующий календарный день.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 82,
+					"quest": "Кошка Нэко: Генеральная уборка в святилище",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 83,
+					"quest": "Кошка Нэко: Деревянная подставка",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 84,
+					"quest": "Кошка Нэко: Дети",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 85,
+					"quest": "Кошка Нэко: Рецепт святилища",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 86,
+					"quest": "Кошка Нэко: Кошка и камень",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 87,
+					"quest": "Кошка Нэко: Хлопоты с людьми и камнями",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 88,
+					"quest": "Кошка Нэко: столовая святилища",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 89,
+					"quest": "Кошка Нэко: Звенящий шарик",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
+					"isReputation": false
+				},
+				{
+					"id": 90,
+					"quest": "Кошка Нэко: Запоздавшие добрые дела",
+					"source": "Поговорите с кошкой по имени Нэко в храме.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html#subtitle20",
+					"isReputation": false
+				}
+			]
+		},
+		{
+			"name": "Сэйрай",
+			"content": [
 				{
 					"id": 57,
 					"quest": "Древнее сокровище Сэйрая",
@@ -1160,13 +1287,6 @@
 					"isReputation": true
 				},
 				{
-					"id": 59,
-					"quest": "Кошка Нэко",
-					"source": "Поговорите с кошкой по имени Нэко в храме. Она может выдать вам 9 миссий, причем следующий квест можно получить только на следующий календарный день.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11748-koshka-neko-v-genshin-impact-kak-nachat-i-proyti.html",
-					"isReputation": false
-				},
-				{
 					"id": 60,
 					"quest": "Следы Наруками",
 					"source": "Поговорите с кошкой по имени Нэко в храме.",
@@ -1176,15 +1296,48 @@
 			]
 		},
 		{
-			"name": "Ватацуми",
+			"name": "Лунная бездна",
 			"content": [
 				{
-					"id": 61,
-					"quest": "Лунная бездна (Сердце Ватацуми)",
-					"source": "Поговорите со жрицей Цуюко.",
+					"id": 67,
+					"quest": "Око Ватацуми",
+					"source": "Отправиться на остров Ватацуми и найти жрицу по имени Цуюко, находящуюся в локации святилище Моун.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 68,
+					"quest": "Клык Ватацуми",
+					"source": "Выдаётся автоматически с \"Око Ватацуми\" и другими.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 69,
+					"quest": "Плавник Ватацуми",
+					"source": "Выдаётся автоматически с \"Око Ватацуми\" и другими.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 70,
+					"quest": "Хвост Ватацуми",
+					"source": "Выдаётся автоматически с \"Око Ватацуми\" и другими.",
+					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
+					"isReputation": false
+				},
+				{
+					"id": 71,
+					"quest": "Сердце Ватацуми",
+					"source": "Выдаётся автоматически после завершения Око, Клык, Плавник и Хвост Ватацуми.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
 					"isReputation": true
-				},
+				}
+			]
+		},
+		{
+			"name": "Ватацуми",
+			"content": [
 				{
 					"id": 62,
 					"quest": "Чудесное растение глубин",
@@ -1219,108 +1372,63 @@
 					"source": "Поговорите с Цуюко.",
 					"link": "https://landofgames.ru/articles/walkthroughs/12489-stoyachaya-voda-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": true
-				},
-				{
-					"id": 67,
-					"quest": "Око Ватацуми",
-					"source": "Поговорите со жрицей Цуюко.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
-					"isReputation": false
-				},
-				{
-					"id": 68,
-					"quest": "Клык Ватацуми",
-					"source": "Поговорите со жрицей Цуюко.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
-					"isReputation": false
-				},
-				{
-					"id": 69,
-					"quest": "Плавник Ватацуми",
-					"source": "Поговорите со жрицей Цуюко.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
-					"isReputation": false
-				},
-				{
-					"id": 70,
-					"quest": "Хвост Ватацуми",
-					"source": "Поговорите со жрицей Цуюко.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
-					"isReputation": false
-				},
-				{
-					"id": 71,
-					"quest": "Сердце Ватацуми",
-					"source": "Поговорите со жрицей Цуюко.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11724-lunnaya-bezdna-v-genshin-impact-oko-plavnik-klyk-hvost-i-serdce-vatacumi.html",
-					"isReputation": true
 				}
 			]
 		},
 		{
-			"name": "Цуруми",
+			"name": "Сквозь туман",
 			"content": [
-				{
-					"id": 72,
-					"quest": "Сквозь туман",
-					"source": "Поговорите с Катериной в столице архипелага.",
-					"link": "https://landofgames.ru/articles/walkthroughs/11974-skvoz-tuman-v-genshin-impact-kak-nachat-i-proyti.html",
-					"isReputation": false
-				},
 				{
 					"id": 73,
 					"quest": "Исключительно исключительный писатель",
-					"source": "Поговорите с Катериной в столице архипелага.",
+					"source": "Выдаётся автоматически после заверешния квестовой цепочки \"Охотники за грозами Сэйрая\".",
 					"link": "https://landofgames.ru/articles/walkthroughs/11973-isklyuchitelno-isklyuchitelnyy-pisatel-v-genshin-impact-gnezdovya-i-perya.html",
 					"isReputation": false
 				},
 				{
 					"id": 74,
 					"quest": "Октава Маусиро",
-					"source": "Поговорите с Сумидой в столице архипелага.",
+					"source": "Выдаётся автоматиески на следующий реальный день после завершения предыдущего квеста из цепочки.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11975-oktava-mausiro-v-genshin-impact-kak-reshit-zagadki-kamney.html",
 					"isReputation": false
 				},
 				{
 					"id": 75,
 					"quest": "Море тумана и обряд деревьев",
-					"source": "Поговорите с лодочником Камой на Рито.",
+					"source": "Выдаётся автоматиески на следующий реальный день после завершения предыдущего квеста из цепочки.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11984-more-tumana-i-obryad-derevev-v-genshin-impact-unichtozhte-gnezdove.html",
 					"isReputation": false
 				},
 				{
 					"id": 76,
 					"quest": "Приключения забывчивого короля",
-					"source": "Поговорите с персонажем по имени Роальд.",
+					"source": "Выдаётся автоматиески на следующий реальный день после завершения предыдущего квеста из цепочки.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11989-priklyucheniya-zabyvchivogo-korolya-v-genshin-impact-snimki-risunkov-v-ruinah.html",
 					"isReputation": true
 				},
 				{
 					"id": 77,
 					"quest": "Колесо солнца и гора Канна",
-					"source": "Поговорите с лодочником Камой на Цуруми.",
+					"source": "Выдаётся автоматиески на следующий реальный день после завершения предыдущего квеста из цепочки.",
 					"link": "https://landofgames.ru/articles/walkthroughs/11990-koleso-solnca-i-gora-kanna-v-genshin-impact-kak-nachat-i-proyti.html",
 					"isReputation": true
 				}
 			]
+		},
+		{
+			"name": "Цуруми",
+			"content": []
 		}
 	],
 	"enkanomiya": [
 		{
-			"name": "",
+			"name": "От заката до рассвета в Бякуякоку",
 			"content": [
 				{
 					"id": 1,
 					"quest": "Вход в Токое",
 					"source": "Осмотрите глубины пещеры.",
 					"link": "https://landofgames.ru/articles/walkthroughs/12491-vhod-v-tokoe-v-genshin-impact-prohozhdenie.html",
-					"isReputation": false
-				},
-				{
-					"id": 2,
-					"quest": "Проблеск белой ночи",
-					"source": "Поговорите с Эндзе.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12492-problesk-beloy-nochi-v-genshin-impact-kak-otkryt-kartu-enkanomii.html",
 					"isReputation": false
 				},
 				{
@@ -1331,10 +1439,17 @@
 					"isReputation": true
 				},
 				{
-					"id": 4,
-					"quest": "По следам драконов и змея",
+					"id": 2,
+					"quest": "Проблеск белой ночи",
+					"source": "Поговорите с Эндзе.",
+					"link": "https://landofgames.ru/articles/walkthroughs/12492-problesk-beloy-nochi-v-genshin-impact-kak-otkryt-kartu-enkanomii.html",
+					"isReputation": false
+				},
+				{
+					"id": 6,
+					"quest": "Сновидения в Улочках",
 					"source": "Поговорите с призраком Ару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12494-po-sledam-drakonov-i-zmeya-v-genshin-impact-kak-popast-v-taynuyu-komnatu.html",
+					"link": "https://landofgames.ru/articles/walkthroughs/12496-snovideniya-v-ulochkah-v-genshin-impact-kak-otkryt-taynuyu-komnatu.html",
 					"isReputation": false
 				},
 				{
@@ -1345,12 +1460,17 @@
 					"isReputation": false
 				},
 				{
-					"id": 6,
-					"quest": "Сновидения в Улочках",
+					"id": 4,
+					"quest": "По следам драконов и змея",
 					"source": "Поговорите с призраком Ару.",
-					"link": "https://landofgames.ru/articles/walkthroughs/12496-snovideniya-v-ulochkah-v-genshin-impact-kak-otkryt-taynuyu-komnatu.html",
+					"link": "https://landofgames.ru/articles/walkthroughs/12494-po-sledam-drakonov-i-zmeya-v-genshin-impact-kak-popast-v-taynuyu-komnatu.html",
 					"isReputation": false
-				},
+				}
+			]
+		},
+		{
+			"name": "Отдельные задания мира Энканомии",
+			"content": [
 				{
 					"id": 7,
 					"quest": "Антигон",
@@ -1479,7 +1599,7 @@
 				},
 				{
 					"id": 4,
-					"quest": "Вечный изгнанник леса (Араньяка)",
+					"quest": "Вечный изгнанник леса",
 					"source": "нужно поговорить с Альфонсо",
 					"link": "https://landofgames.ru/articles/walkthroughs/21873-vechnyj-izgnannik-lesa-v-genshin-impact-kak-nachat-i-najti-plohih-ljudej.html",
 					"isReputation": true
@@ -1606,10 +1726,10 @@
 			"content": [
 				{
 					"id": 20,
-					"quest": "Здравствуй, спасибо и прощай",
+					"quest": "Здравствуй, спасибо и прощай (Араньяка)",
 					"source": "стартует автоматически.",
 					"link": "https://landofgames.ru/articles/walkthroughs/21863-zdravstvuj-spasibo-i-proschaj-v-genshin-impact-v-konce-koncov-les-pomnit-vse.html",
-					"isReputation": false
+					"isReputation": true
 				}
 			]
 		},
@@ -1646,12 +1766,13 @@
 				},
 				{
 					"id": 25,
-					"quest": "Преподнести нарам лакомства (Кулинарная мечта)",
+					"quest": "Преподнести нарам лакомства",
 					"source": "стартует автоматически.",
 					"link": "",
-					"isReputation": true
+					"isReputation": false
 				}
-			]
+			],
+			"isReputation": true
 		},
 		{
 			"name": "Вимана-агама",
@@ -1661,7 +1782,7 @@
 					"quest": "Вимана-агама: Глава I",
 					"source": "поговорите с аранаром по имени Арарикан.",
 					"link": "https://landofgames.ru/articles/walkthroughs/21804-vimana-agama-glava-i-v-genshin-impact-kak-nachat-i-najti-podskazki.html",
-					"isReputation": true
+					"isReputation": false
 				},
 				{
 					"id": 27,
@@ -1705,7 +1826,8 @@
 					"link": "https://landofgames.ru/articles/walkthroughs/21884-poka-vana-ne-iscelitsja-v-genshin-impact-kak-nachat-i-razgadat-zagadki.html",
 					"isReputation": true
 				}
-			]
+			],
+			"isReputation": true
 		},
 		{
 			"name": "Варуна-гата",
@@ -2574,12 +2696,13 @@
 				},
 				{
 					"id": 29,
-					"quest": "В сердце Эриний (Дикая фея Эриний)",
+					"quest": "В сердце Эриний",
 					"source": "Стартует автоматически после предыдущего квеста.",
 					"link": "https://landofgames.ru/articles/walkthroughs/24187-v-serdce-jerinij-v-genshin-impact-kak-najti-prohod-k-kornjam-dereva.html",
-					"isReputation": true
+					"isReputation": false
 				}
-			]
+			],
+			"isReputation": true
 		},
 		{
 			"name": "Оды Гармонии",
@@ -2617,9 +2740,10 @@
 					"quest": "Реквием",
 					"source": "Стартует автоматически после прохождения предыдущего задания из цепочки.",
 					"link": "",
-					"isReputation": true
+					"isReputation": false
 				}
-			]
+			],
+			"isReputation": true
 		},
 		{
 			"name": "По следам Нарцисса",
@@ -2675,12 +2799,13 @@
 				},
 				{
 					"id": 42,
-					"quest": "След за кормой (По следам Нарцисса)",
+					"quest": "След за кормой",
 					"source": "стартует автоматически.",
 					"link": "https://landofgames.ru/articles/walkthroughs/24151-shljupka-na-volnah-v-genshin-impact-kak-nachat-i-projti.html",
-					"isReputation": true
+					"isReputation": false
 				}
-			]
+			],
+			"isReputation": true
 		},
 		{
 			"name": "Опрос мелюзины и ответ машины",
@@ -2701,12 +2826,13 @@
 				},
 				{
 					"id": 45,
-					"quest": "Вопросы и ответы (Опрос мелюзины и ответ машины)",
+					"quest": "Вопросы и ответы",
 					"source": "стартует автоматически.",
 					"link": "https://landofgames.ru/articles/walkthroughs/24158-meljuziny-i-mashiny-i-fatui-v-genshin-impact-kak-projti-voprosy-i-otvety.html",
-					"isReputation": true
+					"isReputation": false
 				}
-			]
+			],
+			"isReputation": true
 		},
 		{
 			"name": "Отдельные задания мира Фонтейна",

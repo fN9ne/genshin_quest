@@ -9,6 +9,7 @@ export interface IQuest {
 export interface ISubRegion {
 	name: string;
 	content: IQuest[];
+	isReputation?: boolean;
 }
 
 /* #UPDATEABLE */

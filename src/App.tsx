@@ -95,6 +95,42 @@ const App: FC = () => {
 		}
 	}, []);
 
+	useEffect(() => {
+		const handleKeyDown = (event: KeyboardEvent) => {
+			if (event.ctrlKey && ["f", "а"].includes(event.key)) {
+				event.preventDefault();
+
+				const searchInput = document.querySelector(".search-line input") as HTMLInputElement;
+				const rect = searchInput.getBoundingClientRect();
+
+				if (searchInput) {
+					document.querySelector(".wrapper")!.scrollTo({
+						top: 0,
+						behavior: "smooth",
+					});
+
+					let timeout: number;
+
+					if (rect.top >= 0 && rect.left >= 0 && rect.bottom <= window.innerHeight && rect.right <= window.innerWidth) {
+						timeout = 0;
+					} else {
+						timeout = 500;
+					}
+
+					setTimeout(() => {
+						searchInput.focus();
+					}, timeout);
+				}
+			}
+		};
+
+		window.addEventListener("keydown", handleKeyDown);
+
+		return () => {
+			window.removeEventListener("keydown", handleKeyDown);
+		};
+	}, []);
+
 	return (
 		<>
 			<AP mode="wait" initial={false}>

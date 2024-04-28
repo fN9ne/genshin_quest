@@ -6,6 +6,7 @@ interface GlobalState {
 	isProgressLoaded: boolean;
 	isInProgressFirst: boolean;
 	isNeedMigration: boolean | null;
+	searchQuery: string;
 }
 
 const initialState: GlobalState = {
@@ -14,12 +15,16 @@ const initialState: GlobalState = {
 	isInProgressFirst: false,
 	isProgressLoaded: false,
 	isNeedMigration: null,
+	searchQuery: "",
 };
 
 const globalSlice = createSlice({
 	name: "global",
 	initialState,
 	reducers: {
+		setSearchQuery(state, action: PayloadAction<string>) {
+			state.searchQuery = action.payload;
+		},
 		setGlobalState(state, action: PayloadAction<GlobalState>) {
 			return {
 				...state,

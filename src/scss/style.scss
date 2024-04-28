@@ -748,7 +748,7 @@
 				position: relative;
 				z-index: 1;
 				width: 100%;
-				translate: 0 3px;
+				translate: 0 5px;
 			}
 		}
 
@@ -1065,10 +1065,15 @@
 			color: var(--500);
 			margin: 32px 0 0 0;
 			position: relative;
+			display: flex;
 
 			@media (max-width: 1024px) {
 				font-size: 18px;
 				padding: 0 0 0 24px;
+			}
+
+			.quest-item__reputation img {
+				translate: 0 3px;
 			}
 
 			&::before {
@@ -1619,6 +1624,60 @@
 				top: -11px;
 				scale: 0.8;
 				animation: star 2.5s ease infinite 1.5s;
+			}
+		}
+	}
+}
+
+.search-line {
+	width: 100%;
+	margin: 40px 0 0 0;
+	display: flex;
+
+	&__icon {
+		height: 100%;
+		aspect-ratio: 1 / 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid #4d5060;
+		border-radius: 3px;
+
+		svg {
+			width: 28px;
+			height: 28px;
+
+			path {
+				fill: var(--500);
+			}
+		}
+	}
+
+	&__input-wrapper {
+		flex: 1 1 auto;
+		background-color: #3d4052;
+		gap: 2px;
+		padding: 2px;
+		border-radius: 4px;
+		display: flex;
+
+		input {
+			width: 100%;
+			border-radius: 3px;
+			background-color: transparent;
+			border: 1px solid #4d5060;
+			padding: 16px 20px;
+			color: var(--0);
+			font-size: 20px;
+			font-weight: 500;
+			transition: 350ms;
+
+			&::placeholder {
+				color: var(--500);
+			}
+
+			&:focus {
+				border: 1px solid #7c7f92;
 			}
 		}
 	}
