@@ -21,10 +21,10 @@ const PatchModal: FC = () => {
 				{Object.keys(patch)
 					.reverse()
 					.map((version, index) => (
-						<div className="patch__version" key={index}>
+						<div className={`patch__version${version[0] === "l" ? " patch__version--latest" : ""}`} key={index}>
 							<div className="patch__header">
 								<h2 className="patch__title">
-									<span className="select">{patch[version as keyof typeof patch][0]}</span> — Обновление{" "}
+									<span className="select">{patch[version as keyof typeof patch][1]}</span> — Обновление{" "}
 									{version[0] === "l" ? version.slice(1) : version}
 								</h2>
 								{version[0] === "l" && (
@@ -35,10 +35,11 @@ const PatchModal: FC = () => {
 										<StarIcon className="star star-3" />
 									</div>
 								)}
+								<div className="patch__date">{patch[version as keyof typeof patch][0]}</div>
 							</div>
 							<div className="patch__body">
 								<ul className="patch__list">
-									{patch[version as keyof typeof patch].slice(1).map((text, index) => (
+									{patch[version as keyof typeof patch].slice(2).map((text, index) => (
 										<li key={index}>{text}</li>
 									))}
 								</ul>

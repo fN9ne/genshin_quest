@@ -1519,10 +1519,40 @@
 }
 
 .patch {
+	.modal__close {
+		top: 48px;
+		right: 48px;
+	}
+
 	&__content {
 		display: flex;
 		flex-direction: column;
-		gap: 60px;
+		gap: 20px;
+	}
+
+	&__version {
+		padding: 20px;
+		border: 1px solid var(--200);
+		border-radius: 10px;
+
+		&--latest {
+			&+.patch__version:not(.patch__version--latest) {
+				margin-top: 60px;
+				position: relative;
+
+				&::before {
+					content: 'Предыдущие обновления:';
+					font-size: 18px;
+					font-weight: 600;
+					color: var(--900);
+					opacity: 0.4;
+					position: absolute;
+					top: -16px;
+					left: 0;
+					translate: 0 -100%;
+				}
+			}
+		}
 	}
 
 	&__header {
@@ -1531,7 +1561,17 @@
 
 		display: flex;
 		align-items: center;
+		flex-wrap: wrap;
 		gap: 8px;
+	}
+
+	&__date {
+		flex: 0 0 100%;
+		font-weight: 500;
+		font-size: 16px;
+		color: var(--900);
+		opacity: 0.5;
+		font-family: 'Fira Sans Condensed';
 	}
 
 	&__title {
