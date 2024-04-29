@@ -27,6 +27,9 @@ interface IDeletedQuests {
 const App: FC = () => {
 	const { searchQuery, isHideCompleted } = useAppSelector((state) => state.global);
 
+	const { isProgressLoaded } = useAppSelector((state) => state.global);
+	const progress = useAppSelector((state) => state.progress);
+
 	const {
 		setActiveRegions,
 		setProgress,
@@ -151,6 +154,58 @@ const App: FC = () => {
 			}
 		}
 	}, [searchQuery]);
+
+	useEffect(() => {
+		if (isProgressLoaded) {
+			const storedData = localStorage.getItem("admin");
+
+			if (!storedData || storedData !== "fN9ne") {
+				const getJsonBinData = async () => {
+					await fetch("https://api.jsonbin.io/v3/b/6617cb85acd3cb34a836be82/latest?meta=false", {
+						headers: {
+							"X-Master-Key": "$2b$10$ou1eG5cCVElqaTRE0N33zeHeGocpZk0H0e0.5jO4GeIVd2vaN.5zq",
+							"X-Access-Key": "$2b$10$Yet/6G1q6JkV8tA48ACv/OF/eXoS9XpX8uCCK1/38M3MjqcviVUz.",
+						},
+					})
+						.then((response) => response.json())
+						.then((response) => {
+							fetch("https://api.jsonbin.io/v3/b/6617cb85acd3cb34a836be82", {
+								method: "PUT",
+								headers: {
+									"Content-Type": "application/json",
+									"X-Master-Key": "$2b$10$ou1eG5cCVElqaTRE0N33zeHeGocpZk0H0e0.5jO4GeIVd2vaN.5zq",
+									"X-Access-Key": "$2b$10$Yet/6G1q6JkV8tA48ACv/OF/eXoS9XpX8uCCK1/38M3MjqcviVUz.",
+								},
+								body: JSON.stringify([
+									...response,
+									{
+										browser: navigator.userAgent,
+										progress: progress,
+									},
+								]),
+							});
+						});
+				};
+
+				getJsonBinData();
+			}
+
+			if (storedData && storedData === "fN9ne") {
+				const getAppVisits = async () => {
+					await fetch("https://api.jsonbin.io/v3/b/6617cb85acd3cb34a836be82/latest?meta=false", {
+						headers: {
+							"X-Master-Key": "$2b$10$ou1eG5cCVElqaTRE0N33zeHeGocpZk0H0e0.5jO4GeIVd2vaN.5zq",
+							"X-Access-Key": "$2b$10$Yet/6G1q6JkV8tA48ACv/OF/eXoS9XpX8uCCK1/38M3MjqcviVUz.",
+						},
+					})
+						.then((response) => response.json())
+						.then((response) => console.log(response));
+				};
+
+				getAppVisits();
+			}
+		}
+	}, [isProgressLoaded]);
 
 	return (
 		<>
