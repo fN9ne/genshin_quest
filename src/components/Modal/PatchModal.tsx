@@ -38,11 +38,11 @@ const PatchModal: FC = () => {
 								<div className="patch__date">{patch[version as keyof typeof patch][0]}</div>
 							</div>
 							<div className="patch__body">
-								<ul className="patch__list">
+								<ol className="patch__list">
 									{patch[version as keyof typeof patch].slice(2).map((text, index) => (
 										<li key={index}>{text}</li>
 									))}
-								</ul>
+								</ol>
 							</div>
 						</div>
 					))}

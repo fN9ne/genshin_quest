@@ -31,7 +31,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 	const { setRegionProgress, setRegionInProgress } = useActions();
 	const progress = useAppSelector((state) => state.progress);
 	const inProgress = useAppSelector((state) => state.inProgress);
-	const { isInCompleteFirst, isInProgressFirst, isHideCompleted } = useAppSelector((state) => state.global);
+	const { isInCompleteFirst, isInProgressFirst, isHideCompletedSearch, searchQuery } = useAppSelector((state) => state.global);
 
 	const input = useRef<null | HTMLInputElement>(null);
 	const inputInProgress = useRef<null | HTMLInputElement>(null);
@@ -52,7 +52,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 
 		const element = input.current as HTMLInputElement;
 
-		if (isHideCompleted) {
+		if (isHideCompletedSearch) {
 			if (!element.checked) {
 				setShouldAnimateOut(true);
 			}
@@ -84,7 +84,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 
 			setIsHideInProgressButton(element.checked);
 		}
-	}, [progress, isInCompleteFirst, isInProgressFirst, shouldAnimateOut]);
+	}, [progress, isInCompleteFirst, isInProgressFirst, shouldAnimateOut, searchQuery]);
 
 	useEffect(() => {
 		if (inputInProgress.current) {
@@ -92,7 +92,7 @@ const QuestItem: FC<QuestItemProps & { region: string; subregion: string }> = ({
 
 			element.checked = inProgress[region as keyof typeof inProgress].includes(id);
 		}
-	}, [inProgress, isInCompleteFirst, isInProgressFirst]);
+	}, [inProgress, isInCompleteFirst, isInProgressFirst, searchQuery]);
 
 	const transitions = {
 		initial: { opacity: 0, scale: 0.95 },

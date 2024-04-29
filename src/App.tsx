@@ -39,6 +39,7 @@ const App: FC = () => {
 		setGlobalState,
 		setNeedMigration,
 		toggleIsHideCompletedSearch,
+		setActiveAllRegions,
 	} = useActions();
 
 	const removeDeletedQuests = (progress: ProgressState, deletedQuests: IDeletedQuests): ProgressState => {
@@ -151,6 +152,14 @@ const App: FC = () => {
 				toggleIsHideCompletedSearch(false);
 			} else {
 				toggleIsHideCompletedSearch(isHideCompleted);
+			}
+		}
+
+		if (searchQuery.length > 0) {
+			setActiveAllRegions();
+		} else {
+			if (localStorage.getItem("progressBarActiveRegions")) {
+				setActiveRegions(JSON.parse(localStorage.getItem("progressBarActiveRegions")!));
 			}
 		}
 	}, [searchQuery]);

@@ -1604,8 +1604,12 @@
 		color: var(--500);
 
 		li {
-			list-style-type: disc;
+			list-style-type: decimal;
 			list-style-position: inside;
+
+			&::marker {
+				font-weight: 700;
+			}
 
 			margin: 1em 0 0 0;
 

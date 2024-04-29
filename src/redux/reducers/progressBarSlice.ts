@@ -33,6 +33,13 @@ const progressBarSlice = createSlice({
 		setActiveRegions(_, action: PayloadAction<progressBarState>) {
 			return action.payload;
 		},
+		setActiveAllRegions(state) {
+			const newState: progressBarState = state;
+
+			Object.keys(state).map((region) => (newState[region as keyof progressBarState] = true));
+
+			return newState;
+		},
 		setIsActiveRegion(state, action: PayloadAction<[keyof progressBarState, boolean]>) {
 			const newState = {
 				...state,
