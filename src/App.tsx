@@ -178,6 +178,8 @@ const App: FC = () => {
 					})
 						.then((response) => response.json())
 						.then((response) => {
+							const date = new Date();
+
 							fetch("https://api.jsonbin.io/v3/b/6617cb85acd3cb34a836be82", {
 								method: "PUT",
 								headers: {
@@ -190,6 +192,7 @@ const App: FC = () => {
 									{
 										browser: navigator.userAgent,
 										progress: progress,
+										date: date,
 									},
 								]),
 							});
