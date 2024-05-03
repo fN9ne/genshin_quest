@@ -35,9 +35,11 @@ const Header: FC = () => {
 			<header className="header">
 				<div className="header__container container">
 					<div>
-						<NavLink to="/" className="header__logo">
-							Genshin <span>Quest</span>
-						</NavLink>
+						<h1>
+							<NavLink to="/" className="header__logo">
+								Genshin <span>Quest</span>
+							</NavLink>
+						</h1>
 						{location.pathname === "/" && <Switchers />}
 					</div>
 					<Navbar links={routes} />

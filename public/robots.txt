@@ -1,0 +1,4 @@
+User-agent: 
+Crawl-delay: 1
+Host: https://genshin-quest.vercel.app/
+Sitemap: https://genshin-quest.vercel.app/sitemap.xml
