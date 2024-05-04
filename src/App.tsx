@@ -12,6 +12,8 @@ import deletedQuests from "./deletedQuests.json";
 import MigrationModal from "./components/Modal/MigrationModal";
 import { useAppSelector } from "./hooks/useAppSelector";
 
+import { Analytics } from "@vercel/analytics/react";
+
 interface IDeletedQuests {
 	mondstadt?: number[];
 	liyue?: number[];
@@ -231,6 +233,7 @@ const App: FC = () => {
 			</AP>
 			<PatchModal />
 			<MigrationModal />
+			<Analytics />
 		</>
 	);
 };
