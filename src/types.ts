@@ -23,4 +23,8 @@ export interface IQuestsData {
 	sumeru: ISubRegion[];
 	fontaine: ISubRegion[];
 	chenyu: ISubRegion[];
+	natlan: ISubRegion[];
+	nodkrai: ISubRegion[];
+	hram: ISubRegion[];
+	snezhnaya: ISubRegion[];
 }

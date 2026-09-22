@@ -11,6 +11,10 @@ export interface InProgressState {
 	sumeru: number[];
 	fontaine: number[];
 	chenyu: number[];
+	natlan: number[];
+	nodkrai: number[];
+	hram: number[];
+	snezhnaya: number[];
 }
 
 /* #UPDATEABLE */
@@ -24,6 +28,10 @@ const initialState: InProgressState = {
 	sumeru: [],
 	fontaine: [],
 	chenyu: [],
+	natlan: [],
+	nodkrai: [],
+	hram: [],
+	snezhnaya: [],
 };
 
 const inProgressSlice = createSlice({
@@ -65,7 +73,7 @@ const inProgressSlice = createSlice({
 				JSON.stringify({
 					...state,
 					[region]: newState,
-				})
+				}),
 			);
 		},
 	},

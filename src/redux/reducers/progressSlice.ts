@@ -15,6 +15,10 @@ export interface OldProgressState {
 	sumeru: SubRegion[];
 	fontaine: SubRegion[];
 	chenyu: SubRegion[];
+	natlan: SubRegion[];
+	nodkrai: SubRegion[];
+	hram: SubRegion[];
+	snezhnaya: SubRegion[];
 }
 
 /* #UPDATEABLE */
@@ -28,6 +32,10 @@ export interface ProgressState {
 	sumeru: number[];
 	fontaine: number[];
 	chenyu: number[];
+	natlan: number[];
+	nodkrai: number[];
+	hram: number[];
+	snezhnaya: number[];
 }
 
 /* #UPDATEABLE */
@@ -41,6 +49,10 @@ const initialState: ProgressState = {
 	sumeru: [],
 	fontaine: [],
 	chenyu: [],
+	natlan: [],
+	nodkrai: [],
+	hram: [],
+	snezhnaya: [],
 };
 
 const progressSlice = createSlice({
@@ -82,7 +94,7 @@ const progressSlice = createSlice({
 				JSON.stringify({
 					...state,
 					[region]: newState,
-				})
+				}),
 			);
 		},
 	},

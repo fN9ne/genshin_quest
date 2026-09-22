@@ -12,9 +12,21 @@ const quests: IQuestsData = questsData;
 
 const Quests: FC = () => {
 	/* #UPDATEABLE */
-	const { chasm, chenyu, dragonspine, enkanomiya, fontaine, inazuma, liyue, mondstadt, sumeru } = useAppSelector(
-		(state) => state.progressBar
-	);
+	const {
+		chasm,
+		chenyu,
+		dragonspine,
+		enkanomiya,
+		fontaine,
+		inazuma,
+		liyue,
+		mondstadt,
+		sumeru,
+		natlan,
+		nodkrai,
+		hram,
+		snezhnaya,
+	} = useAppSelector((state) => state.progressBar);
 
 	const progress = useAppSelector((state) => state.progress);
 	const { isHideCompleted, isProgressLoaded, searchQuery } = useAppSelector((state) => state.global);
@@ -133,6 +145,34 @@ const Quests: FC = () => {
 									{chenyu && isRegionIncludesSearchedQuery("chenyu") && (
 										<m.div key="chenyu" {...transitions}>
 											<QuestBlock quests={quests.chenyu} region="chenyu" name="Долина Чэньюй" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{natlan && isRegionIncludesSearchedQuery("natlan") && (
+										<m.div key="natlan" {...transitions}>
+											<QuestBlock quests={quests.natlan} region="natlan" name="Натлан" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{nodkrai && isRegionIncludesSearchedQuery("nodkrai") && (
+										<m.div key="nodkrai" {...transitions}>
+											<QuestBlock quests={quests.nodkrai} region="nodkrai" name="Нод-край" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{hram && isRegionIncludesSearchedQuery("hram") && (
+										<m.div key="hram" {...transitions}>
+											<QuestBlock quests={quests.hram} region="hram" name="Храм пространства" />
+										</m.div>
+									)}
+								</AP>
+								<AP mode="wait" initial={false}>
+									{snezhnaya && isRegionIncludesSearchedQuery("snezhnaya") && (
+										<m.div key="snezhnaya" {...transitions}>
+											<QuestBlock quests={quests.snezhnaya} region="snezhnaya" name="Снежная" />
 										</m.div>
 									)}
 								</AP>

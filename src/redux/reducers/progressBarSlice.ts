@@ -11,6 +11,10 @@ interface progressBarState {
 	sumeru: boolean;
 	fontaine: boolean;
 	chenyu: boolean;
+	natlan: boolean;
+	nodkrai: boolean;
+	hram: boolean;
+	snezhnaya: boolean;
 }
 
 /* #UPDATEABLE */
@@ -24,6 +28,10 @@ const initialState: progressBarState = {
 	sumeru: true,
 	fontaine: true,
 	chenyu: true,
+	natlan: true,
+	nodkrai: true,
+	hram: true,
+	snezhnaya: true,
 };
 
 const progressBarSlice = createSlice({

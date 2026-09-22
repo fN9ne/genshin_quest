@@ -21,15 +21,31 @@ interface Quests {
 	sumeru: SubRegion[];
 	fontaine: SubRegion[];
 	chenyu: SubRegion[];
+	natlan: SubRegion[];
+	nodkrai: SubRegion[];
+	hram: SubRegion[];
+	snezhnaya: SubRegion[];
 }
 
 const quests: IQuestsData = questsData;
 
 const ProgressBar: FC = () => {
 	/* #UPDATEABLE */
-	const { mondstadt, liyue, dragonspine, chasm, inazuma, enkanomiya, sumeru, fontaine, chenyu } = useAppSelector(
-		(state) => state.progress
-	);
+	const {
+		mondstadt,
+		liyue,
+		dragonspine,
+		chasm,
+		inazuma,
+		enkanomiya,
+		sumeru,
+		fontaine,
+		chenyu,
+		natlan,
+		nodkrai,
+		hram,
+		snezhnaya,
+	} = useAppSelector((state) => state.progress);
 	const regionIsActive = useAppSelector((state) => state.progressBar);
 
 	const getProgress = (array: number[], region: keyof Quests): string => {
@@ -111,6 +127,38 @@ const ProgressBar: FC = () => {
 			progress: getProgress(chenyu, "chenyu"),
 			isActive: regionIsActive.chenyu,
 			onClick: () => setIsActiveRegion(["chenyu", !regionIsActive.chenyu]),
+		},
+		{
+			background: "/regions/backgrounds/natlan.jpg",
+			icon: "/regions/symbol/natlan.png",
+			name: "Натлан",
+			progress: getProgress(natlan, "natlan"),
+			isActive: regionIsActive.natlan,
+			onClick: () => setIsActiveRegion(["natlan", !regionIsActive.natlan]),
+		},
+		{
+			background: "/regions/backgrounds/nodkrai.jpg",
+			icon: "/regions/symbol/nodkrai.png",
+			name: "Нод-край",
+			progress: getProgress(nodkrai, "nodkrai"),
+			isActive: regionIsActive.nodkrai,
+			onClick: () => setIsActiveRegion(["nodkrai", !regionIsActive.nodkrai]),
+		},
+		{
+			background: "/regions/backgrounds/hram.jpg",
+			icon: "/regions/symbol/hram.png",
+			name: "Храм пространства",
+			progress: getProgress(hram, "hram"),
+			isActive: regionIsActive.hram,
+			onClick: () => setIsActiveRegion(["hram", !regionIsActive.hram]),
+		},
+		{
+			background: "/regions/backgrounds/snezhnaya.jpg",
+			icon: "/regions/symbol/snezhnaya.png",
+			name: "Снежная",
+			progress: getProgress(snezhnaya, "snezhnaya"),
+			isActive: regionIsActive.snezhnaya,
+			onClick: () => setIsActiveRegion(["snezhnaya", !regionIsActive.snezhnaya]),
 		},
 	];
 
