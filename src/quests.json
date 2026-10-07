@@ -5456,6 +5456,69 @@
 					"source": "",
 					"link": "",
 					"isReputation": false
+				},
+				{
+					"id": 42,
+					"quest": "Вариации Белого и Чёрного",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 43,
+					"quest": "Особый отбор",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 44,
+					"quest": "Тени и опасности 1",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 45,
+					"quest": "Тени и опасности 2",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 46,
+					"quest": "Тени и опасности 3",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 47,
+					"quest": "Тени и опасности 4",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 48,
+					"quest": "Тени и опасности 5",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 49,
+					"quest": "Тени и опасности 6",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 50,
+					"quest": "Детская радость",
+					"source": "",
+					"link": "",
+					"isReputation": false
 				}
 			]
 		}
