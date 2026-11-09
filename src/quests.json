@@ -5287,6 +5287,159 @@
 			]
 		},
 		{
+			"name": "Город кристаллов в глубине Длинного ущелья",
+			"content": [
+				{
+					"id": 51,
+					"quest": "Отправляйтесь в город кристаллов",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 52,
+					"quest": "Древний город альвов",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 53,
+					"quest": "Спящим во прахе пора пробудиться и запеть",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 66,
+					"quest": "Восстановить оборванный путь к спасению",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 67,
+					"quest": "Преждевременное погребение",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 54,
+					"quest": "Не дать всем рекам пересохнуть",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 55,
+					"quest": "Путь через каменный обвал",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 56,
+					"quest": "Даже на дне пещеры бывает светло",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 57,
+					"quest": "Опасная высота",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 58,
+					"quest": "Побег из тени",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				}
+			]
+		},
+		{
+			"name": "Сперва заставь землю разверзннуть свою пасть",
+			"content": [
+				{
+					"id": 59,
+					"quest": "И в былые днин бушевали метели",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 60,
+					"quest": "Тень, затаившаяся в башне",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 61,
+					"quest": "Тень, затаившаяся в долине",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 62,
+					"quest": "Сквозь долину звёзд",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				}
+			]
+		},
+		{
+			"name": "Старая улица, где эхом звучит печаль",
+			"content": [
+				{
+					"id": 63,
+					"quest": "Опустевший город чешуи и кристаллов бедствия",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 64,
+					"quest": "Стены, некогда сдерживающие тьму",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 65,
+					"quest": "Высокая башня, некогда взиравшая на поле боя",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				}
+			]
+		},
+		{
+			"name": "Зеркальное отражение, обращённое к врагам",
+			"content": [
+				{
+					"id": 68,
+					"quest": "Ненависть и трон ненавистников",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 69,
+					"quest": "Отголоски кристаллического бедствия",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				}
+			]
+		},
+		{
 			"name": "Отдельные задания мира Снежной",
 			"content": [
 				{
@@ -5516,6 +5669,69 @@
 				{
 					"id": 50,
 					"quest": "Детская радость",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 70,
+					"quest": "Лучше сеница в руках",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 71,
+					"quest": "Под слоем пыли и снега",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 72,
+					"quest": "Прекрасный отдых в оазисе",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 73,
+					"quest": "Одолжить у портрета золотую монету",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 74,
+					"quest": "Ради лучшего будущего",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 75,
+					"quest": "Странный свет",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 76,
+					"quest": "К рассвету и огням",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 77,
+					"quest": "Тёмное облако в бутылке",
+					"source": "",
+					"link": "",
+					"isReputation": false
+				},
+				{
+					"id": 78,
+					"quest": "Воспоминания об отпуске",
 					"source": "",
 					"link": "",
 					"isReputation": false
